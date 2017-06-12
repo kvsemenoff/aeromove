@@ -15,3 +15,5 @@
 <?php require_once('includes/our.php'); ?>
 <?php require_once('includes/want.php'); ?>
 <?php require_once('includes/footer.php'); ?>
+</body>
+</html>
