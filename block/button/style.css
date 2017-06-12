@@ -1,7 +1,7 @@
 .body {
   background: black; }
 
-.button {
+.call-back {
   display: inline-block;
   width: 147px;
   height: 40px;
@@ -15,7 +15,7 @@
   text-align: center;
   -webkit-transition: 0.5s;
   transition: 0.5s; }
-  .button:hover {
+  .call-back:hover {
     background: #df7171; }
 
 /*# sourceMappingURL=style.css.map */
