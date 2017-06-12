@@ -1,0 +1,21 @@
+.body {
+  background: black; }
+
+.button {
+  display: inline-block;
+  width: 147px;
+  height: 40px;
+  border: 2px solid #df7171;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 37px;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s; }
+  .button:hover {
+    background: #df7171; }
+
+/*# sourceMappingURL=style.css.map */
