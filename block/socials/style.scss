@@ -1,0 +1,27 @@
+.socials{
+	a{
+		display: inline-block; 		
+		i{
+			color: #24242d;
+			&:hover{
+				color: #df7171;
+			}
+		}
+	}
+}
+.socials_small{
+	a{  
+		margin-right: 13px;
+		i{
+			font-size: 19px;
+		}
+	}
+}
+.socials_big{
+	a{  
+		margin-right: 18px;
+		i{
+			font-size: 26px;
+		}
+	}
+}

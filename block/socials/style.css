@@ -1,0 +1,18 @@
+.socials a {
+  display: inline-block; }
+  .socials a i {
+    color: #24242d; }
+    .socials a i:hover {
+      color: #df7171; }
+
+.socials_small a {
+  margin-right: 13px; }
+  .socials_small a i {
+    font-size: 19px; }
+
+.socials_big a {
+  margin-right: 18px; }
+  .socials_big a i {
+    font-size: 26px; }
+
+/*# sourceMappingURL=style.css.map */
