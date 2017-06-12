@@ -1,0 +1,14 @@
+textarea {
+  width: 486px;
+  min-height: 69px;
+  resize: none;
+  background-color: white;
+  border: 1px solid #e6e6e6;
+  outline: none;
+  color: #191919;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px; }
+
+/*# sourceMappingURL=style.css.map */
