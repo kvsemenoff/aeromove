@@ -18,8 +18,24 @@ body, html{
 .vertical-align{
 	vertical-align:middle;
 }
-.body{
+body{
 	font-family: 'Ubuntu', sans-serif;
 	color:#000;
 	font-size: 16px;
+}
+
+strong, b{
+	font-weight: 700;
+}
+.content-part{ 
+	a{
+		text-decoration: none;
+		:hover{
+			text-decoration: underline;
+		}
+	}
+	p{
+		margin-bottom: 20px;
+	}
+
 }
