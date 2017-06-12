@@ -1,0 +1,41 @@
+h1 {
+  color: #24242d;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 36px;
+  position: relative;
+  padding-bottom: 22px; }
+  @media only screen and (min-width: 990px) {
+    h1 {
+      font-size: 30px; } }
+  h1:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 41px;
+    height: 1px;
+    background-color: #df7171; }
+
+.common-title_digital {
+  padding-bottom: 20px; }
+  .common-title_digital:before {
+    content: "01";
+    position: absolute;
+    top: -37px;
+    left: -10px;
+    width: 90px;
+    height: 65px;
+    opacity: 0.07;
+    color: #24242d;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 73px;
+    font-weight: 700;
+    line-height: 87px; }
+    @media only screen and (min-width: 990px) {
+      .common-title_digital:before {
+        top: -37px;
+        left: -40px; } }
+
+/*# sourceMappingURL=style.css.map */
