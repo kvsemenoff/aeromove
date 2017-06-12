@@ -37,4 +37,4 @@
 <link rel="stylesheet" href="block/main-menu/style.css">
 
 </head>
-<body class="body">
+<body>
