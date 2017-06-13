@@ -59,7 +59,7 @@ $(document).ready(function(){
 	// END Раскрывающийся список в каталоге
 
 
-
+	// slider &  counter
 	var owlcart = $(".slider-owl-carousel");
 	owlcart.owlCarousel({
 		loop:true,
@@ -86,6 +86,39 @@ $(document).ready(function(){
 			}
 		}
 	});
+
+	$('.slider-owl-carousel').each(function(index) {
+		var thisitem = $(this).find('.item');
+		$(this).next('.common-slider__txtbox')
+		.find('.number-all').html($(thisitem).length);			
+	});		
+
+	$('.slider-owl-carousel .next-right').on('click', function() {
+		var thisel = $(this).parents('.common-slider').find('.number-active');
+		var numberActive = thisel.text();	
+		numberActive = parseFloat(numberActive);
+		var numberAll = $(this).parents('.common-slider').find('.number-all').text();
+		numberAll = parseFloat(numberAll);
+		if (numberActive < numberAll) {
+			numberActive++;
+			$(thisel).text(numberActive);
+		}	
+	});
+	$('.slider-owl-carousel .prev-left').on('click', function() {		
+		var thisel = $(this).parents('.common-slider').find('.number-active');
+		var numberActive = thisel.text();	
+		numberActive = parseFloat(numberActive);
+		var numberAll = $(this).parents('.common-slider').find('.number-all').text();
+		numberAll = parseFloat(numberAll);
+		if (numberActive > 1) {
+			numberActive--;
+			$(thisel).text(numberActive);
+		}	
+	});
+
+	// end slider counter
+
+
 
 	$('.js-phone').mask("+7(999)999-99-99?");
 
