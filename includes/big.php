@@ -3,12 +3,56 @@
 		<h1 class="common-title_digital bigpark__caption">Самый большой парк оборудования <br> в Санкт-Петербурге    <span>02</span></h1>
 
 		<div class="bigpark__leftbox">
-			<div class="bigpark__tab">
+			<div class="bigpark__tab bigparktab1">
 				<div class="bigpark__img">
 					<img src="img/copter1.png" alt="">
 				</div>
 				<div class="bigpark__txtbox">
-					<h4>Квадрокоптер <b>DJI Phantom 4 Pro</b></h4>
+					<h4>Квадрокоптер <b>DJI PHANTOM 4</b></h4>
+					<p>Самый простой вариант для съемки. Рекомендуется для фотосъемки объектов
+						и территорий, съемки малобюджетных видеороликов. Управляется одним пилотом,
+						непригоден для съемки любой динамики, только простые пролеты.</p>
+				</div>				
+			</div>
+			<div class="bigpark__tab bigparktab2">
+				<div class="bigpark__img">
+					<img src="img/copter1.png" alt="">
+				</div>
+				<div class="bigpark__txtbox">
+					<h4>Квадрокоптер <b>DJI INSPIRE ZENMUSE X3</b></h4>
+					<p>Самый простой вариант для съемки. Рекомендуется для фотосъемки объектов
+						и территорий, съемки малобюджетных видеороликов. Управляется одним пилотом,
+						непригоден для съемки любой динамики, только простые пролеты.</p>
+				</div>				
+			</div>
+			<div class="bigpark__tab bigparktab3">
+				<div class="bigpark__img">
+					<img src="img/copter1.png" alt="">
+				</div>
+				<div class="bigpark__txtbox">
+					<h4>Квадрокоптер <b>DJI NSPIRE X5, X5R</b></h4>
+					<p>Самый простой вариант для съемки. Рекомендуется для фотосъемки объектов
+						и территорий, съемки малобюджетных видеороликов. Управляется одним пилотом,
+						непригоден для съемки любой динамики, только простые пролеты.</p>
+				</div>				
+			</div>
+			<div class="bigpark__tab bigparktab4">
+				<div class="bigpark__img">
+					<img src="img/copter1.png" alt="">
+				</div>
+				<div class="bigpark__txtbox">
+					<h4>Квадрокоптер <b>DJI MATRICE 600 и  SONY ALPHA A4S II</b></h4>
+					<p>Самый простой вариант для съемки. Рекомендуется для фотосъемки объектов
+						и территорий, съемки малобюджетных видеороликов. Управляется одним пилотом,
+						непригоден для съемки любой динамики, только простые пролеты.</p>
+				</div>				
+			</div>
+			<div class="bigpark__tab bigparktab5">
+				<div class="bigpark__img">
+					<img src="img/copter1.png" alt="">
+				</div>
+				<div class="bigpark__txtbox">
+					<h4>Квадрокоптер <b>DJI MATRICE 600 и REDот</b></h4>
 					<p>Самый простой вариант для съемки. Рекомендуется для фотосъемки объектов
 						и территорий, съемки малобюджетных видеороликов. Управляется одним пилотом,
 						непригоден для съемки любой динамики, только простые пролеты.</p>
@@ -22,7 +66,7 @@
 		<div class="bigpark__rightbox">
 			<h4>Список оборудования и стоимость:</h4>
 			<div class="bigpark__accordeon">
-				<div class="bigpark__accordeon-item">
+				<div class="bigpark__accordeon-item" data-tab="bigparktab1">
 					<div class="bigpark__accordeon-img">
 						<img src="img/coptersm1.png" alt="">
 					</div>
@@ -54,7 +98,7 @@
 					</div>
 					<div class="clearfix"></div>
 				</div>
-				<div class="bigpark__accordeon-item">
+				<div class="bigpark__accordeon-item" data-tab="bigparktab2">
 					<div class="bigpark__accordeon-img">
 						<img src="img/coptersm2.png" alt="">
 					</div>
@@ -87,7 +131,7 @@
 					</div>
 					<div class="clearfix"></div>	
 				</div>
-				<div class="bigpark__accordeon-item">
+				<div class="bigpark__accordeon-item" data-tab="bigparktab3">
 					<div class="bigpark__accordeon-img">
 						<img src="img/coptersm3.png" alt="">
 					</div>
@@ -120,7 +164,7 @@
 					</div>
 					<div class="clearfix"></div>	
 				</div>
-				<div class="bigpark__accordeon-item">
+				<div class="bigpark__accordeon-item" data-tab="bigparktab4">
 					<div class="bigpark__accordeon-img">
 						<img src="img/coptersm4.png" alt="">
 					</div>
@@ -153,7 +197,7 @@
 					</div>
 					<div class="clearfix"></div>		
 				</div>
-				<div class="bigpark__accordeon-item">
+				<div class="bigpark__accordeon-item" data-tab="bigparktab5">
 					<div class="bigpark__accordeon-img">
 						<img src="img/coptersm4.png" alt="">
 					</div>

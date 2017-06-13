@@ -112,6 +112,12 @@
       padding-top: 45px;
       max-width: 550px; } }
 
+.bigpark__tab {
+  display: none; }
+
+.bigparktab1 {
+  display: block; }
+
 .bigpark__img {
   position: relative; }
   @media only screen and (min-width: 1200px) {
@@ -267,16 +273,15 @@
   .bigpark__accordeon-pricebox i {
     font-weight: 700; }
 
-.bigpark__accordeon-active {
+.bigpark__accordeon-hiddenbox {
+  display: none;
+  border-top: 1px solid #f0f0f0; }
+
+.bigpark__accordeon .bigpark__accordeon-active {
   background-color: #fff;
   -webkit-box-shadow: 0px 0px 50px -10px rgba(0, 0, 0, 0.45);
   -moz-box-shadow: 0px 0px 50px -10px rgba(0, 0, 0, 0.45);
   box-shadow: 0px 0px 50px -10px rgba(0, 0, 0, 0.45); }
-
-.bigpark__accordeon-hiddenbox {
-  display: none;
-  border-top: 1px solid #f0f0f0;
-  min-height: 109px; }
 
 .bigpark__accordeon-characteristics {
   display: inline-block;
