@@ -39,3 +39,49 @@ strong, b{
 	}
 
 }
+.container{
+	@media screen and (min-width: 1200px) {
+		width: 1230px;
+		
+	}
+
+}
+.header-top{
+	background: #24242d;
+	padding: 40px 0px;
+	border-bottom: 1px solid #df7171;
+	.header-top-content{
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content:space-between;
+		align-items: center;
+		.main-menu{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content:space-between;
+			align-items: center;
+			@media screen and (min-width: 1200px) {
+				margin-left: -40px;
+			}
+			li{
+				display: block;
+				margin-left: 57px;
+				a{
+					color: #fff;
+					font-size: 16px;
+				}
+			}
+			
+		}
+		.contact-box{
+			.header-phone{
+				display: inline-block;
+				color: #fff;
+				font-size: 16px;
+				font-weight: 500;
+				margin-right: 27px;
+			}
+		}
+	}
+}

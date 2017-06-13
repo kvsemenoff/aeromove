@@ -30,4 +30,39 @@ strong, b {
 .content-part p {
   margin-bottom: 20px; }
 
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1230px; } }
+
+.header-top {
+  background: #24242d;
+  padding: 40px 0px;
+  border-bottom: 1px solid #df7171; }
+  .header-top .header-top-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; }
+    .header-top .header-top-content .main-menu {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center; }
+      @media screen and (min-width: 1200px) {
+        .header-top .header-top-content .main-menu {
+          margin-left: -40px; } }
+      .header-top .header-top-content .main-menu li {
+        display: block;
+        margin-left: 57px; }
+        .header-top .header-top-content .main-menu li a {
+          color: #fff;
+          font-size: 16px; }
+    .header-top .header-top-content .contact-box .header-phone {
+      display: inline-block;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 500;
+      margin-right: 27px; }
+
 /*# sourceMappingURL=style.css.map */
