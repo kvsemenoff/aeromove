@@ -1,21 +1,43 @@
 .body {
   background: black; }
 
-.call-back {
+.button {
   display: inline-block;
-  width: 147px;
+  outline: none;
+  text-align: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif; }
+
+.call-back {
+  padding: 0 24px;
   height: 40px;
   border: 2px solid #df7171;
   font-size: 12px;
   font-weight: 400;
-  line-height: 37px;
-  color: white;
-  font-family: 'Ubuntu', sans-serif;
-  text-decoration: none;
-  text-align: center;
-  -webkit-transition: 0.5s;
-  transition: 0.5s; }
+  line-height: 40px; }
   .call-back:hover {
     background: #df7171; }
+
+.button_1 {
+  padding: 0 44px;
+  height: 45px;
+  background-color: #df7171;
+  line-height: 45px;
+  font-size: 14px;
+  font-weight: 500; }
+
+.button_2 {
+  height: 55px;
+  background-color: #df7171;
+  padding: 0 27px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 55px; }
+  @media only screen and (min-width: 480px) {
+    .button_2 {
+      font-size: 18px; } }
 
 /*# sourceMappingURL=style.css.map */
