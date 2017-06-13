@@ -102,6 +102,34 @@
 	max-width: 944px;
 	margin: 0 auto;
 }
+.our-wrap{
+	padding-top: 107px;
+	padding-bottom: 109px;
+	background:url(../img/pink.png) no-repeat right center;
+}
+.our-wrap__title{
+	height: 55px;
+	background:url(../img/ch.png) no-repeat top left;
+	margin-bottom: 75px;
+	h2{
+		font-size: 30px;
+		font-weight: 400;
+		color: #24242d;
+		padding-top: 21px;
+		margin-left: 40px;
+		position: relative;
+		padding-bottom: 25px;
+		&:after{
+			position: absolute;
+			content: "";
+			width: 40px;
+			height: 1px;
+			background:#DF7171;
+			left: 0;
+			bottom: 0;
+		}
+	}
+}
 #our-slider{
 	.item{
 		.item__box{
