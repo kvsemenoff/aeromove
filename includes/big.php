@@ -50,9 +50,9 @@
 							<a href="#">
 								<img src="img/bigparkimg.jpg" alt="">
 							</a>
-						</div>
-						<div class="clearfix"></div>							
+						</div>													
 					</div>
+					<div class="clearfix"></div>
 				</div>
 				<div class="bigpark__accordeon-item">
 					<div class="bigpark__accordeon-img">
@@ -83,8 +83,9 @@
 								<img src="img/bigparkimg.jpg" alt="">
 							</a>
 						</div>
-						<div class="clearfix"></div>							
+												
 					</div>
+					<div class="clearfix"></div>	
 				</div>
 				<div class="bigpark__accordeon-item">
 					<div class="bigpark__accordeon-img">
@@ -115,8 +116,9 @@
 								<img src="img/bigparkimg.jpg" alt="">
 							</a>
 						</div>
-						<div class="clearfix"></div>							
+												
 					</div>
+					<div class="clearfix"></div>	
 				</div>
 				<div class="bigpark__accordeon-item">
 					<div class="bigpark__accordeon-img">
@@ -147,8 +149,9 @@
 								<img src="img/bigparkimg.jpg" alt="">
 							</a>
 						</div>
-						<div class="clearfix"></div>							
+											
 					</div>
+					<div class="clearfix"></div>		
 				</div>
 				<div class="bigpark__accordeon-item">
 					<div class="bigpark__accordeon-img">
@@ -179,8 +182,9 @@
 								<img src="img/bigparkimg.jpg" alt="">
 							</a>
 						</div>
-						<div class="clearfix"></div>							
+												
 					</div>
+					<div class="clearfix"></div>	
 				</div>
 			</div>
 			<p class="bigpark__textbottom">Цена на проведение съемки может меняться в зависимости от требований и параметров съемки. Окончательную цену уточняйте у менеджера.</p>	

@@ -142,14 +142,15 @@ $(document).ready(function(){
 
 	// end slider counter
 
-	$('.bigpark__accordeon-item').on('click', function (e) {
+	$('.bigpark__accordeon .bigpark__accordeon-item').on('click', function (e) {
 		e.preventDefault();
-		if( $(this).hasClass("bigpark__accordeon-active")){
-			$('.bigpark__accordeon-hiddenbox').slideUp();
-			$(".bigpark__accordeon-item").removeClass("bigpark__accordeon-active");
-		}
-		$(this).addClass('bigpark__accordeon-active');
-		$(this).find('.bigpark__accordeon-hiddenbox').slideDown();
+		
+		// if( $(this).hasClass("bigpark__accordeon-active")){
+			$('.bigpark__accordeon-hiddenbox').slideUp();	
+			$(this).toggleClass('bigpark__accordeon-active');
+		// }
+		// $(this).addClass('bigpark__accordeon-active');
+		$(this).find('.bigpark__accordeon-hiddenbox').slideToggle();
 	});
 	
 
