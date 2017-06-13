@@ -69,4 +69,21 @@
         border-bottom: 3px solid #DF7171;
         color: #DF7171; }
 
+.video-box {
+  background: url(../img/vid.jpg) no-repeat top center;
+  height: 533px;
+  position: relative; }
+  .video-box__item {
+    max-width: 328px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+    text-align: center; }
+    .video-box__item p {
+      color: #fff;
+      font-size: 16px;
+      font-weight: 500;
+      padding-top: 30px; }
+
 /*# sourceMappingURL=style-dd.css.map */

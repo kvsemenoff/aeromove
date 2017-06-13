@@ -79,3 +79,22 @@
 		}
 	}
 }
+.video-box{
+	background:url(../img/vid.jpg)no-repeat top center;
+	height: 533px;
+	position: relative;
+	&__item{
+		max-width: 328px;
+		position: absolute;
+		left:50%;
+		top:40%;
+		transform:translateX(-50%);
+		text-align: center;
+		p{
+			color: #fff;
+			font-size: 16px;
+			font-weight: 500;
+			padding-top: 30px;
+		}
+	}
+}
