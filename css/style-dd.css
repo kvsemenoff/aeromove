@@ -1,9 +1,29 @@
 .header_bottom {
-  padding-top: 190px;
-  padding-bottom: 246px;
+  padding: 50px 0px;
   width: 100%;
   background: url(../img/bg.jpg) no-repeat top center;
   background-size: cover;
   color: #fff; }
+  @media only screen and (min-width: 992px) {
+    .header_bottom {
+      padding-top: 190px;
+      padding-bottom: 246px; } }
+  .header_bottom h2 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 41px;
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 20px; }
+    @media only screen and (min-width: 768px) {
+      .header_bottom h2 {
+        font-size: 50px; } }
+  .header_bottom span {
+    letter-spacing: 1px; }
+  .header_bottom p {
+    padding-top: 66px;
+    padding-bottom: 34px;
+    line-height: 25px;
+    letter-spacing: 1px; }
 
 /*# sourceMappingURL=style-dd.css.map */

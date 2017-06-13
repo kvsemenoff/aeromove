@@ -1,8 +1,31 @@
 .header_bottom{
-	padding-top: 190px;
-	padding-bottom: 246px;
+	padding: 50px 0px;
 	width: 100%;
 	background:url(../img/bg.jpg) no-repeat top center;
 	background-size:cover;
 	color:#fff;
+	@media only screen and (min-width: 992px) {
+		padding-top: 190px;
+		padding-bottom: 246px;
+	}
+	h2{
+		font-size: 35px;
+		font-weight: 700;
+		line-height: 41px;
+		text-transform: uppercase;
+		color: white;
+		padding-bottom: 20px;
+		@media only screen and (min-width: 768px) {
+			font-size: 50px;
+		}
+	}
+	span{
+		letter-spacing: 1px;
+	}
+	p{
+		padding-top: 66px;
+		padding-bottom: 34px;
+		line-height: 25px;
+		letter-spacing: 1px;
+	}
 }
