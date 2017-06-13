@@ -20,8 +20,7 @@ h1 {
 
 .common-title_digital {
   padding-bottom: 18px; }
-  .common-title_digital:before {
-    content: "01";
+  .common-title_digital span {
     position: absolute;
     top: -37px;
     left: -10px;
@@ -34,7 +33,7 @@ h1 {
     font-weight: 700;
     line-height: 87px; }
     @media only screen and (min-width: 990px) {
-      .common-title_digital:before {
+      .common-title_digital span {
         top: -37px;
         left: -40px; } }
 

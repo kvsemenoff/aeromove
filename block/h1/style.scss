@@ -22,8 +22,7 @@ h1{
 
 .common-title_digital{
 	padding-bottom: 18px;
-	&:before{
-		content: "01";
+	span{		
 		position: absolute;
 		top: -37px;
 		left: -10px;
