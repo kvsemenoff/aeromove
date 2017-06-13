@@ -140,8 +140,7 @@
   @media only screen and (min-width: 1200px) {
     .bigpark__txtbox {
       padding-left: 74px;
-      margin-top: 75px;
-      max-width: 380px; } }
+      margin-top: 75px; } }
   .bigpark__txtbox h4 {
     font-size: 18px;
     font-weight: 300; }
@@ -154,7 +153,8 @@
     padding: 15px 0 25px 0; }
     @media only screen and (min-width: 992px) {
       .bigpark__txtbox p {
-        padding: 15px 0 55px 0; } }
+        padding: 15px 0 55px 0;
+        max-width: 380px; } }
 
 @media only screen and (min-width: 1200px) {
   .bigpark__button {
