@@ -141,4 +141,17 @@
     #our-slider .nav-right {
       right: -128px; } }
 
+.project-more {
+  margin-top: 144px; }
+  .project-more__box h1 {
+    margin-bottom: 38px; }
+  .project-more__box p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    color: #191919;
+    padding-bottom: 28px; }
+  .project-more__box a {
+    margin-top: 37px; }
+
 /*# sourceMappingURL=style-dd.css.map */
