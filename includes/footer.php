@@ -2,7 +2,7 @@
 	<div class="footer-top">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3 col-sm-6 col-xs-12">
+				<div class="col-md-3 col-sm-6 col-xs-12 one">
 					<span>Основной</span>
 					<ul>
 						<li><a href="#">Портфолио</a></li>
@@ -13,7 +13,7 @@
 
 					</ul>
 				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12">
+				<div class="col-md-3 col-sm-6 col-xs-12 two">
 					<span>Дополнительно</span>
 					<ul>
 						<li><a href="#">Контакты</a></li>
@@ -23,7 +23,7 @@
 					</ul>		
 				</div>
 				<div class="clear"></div>
-				<div class="col-md-3 col-sm-6 col-xs-12">
+				<div class="col-md-3 col-sm-6 col-xs-12 three">
 					<div class="contact">
 						<span>Контакты</span><br>
 						+7 (921) 562-00-05 <br>	
@@ -38,7 +38,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12">
+				<div class="col-md-3 col-sm-6 col-xs-12 four">
 					<div class="contact">
 						<span>Адрес офиса</span><br>
 						Каменоостровский проспект 26-28, пом. 2
