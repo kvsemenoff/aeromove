@@ -234,3 +234,78 @@
 		color: #848484;
 	}
 }
+.contact-box{
+		background:url(../img/pink3.png) no-repeat left 10px bottom;
+		padding-bottom: 76px;
+	h1{
+		margin-bottom: 68px;
+		margin-top: 52px;
+
+	}
+	.pagination__contact{
+		padding-top: 35px;
+		a{
+			color: #24242d;
+		}
+	}
+	&__item{
+		&_1{
+			
+			@media only screen and (min-width: 992px) {
+				width: 65%;
+				float: left;
+			}
+		}
+		&_2{
+			background-color: white;
+			box-shadow: 0 20px 57px rgba(0, 0, 0, 0.1);
+			padding-left: 18px;
+			@media only screen and (min-width: 992px) {
+				width: 35%;
+				padding-top: 38px;
+				padding-left: 31px;
+				float: right;
+			}
+		}
+		&_social{
+			ul{
+				li{
+					display: inline-block;
+					margin-right: 19px;
+				}
+				padding-top: 17px;
+				padding-bottom: 26px;
+				@media only screen and (min-width: 1240px) {
+					padding-bottom: 44px;
+				}
+			}
+		}
+		h1{
+			font-size: 24px !important;
+			font-weight: 700 !important;
+			margin: 0;
+		}
+		.cp1{
+			color: #191919;
+			font-size: 16px;
+			font-weight: 500;
+			padding-top: 40px;
+		}
+		.cp2{
+			font-size: 14px;
+			color: #191919;
+			padding-bottom: 33px;
+			b{
+				color: #adadad;
+				font-size: 14px;
+				font-weight: 300;
+			}
+		}
+		.cp3{
+			color: #191919;
+			font-size: 16px;
+			font-weight: 400;
+			padding-bottom: 52px;
+		}
+	}
+}
