@@ -2,7 +2,7 @@
 	<div class="container">
 	
 		<div class="our-wrap__title">
-			<h2>Наши заказчики</h2>
+			<h1 class="common-title_digital">Наши заказчики <span>04</span></h1>
 		</div>
 		
 		<div class="slider-wrap">
