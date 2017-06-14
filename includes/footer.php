@@ -44,17 +44,18 @@
 				</div>
 			</div>
 		</div>
-		<div class="footer-bottom">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<p class="copyright">AERO-MOVIE.RU / летаем с 2013 года. Копирование контента запрещено.</p>
-					</div>
+	</div>
+	<div class="footer-bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p class="copyright">AERO-MOVIE.RU / летаем с 2013 года. Копирование контента запрещено.</p>
 				</div>
 				<div class="clearfix"></div>
 			</div>
 		</div>
 	</div>
+	
 </div>
 
 <!-- scripts start -->
