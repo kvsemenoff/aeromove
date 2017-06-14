@@ -21,8 +21,8 @@
 
 					<h1>Контакты</h1>
 
-					<div class="contact-box__item">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d999.4471078296654!2d30.276294031892824!3d59.933897480328845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469630df4fdd0719%3A0x91eb06742a292036!2snaberezhnaya+Leytenanta+Shmidta%2C+23%2C+Sankt-Peterburg%2C+199034!5e0!3m2!1sen!2sru!4v1497429066598" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<div class="contact-box__item contact-box__item_1">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d999.4471078296654!2d30.276294031892824!3d59.933897480328845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469630df4fdd0719%3A0x91eb06742a292036!2snaberezhnaya+Leytenanta+Shmidta%2C+23%2C+Sankt-Peterburg%2C+199034!5e0!3m2!1sen!2sru!4v1497429066598" width="100%" height="379" frameborder="0" style="border:0" allowfullscreen></iframe>
 					</div>
 
 					<div class="contact-box__item contact-box__item_2">
@@ -40,6 +40,7 @@
 							</ul>
 						</div>
 					</div>
+					<div class="clearfix"></div>
 
 				</div>
 			</div>
@@ -50,5 +51,8 @@
 		</div>
 
 	</div>
+	<script>
+		$('.place-card-large').css('display', 'none');
+	</script>
 </body>
 </html>
