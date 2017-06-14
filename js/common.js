@@ -112,13 +112,11 @@ $(document).ready(function(){
 			}
 		}
 	});
-
 	$('.slider-owl-carousel').each(function(index) {
 		var thisitem = $(this).find('.item');
 		$(this).next('.common-slider__txtbox')
 		.find('.number-all').html($(thisitem).length);			
 	});		
-
 	$('.slider-owl-carousel .next-right').on('click', function() {
 		var thisel = $(this).parents('.common-slider').find('.number-active');
 		var numberActive = thisel.text();	
@@ -143,6 +141,24 @@ $(document).ready(function(){
 	});
 
 	// end slider counter
+
+	$('.bigpark__accordeon-item').on('click', function (e) {
+		e.preventDefault();
+		if( !$(this).hasClass("bigpark__accordeon-active")){
+			$('.bigpark__accordeon-hiddenbox').slideUp();	
+			$('.bigpark__accordeon-item').removeClass('bigpark__accordeon-active');
+		}
+		$(this).toggleClass('bigpark__accordeon-active');
+		$(this).find('.bigpark__accordeon-hiddenbox').slideToggle();
+
+        var tab = $(this).attr('data-tab');
+        tab = '.' + tab;
+        $('.bigpark__tab').not(tab).css({'display':'none'});
+        $(tab).css({'display':'block'});
+	});
+	
+
+
 
 
 
@@ -188,10 +204,6 @@ $(document).ready(function(){
 
 	});
 
-	(function($) {
-		$(function() {
-			$('select').styler();
-		});
-	})(jQuery);
+	
 
 });
