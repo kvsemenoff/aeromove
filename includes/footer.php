@@ -10,7 +10,7 @@
 						<li><a href="#">Блог</a></li>
 						<li><a href="#">F.A.Q</a></li>
 						<li><a href="#">Команда</a></li>
-						
+
 					</ul>
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-6">
@@ -22,27 +22,26 @@
 						<li><a href="#">Заказать звонок</a></li>
 					</ul>		
 				</div>
-				<div class="col-md-3 col-sm-6 col-xs-6">
+				<div class="col-md-3">
 					<p>
 						<span>Контакты</span><br>
 						+7 (921) 562-00-05 <br>	
 						contact@aero-movie.ru
+						<div class="icon">
+							<a href="#"><span class="facebook"></span></a>
+							<a href="#"><span class="instagram"></span></a>					
+							<a href="#"><span class="youtube"></span></a>						
+							<a href="#"><span class="twitter"></span></a>
+						</div>
 					</p>
-					<div class="icon">
-						<a href="#"><img src="img/facebook.png" alt="facebook"></a>
-						<a href="#"><img src="img/instagram.png" alt="instagram"></a>					
-						<a href="#"><img src="img/yourube.png" alt="youtube"></a>						
-						<a href="#"><img src="img/twitter.png" alt="twitter"></a>
-					</div>
 				</div>
-				<div class="col-md-3 col-sm-6 col-xs-6">
+				<div class="col-md-3">
 					<p>
 						<span>Адрес офиса</span><br>
 						Каменоостровский проспект 26-28, пом. 2
 						с 10:00 до 19:00 (лучше звонить заранее)
 					</p>
 				</div>
-				<div class="clearfix"></div>
 			</div>
 		</div>
 	</div>
@@ -55,7 +54,8 @@
 				<div class="clearfix"></div>
 			</div>
 		</div>
-	</div>	
+	</div>
+	
 </div>
 
 <!-- scripts start -->
