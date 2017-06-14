@@ -57,7 +57,8 @@
 		</div>
 	</div>	
 </div>
-<!-- JS_BLOCK -->
+
+<!-- scripts start -->
 <script src="libs/jquery/jquery-1.11.1.min.js"></script>
 <script src="libs/owl.carousel/owl.carousel.js"></script>
 <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
@@ -82,4 +83,4 @@
 <script src="block/header-botom-inner/script.js"></script>
 <script src="block/common-slider/script.js"></script>
 <script src="block/main-menu/script.js"></script>
-
+<!-- scripts end -->
