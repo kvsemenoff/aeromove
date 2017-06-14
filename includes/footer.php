@@ -22,26 +22,29 @@
 						<li><a href="#">Заказать звонок</a></li>
 					</ul>		
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-6 col-xs-6">
 					<p>
 						<span>Контакты</span><br>
 						+7 (921) 562-00-05 <br>	
 						contact@aero-movie.ru
 						<div class="icon">
-							<a href="#"><span class="facebook"></span></a>
-							<a href="#"><span class="instagram"></span></a>					
-							<a href="#"><span class="youtube"></span></a>						
-							<a href="#"><span class="twitter"></span></a>
+							<div class="socials socials_small">
+								<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+							</div>
 						</div>
 					</p>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-6 col-xs-6">
 					<p>
 						<span>Адрес офиса</span><br>
 						Каменоостровский проспект 26-28, пом. 2
 						с 10:00 до 19:00 (лучше звонить заранее)
 					</p>
 				</div>
+				<div class="clearfix"></div>
 			</div>
 		</div>
 	</div>
