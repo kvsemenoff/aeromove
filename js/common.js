@@ -88,7 +88,7 @@ $(document).ready(function(){
 	// slider &  counter
 	var owlcart = $(".slider-owl-carousel");
 	owlcart.owlCarousel({
-		loop:true,
+		loop:false,
 		nav:true,
 		autoplay:false,
 		smartSpeed:1000,

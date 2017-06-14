@@ -262,6 +262,12 @@
     .bigpark__accordeon-pricebox {
       width: 180px;
       border-left: 1px solid #f0f0f0; } }
+  @media only screen and (min-width: 992px) {
+    .bigpark__accordeon-pricebox {
+      width: 150px; } }
+  @media only screen and (min-width: 1200px) {
+    .bigpark__accordeon-pricebox {
+      width: 180px; } }
   .bigpark__accordeon-pricebox span {
     display: inline-block;
     background-image: url("../img/arrowbigpark.png");

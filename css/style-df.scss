@@ -292,6 +292,12 @@
 		width: 180px;
 		border-left: 1px solid #f0f0f0;
 	}
+	@media only screen and (min-width : 992px) {
+		width: 150px;
+	}
+	@media only screen and (min-width : 1200px) {
+		width: 180px;
+	}
 	span{
 		display: inline-block;
 		background-image: url("../img/arrowbigpark.png");
