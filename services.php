@@ -13,84 +13,83 @@
 					<div class="container">
 						<h2>Ролики под ключ и пост-продакшн</h2>
 						<span>Видеомонтаж, инфографика и VFX</span>
-						<ul class="pagination">
-							<li><a href="#">Главная /</a></li>							
-							<li><span>Продакшн</span></li>
-						</ul>
+						<?php require_once('includes/breadcrumbs.php'); ?>
 					</div>
 				</div>
 			</div>	
 			
 			<div class="shooting">	
-				<div class="container shooting_block">				
-					<div class="shooting__leftbox">
-						<h1 class="common-title">Съемки ролика под ключ</h1>
-						<div class="shooting__txtbox">
-							<p>Помимо съемок с квадрокоптеров у нас есть техническая база для производства рекламных и имиджевых видеороликов “под ключ”.</p>
-							<p>В нашей команде есть все основные специалисты по производству: режиссер, сценаристы, профессиональные операторы, специалисты по инфографике, 3D-моделям и VFX.</p>
-						</div>
-						<div class="shooting__button">
-							<a class="button button_2" href="#">Заказать съемку</a>
-						</div>
-					</div>
-					<div class="shooting__rightbox">
-						<div class="common-slider">
-							<div class="slider-owl-carousel">
-								<div class="item">
-									<div class="common-slider__img">
-										<img src="img/sliderimg1.jpg" alt="">
-									</div>			
-								</div>
-								<div class="item">
-									<div class="common-slider__img">
-										<img src="img/sliderimg1.jpg" alt="">
-									</div>			
-								</div>
-								<div class="item">
-									<div class="common-slider__img">
-										<img src="img/sliderimg1.jpg" alt="">
-									</div>			
-								</div>
-								<div class="item">
-									<div class="common-slider__img">
-										<img src="img/sliderimg1.jpg" alt="">
-									</div>			
-								</div>
-								<div class="item">
-									<div class="common-slider__img">
-										<img src="img/sliderimg1.jpg" alt="">
-									</div>			
-								</div>
-								<div class="item">
-									<div class="common-slider__img">
-										<img src="img/sliderimg1.jpg" alt="">
-									</div>			
-								</div>		
-								<div class="item">
-									<div class="common-slider__img">
-										<img src="img/sliderimg1.jpg" alt="">
-									</div>			
-								</div>
-								<div class="item">
-									<div class="common-slider__img">
-										<img src="img/sliderimg1.jpg" alt="">
-									</div>			
-								</div>
-								<div class="item">
-									<div class="common-slider__img">
-										<img src="img/sliderimg1.jpg" alt="">
-									</div>			
-								</div>				
+				<div class="container">
+					<div class="shooting_block">				
+						<div class="shooting__leftbox">
+							<h1 class="common-title">Съемки ролика под ключ</h1>
+							<div class="shooting__txtbox">
+								<p>Помимо съемок с квадрокоптеров у нас есть техническая база для производства рекламных и имиджевых видеороликов “под ключ”.</p>
+								<p>В нашей команде есть все основные специалисты по производству: режиссер, сценаристы, профессиональные операторы, специалисты по инфографике, 3D-моделям и VFX.</p>
 							</div>
-							<div class="common-slider__txtbox">
-								<div class="common-slider__numberbox">
-									<span class="number-active">1</span>
-									<i>/</i>
-									<span class="number-all">9</span>
-								</div>
-								<p class="common-slider__txt">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>
+							<div class="shooting__button">
+								<a class="button button_2" href="#">Заказать съемку</a>
 							</div>
-							<div class="clearfix"></div>
+						</div>
+						<div class="shooting__rightbox">
+							<div class="common-slider">
+								<div class="slider-owl-carousel">
+									<div class="item">
+										<div class="common-slider__img">
+											<img src="img/sliderimg1.jpg" alt="">
+										</div>			
+									</div>
+									<div class="item">
+										<div class="common-slider__img">
+											<img src="img/sliderimg1.jpg" alt="">
+										</div>			
+									</div>
+									<div class="item">
+										<div class="common-slider__img">
+											<img src="img/sliderimg1.jpg" alt="">
+										</div>			
+									</div>
+									<div class="item">
+										<div class="common-slider__img">
+											<img src="img/sliderimg1.jpg" alt="">
+										</div>			
+									</div>
+									<div class="item">
+										<div class="common-slider__img">
+											<img src="img/sliderimg1.jpg" alt="">
+										</div>			
+									</div>
+									<div class="item">
+										<div class="common-slider__img">
+											<img src="img/sliderimg1.jpg" alt="">
+										</div>			
+									</div>		
+									<div class="item">
+										<div class="common-slider__img">
+											<img src="img/sliderimg1.jpg" alt="">
+										</div>			
+									</div>
+									<div class="item">
+										<div class="common-slider__img">
+											<img src="img/sliderimg1.jpg" alt="">
+										</div>			
+									</div>
+									<div class="item">
+										<div class="common-slider__img">
+											<img src="img/sliderimg1.jpg" alt="">
+										</div>			
+									</div>				
+								</div>
+								<div class="common-slider__txtbox">
+									<div class="common-slider__numberbox">
+										<span class="number-active">1</span>
+										<i>/</i>
+										<span class="number-all">9</span>
+									</div>
+									<p class="common-slider__txt">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>
+								</div>
+								<div class="clearfix"></div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -162,28 +161,9 @@
 			</div>
 			
 			<div class="servicetxt">
-				<div class="container">
-					<div class="servicetxt__block">
-						<h2>Установка дополнительного оборудования на дрон</h2>
-						<div class="servicetxt__box">
-							<p>Рыбные тексты также применяются для демонстрации различных видов шрифта и в разработке макетов. Как правило их содержание бессмысленно. По причине своей функции текста-заполнителя для макетов нечитабельность рыбных текстов
-								имеет особое значение, так как человеческое восприятие имеет особенность, распознавать определенные образцы и повторения.
-							</p>
-							<p>В случае произвольного набора букв и длины слов ничто не отвлекает от оценки воздействия и читаемости различных шрифтов, а также от распределения текста на странице (макет или площадь набора). Поэтому большинство рыбных текстов состоят из более или менее произвольного набора слов и слогов. Таким образом образцы повторения не отвлекают от общей картины,
-								а шрифты имеют лучшую базу сравнения.</p>
-						</div>
-					</div>
-					<div class="servicetxt__block">
-						<h2>Установка дополнительного оборудования</h2>
-						<div class="servicetxt__box">
-							<p>Рыбные тексты также применяются для демонстрации различных видов шрифта и в разработке макетов. Как правило их содержание бессмысленно. По причине своей функции текста-заполнителя для макетов нечитабельность рыбных текстов
-								имеет особое значение, так как человеческое восприятие имеет особенность, распознавать определенные образцы и повторения.
-							</p>							
-						</div>
-					</div>
-				</div>
+				<?php require_once('includes/textblock.php'); ?>
 			</div>
-
+			
 
 
 		</div>

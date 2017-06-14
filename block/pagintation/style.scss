@@ -1,4 +1,4 @@
-.pagination{	
+.breadcrumbs{	
 	li{
 		display: inline-block;
 		font-family: 'Ubuntu', sans-serif;
@@ -12,6 +12,7 @@
 		}
 		span{
 			display: inline-block;
+			padding-bottom: 0;
 			color: #b7b7b7;
 		}
 	}

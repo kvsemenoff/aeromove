@@ -1,15 +1,16 @@
-.pagination li {
+.breadcrumbs li {
   display: inline-block;
   font-family: 'Ubuntu', sans-serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 32px;
   display: inline-block; }
-  .pagination li a {
+  .breadcrumbs li a {
     display: inline-block;
     color: #fff; }
-  .pagination li span {
+  .breadcrumbs li span {
     display: inline-block;
+    padding-bottom: 0;
     color: #b7b7b7; }
 
 .etotclassnetrogat {
