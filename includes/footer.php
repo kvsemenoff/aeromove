@@ -22,6 +22,7 @@
 						<li><a href="#">Заказать звонок</a></li>
 					</ul>		
 				</div>
+				<div class="clear"></div>
 				<div class="col-md-3 col-sm-6 col-xs-6">
 					<div class="contact">
 						<span>Контакты</span><br>

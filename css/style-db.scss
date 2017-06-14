@@ -42,4 +42,10 @@
 	.footer-bottom{
 		padding-top: 18px;
 	}
+	.clear{
+		clear:both;
+		@media only screen and (min-width : 992px) {
+			clear:unset;
+		}
+	}
 }
