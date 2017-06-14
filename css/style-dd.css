@@ -152,4 +152,50 @@
     .project-more__box_2 {
       padding-left: 45px; } }
 
+.logo404 {
+  width: 124px;
+  margin: 0 auto;
+  padding-top: 17px; }
+  @media only screen and (min-width: 768px) {
+    .logo404 {
+      padding-top: 49px; } }
+
+.error-box {
+  text-align: center;
+  padding-top: 14px;
+  position: relative;
+  z-index: 100; }
+  @media only screen and (min-width: 768px) {
+    .error-box {
+      padding-top: 95px; } }
+  .error-box span {
+    color: #24242d;
+    font-size: 100px;
+    font-weight: 400; }
+    @media only screen and (min-width: 768px) {
+      .error-box span {
+        font-size: 260px; } }
+  .error-box p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #191919; }
+  .error-box__img {
+    position: relative;
+    z-index: 9999;
+    margin-top: -100px; }
+    @media only screen and (min-width: 768px) {
+      .error-box__img {
+        margin-top: -348px;
+        padding-bottom: 33px; } }
+    .error-box__img img {
+      margin: 0 auto; }
+
+.footer404 {
+  text-align: center;
+  padding: 32px 7px; }
+  .footer404 p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #848484; }
+
 /*# sourceMappingURL=style-dd.css.map */
