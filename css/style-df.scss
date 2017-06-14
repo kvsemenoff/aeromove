@@ -697,9 +697,9 @@
 	// 		position: absolute;
 	// 		right: 0;
 	// 		top:114px;
-	// 		width: 56.7%;
+	// 		width: 45%;
 	// 		height: 1px;
-	// 		background-color: #df7171;
+	// 		border-bottom: 1px solid  #df7171;
 	// 	}
 	// }
 	.common-title{
@@ -718,6 +718,7 @@
 	padding-top: 3px;
 	position: relative;
 	flex-direction: column;
+	text-align: center;
 	&:after{	
 		@media only screen and (min-width : 992px) {			
 			content: "";
@@ -762,7 +763,10 @@
 
 .panorams__img{
 	display: none;
-	margin-top: 70px;
+	margin-top: 25px;
+	@media only screen and (min-width : 1200px) {
+		margin-top: 70px;
+	}
 	img{
 		max-width: 100%;
 		height: auto;

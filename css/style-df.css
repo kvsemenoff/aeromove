@@ -614,7 +614,8 @@
   justify-content: space-between;
   padding-top: 3px;
   position: relative;
-  flex-direction: column; }
+  flex-direction: column;
+  text-align: center; }
   @media only screen and (min-width: 992px) {
     .panorams__tabs:after {
       content: "";
@@ -650,7 +651,10 @@
 
 .panorams__img {
   display: none;
-  margin-top: 70px; }
+  margin-top: 25px; }
+  @media only screen and (min-width: 1200px) {
+    .panorams__img {
+      margin-top: 70px; } }
   .panorams__img img {
     max-width: 100%;
     height: auto; }
