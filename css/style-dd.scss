@@ -109,25 +109,15 @@
 }
 .our-wrap__title{
 	height: 55px;
-	background:url(../img/ch.png) no-repeat top left;
 	margin-bottom: 75px;
-	h2{
-		font-size: 30px;
-		font-weight: 400;
-		color: #24242d;
+	h1{
 		padding-top: 21px;
 		margin-left: 40px;
-		position: relative;
 		padding-bottom: 25px;
-		&:after{
-			position: absolute;
-			content: "";
-			width: 40px;
-			height: 1px;
-			background:#DF7171;
-			left: 0;
-			bottom: 0;
-		}
+	}
+	.common-title_digital span{
+		top: -17px;
+		left: -40px;
 	}
 }
 #our-slider{
