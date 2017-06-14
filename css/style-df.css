@@ -438,4 +438,160 @@
   .shooting__rightbox .common-slider .prev-left, .shooting__rightbox .common-slider .next-right {
     bottom: -55px; }
 
+.examplesblock {
+  padding: 30px 0;
+  border-bottom: 1px solid #e6e6e6;
+  background-image: url("../img/servicebg1.png");
+  background-repeat: no-repeat;
+  background-position: top 48% left 0%;
+  position: relative; }
+  .examplesblock:after {
+    content: "";
+    position: absolute;
+    bottom: 7%;
+    right: 0;
+    width: 65px;
+    height: 445px;
+    background-image: url("../img/servicebg2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1; }
+  .examplesblock .common-title {
+    margin-bottom: 30px; }
+  @media only screen and (min-width: 1200px) {
+    .examplesblock {
+      padding: 90px 0; }
+      .examplesblock .common-title {
+        margin-bottom: 60px; } }
+
+.examplesblock__box {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0 17px 70px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px; }
+  @media only screen and (min-width: 992px) {
+    .examplesblock__box {
+      flex-direction: row;
+      margin-bottom: 50px; } }
+
+.examplesblock__left {
+  width: 100%;
+  display: inline-block;
+  margin: 0 auto; }
+  @media only screen and (min-width: 992px) {
+    .examplesblock__left {
+      max-width: 613px; } }
+
+.examplesblock__video a {
+  display: inline-block;
+  position: relative;
+  width: 100%; }
+  .examplesblock__video a:after {
+    content: "";
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("../img/playbuttonbig.png");
+    background-repeat: no-repeat;
+    background-position: center; }
+  .examplesblock__video a img {
+    width: 100%;
+    height: auto; }
+
+.examplesblock__right {
+  max-width: 584px;
+  width: 100%;
+  display: inline-block;
+  color: #191919;
+  padding: 15px 0 15px 20px; }
+  .examplesblock__right h4 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    padding-bottom: 15px;
+    padding-right: 20px; }
+  .examplesblock__right p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    padding-bottom: 15px;
+    padding-right: 20px; }
+  @media only screen and (min-width: 1200px) {
+    .examplesblock__right {
+      padding: 33px 0 37px 40px; }
+      .examplesblock__right h4 {
+        padding-bottom: 22px; }
+      .examplesblock__right p {
+        padding-bottom: 20px; } }
+
+.examplesblock__txtbottom {
+  padding-top: 20px;
+  margin-top: 5px;
+  border-top: 1px solid #e8e8e8; }
+  .examplesblock__txtbottom span {
+    color: #191919;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    display: inline-block;
+    width: 100%;
+    padding-right: 50px; }
+    .examplesblock__txtbottom span b {
+      color: #c0b2c5;
+      font-weight: 500; }
+  .examplesblock__txtbottom .budjet {
+    padding-bottom: 10px; }
+  @media only screen and (min-width: 1200px) {
+    .examplesblock__txtbottom {
+      padding-top: 30px;
+      margin-top: 15px; }
+      .examplesblock__txtbottom .budjet {
+        padding-bottom: 20px; } }
+
+.examplesblock__button {
+  max-width: 360px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 30px; }
+  .examplesblock__button .button_1 {
+    padding: 0 55px; }
+  .examplesblock__button .video__lookmore {
+    margin-top: 25px; }
+
+.servicetxt {
+  padding: 30px 0 0px 0; }
+  @media only screen and (min-width: 1200px) {
+    .servicetxt {
+      padding: 70px 0 25px 0; } }
+  @media only screen and (min-width: 1300px) {
+    .servicetxt {
+      background-image: url("../img/servicebg3.png");
+      background-repeat: no-repeat;
+      background-position: right bottom 25%; } }
+
+.servicetxt__block {
+  max-width: 965px;
+  margin-bottom: 15px; }
+  @media only screen and (min-width: 1200px) {
+    .servicetxt__block {
+      margin-bottom: 48px; } }
+  .servicetxt__block h2 {
+    color: #24242d;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    padding-bottom: 22px; }
+
+.servicetxt__box p {
+  color: #191919;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+  padding-bottom: 26px; }
+
 /*# sourceMappingURL=style-df.css.map */
