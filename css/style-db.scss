@@ -1,5 +1,7 @@
 .footer{
 	background: url("../img/footer.png")no-repeat top right;
+	padding-top: 55px;
+	padding-bottom: 18px;
 	span{
 		color: #24242d;
 		font-size: 16px;
@@ -40,5 +42,9 @@
 	.footer-top{
 		border-top: 1px solid #e6e6e6;
 		border-bottom: 1px solid #e6e6e6;
+		padding: 45px 0;
+	}
+	.footer-bottom{
+		padding-top: 18px;
 	}
 }
