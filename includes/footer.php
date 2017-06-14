@@ -1,5 +1,64 @@
+<div class="footer">
+	<div class="footer-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<span>Основной</span>
+					<ul>
+						<li><a href="#">Портфолио</a></li>
+						<li><a href="#">За кадром</a></li>
+						<li><a href="#">Блог</a></li>
+						<li><a href="#">F.A.Q</a></li>
+						<li><a href="#">Команда</a></li>
+						
+					</ul>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<span>Дополнительно</span>
+					<ul>
+						<li><a href="#">Контакты</a></li>
+						<li><a href="#">Вакансии</a></li>
+						<li><a href="#">Презентация</a></li>
+						<li><a href="#">Заказать звонок</a></li>
+					</ul>		
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<p>
+						<span>Контакты</span><br>
+						+7 (921) 562-00-05 <br>	
+						contact@aero-movie.ru
+					</p>
+					<div class="icon">
+						<a href="#"><img src="img/facebook.png" alt="facebook"></a>
+						<a href="#"><img src="img/instagram.png" alt="instagram"></a>					
+						<a href="#"><img src="img/yourube.png" alt="youtube"></a>						
+						<a href="#"><img src="img/twitter.png" alt="twitter"></a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<p>
+						<span>Адрес офиса</span><br>
+						Каменоостровский проспект 26-28, пом. 2
+						с 10:00 до 19:00 (лучше звонить заранее)
+					</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p class="copyright">AERO-MOVIE.RU / летаем с 2013 года. Копирование контента запрещено.</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>	
+</div>
 
-<!-- JS_BLOCK -->
+<!-- scripts start -->
 <script src="libs/jquery/jquery-1.11.1.min.js"></script>
 <script src="libs/owl.carousel/owl.carousel.js"></script>
 <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
@@ -24,4 +83,4 @@
 <script src="block/header-botom-inner/script.js"></script>
 <script src="block/common-slider/script.js"></script>
 <script src="block/main-menu/script.js"></script>
-
+<!-- scripts end -->
