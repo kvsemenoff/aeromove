@@ -164,20 +164,29 @@
 	}
 }
 .project-more{
-	margin-top: 144px;
+	padding-top: 144px;
+	background:url(../img/pink2.png) no-repeat left top 64px;
 	&__box{
 		h1{
-			margin-bottom: 38px;
+			margin-bottom: 32px;
 		}
 		p{
 			font-size: 16px;
 			font-weight: 300;
-			line-height: 22px;
+			line-height: 21px;
 			color: #191919;
 			padding-bottom: 28px;
 		}
 		a{
 			margin-top: 37px;
+		}
+		.common-slider__txt{
+			font-size: 15px;
+		}
+		&_2{
+			@media only screen and (min-width: 1240px) {
+				padding-left: 45px;
+			}
 		}
 	}
 }

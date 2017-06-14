@@ -142,16 +142,22 @@
       right: -128px; } }
 
 .project-more {
-  margin-top: 144px; }
+  padding-top: 144px;
+  background: url(../img/pink2.png) no-repeat left top 64px; }
   .project-more__box h1 {
-    margin-bottom: 38px; }
+    margin-bottom: 32px; }
   .project-more__box p {
     font-size: 16px;
     font-weight: 300;
-    line-height: 22px;
+    line-height: 21px;
     color: #191919;
     padding-bottom: 28px; }
   .project-more__box a {
     margin-top: 37px; }
+  .project-more__box .common-slider__txt {
+    font-size: 15px; }
+  @media only screen and (min-width: 1240px) {
+    .project-more__box_2 {
+      padding-left: 45px; } }
 
 /*# sourceMappingURL=style-dd.css.map */
