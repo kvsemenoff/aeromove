@@ -1,6 +1,7 @@
+
 .footer{
-	background: url("../img/footer.png")no-repeat bottom right;
-	padding-top: 55px;
+	position: relative;
+	padding-top: 65px;
 	padding-bottom: 18px;
 	span{
 		color: #24242d;
@@ -49,3 +50,16 @@
 		}
 	}
 }
+@media only screen and (min-width : 992px) {
+.footer::after{
+		background: url("../img/footer.png")no-repeat;
+		content:"";
+		width: 131px;
+		height: 357px;
+		display: block;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+	}
+}
+
