@@ -95,7 +95,7 @@
 			
 			<div class="panorams">
 				<div class="container">
-					<h1 class="common-title">Панорамы</h1>
+					<h1 class="common-title panorams__caption">Панорамы</h1>
 					<ul class="panorams__tabs">
 						<li><a href="panoramstab1" class="panorams__acivetab">Земельный участок</a></li>
 						<li><a href="panoramstab2">Загородный дом</a></li>
@@ -122,16 +122,48 @@
 					</div>
 				</div>
 			</div>	
+			
+			<div class="pricedays">
+				<div class="container">
+					<h1 class="common-title">Стоимость и сроки выполнения </h1>
+					<div class="pricedays__block">
+						<div class="pricedays__box">
+							<div class="pricedays__txtbox">
+								<span class="pricedays__toptxt">Создание аэропанорамы </span>
+								<span class="pricedays__pricetxt">от <b>10 000 </b><i class="fa fa-rub" aria-hidden="true"></i></span>	
+							</div>	
+							<div class="pricedays__button">
+								<a class="button button_1" href="#">Заказать видеосъемку</a>
+							</div>				
+						</div>		
+						<div class="pricedays__box">
+							<div class="pricedays__txtbox">
+								<span class="pricedays__toptxt">аэротур по объекту</span>
+								<span class="pricedays__pricetxt">от <b>25 000 </b><i class="fa fa-rub" aria-hidden="true"></i></span>	
+								<p>(несколько панорам в одном файле)</p>
+							</div>
+							<div class="pricedays__button">
+								<a class="button button_1" href="#">Заказать видеосъемку</a>
+							</div>				
+						</div>	
+						<div class="pricedays__box">
+							<div class="pricedays__txtbox">
+								<span class="pricedays__toptxt">нанесение инфографики</span>
+								<span class="pricedays__pricetxt">от <b>5 000 </b><i class="fa fa-rub" aria-hidden="true"></i></span>	
+							</div>
+							<div class="pricedays__button">
+								<a class="button button_1" href="#">Заказать видеосъемку</a>
+							</div>				
+						</div>					
+					</div>
+					<p class="pricedays__bottomtext">*от 2 и более объектов и сотрудничество на постоянной основе обсуждается индивидуально. </p>
+				</div>
+			</div>
 
 
-
-
-
-
-
-
-
-
+			<div class="servicetxt">
+				<?php require_once('includes/textblock.php'); ?>
+			</div>
 
 		</div>
 		<div class="footer">

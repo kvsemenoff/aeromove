@@ -702,12 +702,12 @@
 	// 		border-bottom: 1px solid  #df7171;
 	// 	}
 	// }
-	.common-title{
-		display: inline-block;
-		float: left;
-	}
+	
 }
-
+.panorams__caption{
+	display: inline-block;
+	float: left;
+}
 .panorams__tabs{
 	float: right;
 	background-color: #fff;
@@ -777,5 +777,96 @@
 }
 
 
-
-
+.pricedays{
+	padding: 30px 0;
+	border-bottom: 1px solid #e6e6e6;
+	position: relative;
+	@media only screen and (min-width : 1200px) {
+		padding: 75px 0;
+	}
+}
+.pricedays__block{	
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;	
+	position: relative;
+	flex-direction: column;
+	text-align: center;
+	@media only screen and (min-width : 992px) {
+		flex-direction: row;		
+	}
+	@media only screen and (min-width : 1200px) {
+		padding: 0 42px;
+		margin-top: 75px;
+	}
+}
+.pricedays__box{
+	max-width: 317px;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	background-color: white;
+	box-shadow: 0 19px 38px rgba(34, 17, 54, 0.15);
+	padding: 45px 0;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	@media only screen and (min-width : 992px) {
+		margin: 0;
+		width: 30%;
+	}
+	@media only screen and (min-width : 1200px) {
+		width: 100%;
+	}
+	p{
+		color: #8d8d8d;
+		font-size: 14px;
+		font-weight: 300;
+		line-height: 18px;
+	}
+}
+.pricedays__txtbox{
+	height: 115px;
+	overflow: hidden;
+	padding: 0 40px 10px 40px;
+	@media only screen and (min-width : 992px) {
+		padding: 0 20px 10px 20px;
+	}
+}
+.pricedays__toptxt{
+	display: block;
+	color: #191919;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 18px;
+	text-transform: uppercase;
+	padding-bottom: 19px;
+}
+.pricedays__pricetxt{
+	display: block;
+	color: #191919;
+	font-size: 24px;
+	line-height: 18px;
+	font-weight: 300;
+	padding-bottom: 10px;
+	b,i{
+		font-weight: 500;
+	}
+}
+.pricedays__button{
+	padding-top: 35px;
+	border-top: 1px solid #e8e8e8;
+	a{
+		padding: 0 31px;
+	}
+}
+.pricedays__bottomtext{
+	color: #adadad;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 18px;
+	margin-top: 15px;
+	@media only screen and (min-width : 1200px) {
+		padding: 0 42px;
+		margin-top: 38px;
+	}
+}
