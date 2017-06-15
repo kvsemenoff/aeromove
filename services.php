@@ -156,7 +156,7 @@
 				<?php require_once('includes/textblock.php'); ?>
 			</div>
 			
-
+			<?php require_once('includes/want.php'); ?>	
 
 		</div>
 		<div class="footer">

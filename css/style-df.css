@@ -781,7 +781,10 @@
   padding: 35px 0 30px 0; }
   @media only screen and (min-width: 1200px) {
     .portfolio {
-      padding: 85px 0 110px 0; } }
+      padding: 85px 0 110px 0;
+      background-image: url("../img/portfoliobg.png");
+      background-repeat: no-repeat;
+      background-position: left 52% top 31%; } }
 
 .portfolio__tab {
   float: right;
@@ -929,5 +932,35 @@
       margin-top: 60px; } }
   .portfolio__button a {
     padding: 0 55px; }
+
+.portfolio__photobox:before {
+  content: none; }
+.portfolio__photobox .portfolio__txt {
+  text-align: left;
+  padding: 0 30px 15px 30px; }
+  .portfolio__photobox .portfolio__txt span {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px; }
+.portfolio__photobox:hover .portfolio__txt span {
+  color: #191919; }
+
+.fancybox-next span, .fancybox-prev span {
+  background-image: url("../img/arrowright1.png");
+  background-repeat: no-repeat;
+  width: 44px;
+  height: 44px;
+  background-position: center;
+  border: 1px solid #fff;
+  background-color: transparent;
+  visibility: visible; }
+.fancybox-next:hover span, .fancybox-prev:hover span {
+  background-image: url("../img/arrowright2.png");
+  background-color: #fff;
+  box-shadow: 0 9px 35px rgba(255, 255, 255, 0.65); }
+
+.fancybox-prev span {
+  transform: rotate(180deg); }
 
 /*# sourceMappingURL=style-df.css.map */

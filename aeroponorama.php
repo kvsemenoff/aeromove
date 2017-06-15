@@ -157,7 +157,7 @@
 			<div class="servicetxt">
 				<?php require_once('includes/textblock.php'); ?>
 			</div>
-
+			<?php require_once('includes/want.php'); ?>	
 		</div>
 		<div class="footer">
 			<?php require_once('includes/footer.php'); ?>

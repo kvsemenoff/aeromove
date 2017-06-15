@@ -74,58 +74,52 @@
 						</a>						
 					</div>
 					<div class="portfolio__block photoblock">					
-						<a href="#" class="portfolio__box">
+						<a href="img/portfolio1.jpg" class="portfolio__box portfolio__photobox" data-fancybox-group="group">
 							<div class="portfolio__video">
 								<img src="img/portfolio1.jpg" alt="">
 							</div>
 							<div class="portfolio__txt">
-								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
-								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
+								<span>Аэросъемка фестиваля #ОдаЕда</span>
 							</div>
 						</a>
-						<a href="#" class="portfolio__box">
+						<a href="img/portfolio2.jpg" class="portfolio__box portfolio__photobox" data-fancybox-group="group">
 							<div class="portfolio__video">
 								<img src="img/portfolio2.jpg" alt="">
 							</div>
 							<div class="portfolio__txt">
-								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
-								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
+								<span>Шоурил 2015-2016 </span>
 							</div>
 						</a>
-						<a href="#" class="portfolio__box">
+						<a href="img/portfolio3.jpg" class="portfolio__box portfolio__photobox" data-fancybox-group="group">
 							<div class="portfolio__video">
 								<img src="img/portfolio3.jpg" alt="">
 							</div>
 							<div class="portfolio__txt">
-								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
-								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
+								<span>Съемка загородной недвижимости</span>
 							</div>
 						</a>
-						<a href="#" class="portfolio__box">
+						<a href="img/portfolio1.jpg" class="portfolio__box portfolio__photobox" data-fancybox-group="group">
 							<div class="portfolio__video">
 								<img src="img/portfolio1.jpg" alt="">
 							</div>
 							<div class="portfolio__txt">
-								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
-								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
+								<span>Съемка загородной недвижимости</span>
 							</div>
 						</a>
-						<a href="#" class="portfolio__box">
+						<a href="img/portfolio2.jpg" class="portfolio__box portfolio__photobox" data-fancybox-group="group">
 							<div class="portfolio__video">
 								<img src="img/portfolio2.jpg" alt="">
 							</div>
 							<div class="portfolio__txt">
-								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
-								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
+								<span>Съемка загородной недвижимости</span>
 							</div>
 						</a>
-						<a href="#" class="portfolio__box">
+						<a href="img/portfolio3.jpg" class="portfolio__box portfolio__photobox" data-fancybox-group="group">
 							<div class="portfolio__video">
 								<img src="img/portfolio3.jpg" alt="">
 							</div>
 							<div class="portfolio__txt">
-								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
-								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
+								<span>Съемка загородной недвижимости</span>
 							</div>
 						</a>						
 					</div>
@@ -136,7 +130,7 @@
 				</div>
 			</div>
 
-
+			<?php require_once('includes/want.php'); ?>	
 		</div>
 		<div class="footer">
 			<?php require_once('includes/footer.php'); ?>
