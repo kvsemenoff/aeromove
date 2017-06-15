@@ -8,16 +8,9 @@
 	<div class="wrapper">
 		<div class="content">
 			<?php require_once('includes/header_top.php'); ?>
-			<div class="header_bottom header_bottom2">
-				<div class="header-bottom__box">
-					<div class="container">
-						<h2>Виртуальные 3D туры с квадрокоптера</h2>
-						<span>Съемка аэропанорамы, компиляция и инфографика.</span>
-						<?php require_once('includes/breadcrumbs.php'); ?>
-					</div>
-				</div>
-			</div>
-
+			<?php require_once('includes/header_bottom2.php'); ?>
+			
+ 
 			<div class="shooting aeropanoramabg">	
 				<div class="container">
 					<div class="shooting_block">				

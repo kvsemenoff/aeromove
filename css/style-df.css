@@ -388,7 +388,7 @@
   border-bottom: 1px solid #e6e6e6; }
   @media only screen and (min-width: 1200px) {
     .shooting {
-      padding: 83px 0 70px 0; } }
+      padding: 109px 0 82px 0; } }
 
 .shooting_block {
   display: flex;
@@ -413,7 +413,7 @@
     padding: 0 45px; }
 
 .shooting__txtbox {
-  padding: 33px 0 26px 0; }
+  padding: 37px 0 38px 0; }
   .shooting__txtbox p {
     color: #191919;
     font-size: 16px;
@@ -426,7 +426,7 @@
   padding-top: 20px; }
   @media only screen and (min-width: 992px) {
     .shooting__rightbox {
-      padding-top: 40px; } }
+      padding-top: 0px; } }
   .shooting__rightbox .common-slider__txt {
     max-width: 375px;
     text-align: left; }
@@ -593,11 +593,30 @@
   line-height: 22px;
   padding-bottom: 26px; }
 
-@media only screen and (min-width: 992px) {
-  .aeropanoramabg {
-    background-image: url("../img/videobgimg.png");
-    background-repeat: no-repeat;
-    background-position: right -3% center; } }
+.aeropanoramabg {
+  padding: 40px 0 30px 0; }
+  @media only screen and (min-width: 992px) {
+    .aeropanoramabg {
+      background-image: url("../img/videobgimg.png");
+      background-repeat: no-repeat;
+      background-position: right -3% center;
+      padding: 83px 0 55px 0; } }
+  .aeropanoramabg .shooting__txtbox {
+    padding: 33px 0 26px 0; }
+  .aeropanoramabg .shooting__rightbox {
+    padding-top: 20px; }
+    @media only screen and (min-width: 992px) {
+      .aeropanoramabg .shooting__rightbox {
+        padding-top: 40px; } }
+    .aeropanoramabg .shooting__rightbox .common-slider__txt {
+      max-width: 375px;
+      text-align: left; }
+    .aeropanoramabg .shooting__rightbox .common-slider__txtbox {
+      padding-top: 22px; }
+    .aeropanoramabg .shooting__rightbox .common-slider .prev-left, .aeropanoramabg .shooting__rightbox .common-slider .next-right {
+      bottom: -50px; }
+    .aeropanoramabg .shooting__rightbox .common-slider__numberbox {
+      padding-top: 5px; }
 
 .panorams {
   padding: 30px 0;
