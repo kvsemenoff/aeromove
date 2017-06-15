@@ -62,6 +62,8 @@
 	
 </div>
 
+<script src="https://api-maps.yandex.ru/2.1/?lang=tr_TR" type="text/javascript"></script>
+
 <!-- scripts start -->
 <script src="libs/jquery/jquery-1.11.1.min.js"></script>
 <script src="libs/owl.carousel/owl.carousel.js"></script>
@@ -70,7 +72,6 @@
 <script src="js/jquery.maskedinput.min.js"></script>
 <script src="js/fonts.js"></script>
 <script src="js/common.js"></script>
-
 <script src="block/inputext/script.js"></script>
 <script src="block/inpiutcheckbox/script.js"></script>
 <script src="block/textarea/script.js"></script>
