@@ -71,8 +71,6 @@
 <script src="js/fonts.js"></script>
 <script src="js/common.js"></script>
 
-
-
 <script src="block/inputext/script.js"></script>
 <script src="block/inpiutcheckbox/script.js"></script>
 <script src="block/textarea/script.js"></script>
