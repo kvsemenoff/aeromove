@@ -82,7 +82,7 @@
 								<span>Аэросъемка фестиваля #ОдаЕда</span>
 							</div>
 						</a>
-						<a href="img/portfolio1.jpg" class="portfolio__box portfolio__photobox" data-fancybox-group="group">
+						<a href="img/portfolio2.jpg" class="portfolio__box portfolio__photobox" data-fancybox-group="group">
 							<div class="portfolio__video">
 								<img src="img/portfolio2.jpg" alt="">
 							</div>
@@ -90,7 +90,7 @@
 								<span>Шоурил 2015-2016 </span>
 							</div>
 						</a>
-						<a href="img/portfolio1.jpg" class="portfolio__box portfolio__photobox" data-fancybox-group="group">
+						<a href="img/portfolio3.jpg" class="portfolio__box portfolio__photobox" data-fancybox-group="group">
 							<div class="portfolio__video">
 								<img src="img/portfolio3.jpg" alt="">
 							</div>
@@ -106,7 +106,7 @@
 								<span>Съемка загородной недвижимости</span>
 							</div>
 						</a>
-						<a href="img/portfolio1.jpg" class="portfolio__box portfolio__photobox" data-fancybox-group="group">
+						<a href="img/portfolio2.jpg" class="portfolio__box portfolio__photobox" data-fancybox-group="group">
 							<div class="portfolio__video">
 								<img src="img/portfolio2.jpg" alt="">
 							</div>
@@ -114,7 +114,7 @@
 								<span>Съемка загородной недвижимости</span>
 							</div>
 						</a>
-						<a href="img/portfolio1.jpg" class="portfolio__box portfolio__photobox" data-fancybox-group="group">
+						<a href="img/portfolio3.jpg" class="portfolio__box portfolio__photobox" data-fancybox-group="group">
 							<div class="portfolio__video">
 								<img src="img/portfolio3.jpg" alt="">
 							</div>

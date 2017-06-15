@@ -1088,9 +1088,42 @@
 			font-weight: 400;
 			line-height: 36px;
 		}
+	}
+	&:hover  .portfolio__txt span{
+		color: #191919;
 	}	
-
 }
-.portfolio__photobox:hover .portfolio__txt span{
-	color: #191919;
+
+
+
+
+
+
+
+
+
+
+.fancybox-next, .fancybox-prev{
+	span{
+		background-image: url("../img/arrowright1.png");
+		background-repeat: no-repeat;
+		width: 44px;
+		height: 44px;
+		background-position: center;
+		border:1px solid #fff;
+		background-color: transparent;
+		visibility: visible;
+	}
+	&:hover{
+		span{
+			background-image: url("../img/arrowright2.png");
+			background-color: #fff;
+			box-shadow: 0 9px 35px rgba(255, 255, 255, 0.65);
+		}
+	}
+}
+.fancybox-prev{
+	span{		
+		transform:rotate(180deg);
+	}
 }
