@@ -157,7 +157,15 @@ $(document).ready(function(){
         $(tab).css({'display':'block'});
 	});
 	
-
+	$('.panorams__tabs a').on('click', function (e) {
+		e.preventDefault();
+		$('.panorams__tabs a').removeClass('panorams__acivetab');
+		$(this).addClass('panorams__acivetab');
+		var tab = $(this).attr('href');
+        tab = '.' + tab;
+        $('.panorams__img').not(tab).css({'display':'none'});
+        $(tab).css({'display':'block'});
+	});
 
 
 

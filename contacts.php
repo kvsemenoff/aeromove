@@ -12,7 +12,7 @@
 		<div class="content">
 			<?php require_once('includes/header_top.php'); ?>
 			<div class="container">
-				<div class="contact-box">
+				<div class="contact-box__wr">
 
 					<ul class="pagination pagination__contact">
 						<li><a href="#">Главная /</a></li>							
