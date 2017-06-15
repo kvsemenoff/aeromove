@@ -130,7 +130,7 @@
 				</div>
 			</div>
 
-
+			<?php require_once('includes/want.php'); ?>	
 		</div>
 		<div class="footer">
 			<?php require_once('includes/footer.php'); ?>
