@@ -763,16 +763,22 @@
 		}
 	}
 	@media only screen and (min-width : 992px) {
-		width: 65%;
+		// width: 65%;
+		width: auto;
 		flex-direction: row;
 	}
 	@media only screen and (min-width : 1200px) {
-		width: 57.4%;			
+		// width: 57.4%;			
 		// &:after{content: none;}	
 	}	
 	li{
-		display: inline-block;
-
+		display: inline-block;		
+		@media only screen and (min-width : 992px) {
+			margin-right: 35px;
+		}
+		@media only screen and (min-width : 992px) {
+			margin-right: 55px;
+		}
 		a{
 			display: inline-block;
 			font-size: 16px;
@@ -786,6 +792,7 @@
 			}
 		}
 	}
+	li:last-child{ margin-right: 0;}
 	.panorams__acivetab{
 		color: #df7171;
 		font-weight: 500;
@@ -945,14 +952,17 @@
 		margin-bottom: 90px;
 	}
 	@media only screen and (min-width : 992px) {
-		width: 25%;
+		width: auto;
 		flex-direction: row;
-	}
-	@media only screen and (min-width : 1200px) {
-		width: 20.5%;
-	}
+	}	
 	li{
 		display: inline-block;
+		@media only screen and (min-width : 992px) {
+			margin-right: 35px;
+		}
+		@media only screen and (min-width : 992px) {
+			margin-right: 55px;
+		}
 		a{
 			display: inline-block;
 			font-size: 16px;
@@ -966,6 +976,7 @@
 			}
 		}
 	}
+	li:last-child{ margin-right: 0;}
 	.panorams__acivetab{
 		color: #df7171;
 		font-weight: 500;

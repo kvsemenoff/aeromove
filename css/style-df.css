@@ -652,13 +652,16 @@
       border-bottom: 1px solid  #df7171; } }
   @media only screen and (min-width: 992px) {
     .panorams__tabs {
-      width: 65%;
+      width: auto;
       flex-direction: row; } }
-  @media only screen and (min-width: 1200px) {
-    .panorams__tabs {
-      width: 57.4%; } }
   .panorams__tabs li {
     display: inline-block; }
+    @media only screen and (min-width: 992px) {
+      .panorams__tabs li {
+        margin-right: 35px; } }
+    @media only screen and (min-width: 992px) {
+      .panorams__tabs li {
+        margin-right: 55px; } }
     .panorams__tabs li a {
       display: inline-block;
       font-size: 16px;
@@ -669,6 +672,8 @@
       .panorams__tabs li a:hover {
         color: #df7171;
         border-bottom: 2px solid #df7171; }
+  .panorams__tabs li:last-child {
+    margin-right: 0; }
   .panorams__tabs .panorams__acivetab {
     color: #df7171;
     font-weight: 500;
@@ -812,13 +817,16 @@
         border-bottom: 1px solid  #df7171; } }
   @media only screen and (min-width: 992px) {
     .portfolio__tab {
-      width: 25%;
+      width: auto;
       flex-direction: row; } }
-  @media only screen and (min-width: 1200px) {
-    .portfolio__tab {
-      width: 20.5%; } }
   .portfolio__tab li {
     display: inline-block; }
+    @media only screen and (min-width: 992px) {
+      .portfolio__tab li {
+        margin-right: 35px; } }
+    @media only screen and (min-width: 992px) {
+      .portfolio__tab li {
+        margin-right: 55px; } }
     .portfolio__tab li a {
       display: inline-block;
       font-size: 16px;
@@ -829,6 +837,8 @@
       .portfolio__tab li a:hover {
         color: #df7171;
         border-bottom: 2px solid #df7171; }
+  .portfolio__tab li:last-child {
+    margin-right: 0; }
   .portfolio__tab .panorams__acivetab {
     color: #df7171;
     font-weight: 500;
