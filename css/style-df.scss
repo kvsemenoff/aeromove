@@ -1075,3 +1075,22 @@
 	}
 }
 
+.portfolio__photobox{
+	&:before{
+		content: none;
+	}
+	.portfolio__txt {
+		text-align: left;
+		padding: 0 30px 15px 30px;
+		span{
+			color: white;
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 36px;
+		}
+	}	
+
+}
+.portfolio__photobox:hover .portfolio__txt span{
+	color: #191919;
+}
