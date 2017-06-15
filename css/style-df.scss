@@ -441,7 +441,7 @@
 	padding: 40px 0 30px 0;
 	border-bottom: 1px solid #e6e6e6;
 	@media only screen and (min-width : 1200px) {
-		padding: 109px 0 70px 0;
+		padding: 83px 0 70px 0;
 	}
 }
 .shooting_block{
@@ -468,10 +468,7 @@
 	}
 }
 .shooting__txtbox{
-	padding: 28px 0 30px 0;
-	@media only screen and (min-width : 1200px) {
-		padding: 38px 0 40px 0;	
-	}
+	padding: 33px 0 26px 0;		
 	p{
 		color: #191919;
 		font-size: 16px;
@@ -485,17 +482,20 @@
 	display: inline-block;
 	padding-top: 20px;
 	@media only screen and (min-width : 992px) {
-		padding-top: 0;
+		padding-top: 40px;
 	}
 	.common-slider__txt{
-		max-width: 380px;
+		max-width: 375px;
 		text-align: left;
 	}
 	.common-slider__txtbox {
-		padding-top: 25px;
+		padding-top: 22px;
 	}
 	.common-slider .prev-left, .common-slider .next-right{
-		bottom: -55px;	
+		bottom: -50px;	
+	}
+	.common-slider__numberbox{
+		padding-top: 5px;
 	}
 }
 
@@ -647,7 +647,7 @@
 .servicetxt{
 	padding: 30px 0 0px 0;		
 	@media only screen and (min-width : 1200px) {
-		padding: 70px 0 25px 0;		
+		padding: 64px 0 25px 0;		
 	}
 	@media only screen and (min-width : 1300px) {
 		background-image: url("../img/servicebg3.png");
@@ -656,7 +656,7 @@
 	}
 }
 .servicetxt__block{
-	max-width: 965px;
+	max-width: 964px;
 	margin-bottom: 15px;
 	@media only screen and (min-width : 1200px) {
 		margin-bottom: 48px;
@@ -683,6 +683,13 @@
 
 
 // aeropanorama =============
+.aeropanoramabg{
+	@media only screen and (min-width : 992px) {
+		background-image: url("../img/videobgimg.png");
+		background-repeat: no-repeat;
+		background-position: right -3% center;
+	}
+}
 
 .panorams{
 	padding: 30px 0;

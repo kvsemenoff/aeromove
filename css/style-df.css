@@ -388,7 +388,7 @@
   border-bottom: 1px solid #e6e6e6; }
   @media only screen and (min-width: 1200px) {
     .shooting {
-      padding: 109px 0 70px 0; } }
+      padding: 83px 0 70px 0; } }
 
 .shooting_block {
   display: flex;
@@ -413,10 +413,7 @@
     padding: 0 45px; }
 
 .shooting__txtbox {
-  padding: 28px 0 30px 0; }
-  @media only screen and (min-width: 1200px) {
-    .shooting__txtbox {
-      padding: 38px 0 40px 0; } }
+  padding: 33px 0 26px 0; }
   .shooting__txtbox p {
     color: #191919;
     font-size: 16px;
@@ -429,14 +426,16 @@
   padding-top: 20px; }
   @media only screen and (min-width: 992px) {
     .shooting__rightbox {
-      padding-top: 0; } }
+      padding-top: 40px; } }
   .shooting__rightbox .common-slider__txt {
-    max-width: 380px;
+    max-width: 375px;
     text-align: left; }
   .shooting__rightbox .common-slider__txtbox {
-    padding-top: 25px; }
+    padding-top: 22px; }
   .shooting__rightbox .common-slider .prev-left, .shooting__rightbox .common-slider .next-right {
-    bottom: -55px; }
+    bottom: -50px; }
+  .shooting__rightbox .common-slider__numberbox {
+    padding-top: 5px; }
 
 .examplesblock {
   padding: 30px 0;
@@ -567,7 +566,7 @@
   padding: 30px 0 0px 0; }
   @media only screen and (min-width: 1200px) {
     .servicetxt {
-      padding: 70px 0 25px 0; } }
+      padding: 64px 0 25px 0; } }
   @media only screen and (min-width: 1300px) {
     .servicetxt {
       background-image: url("../img/servicebg3.png");
@@ -575,7 +574,7 @@
       background-position: right bottom 25%; } }
 
 .servicetxt__block {
-  max-width: 965px;
+  max-width: 964px;
   margin-bottom: 15px; }
   @media only screen and (min-width: 1200px) {
     .servicetxt__block {
@@ -593,6 +592,12 @@
   font-weight: 300;
   line-height: 22px;
   padding-bottom: 26px; }
+
+@media only screen and (min-width: 992px) {
+  .aeropanoramabg {
+    background-image: url("../img/videobgimg.png");
+    background-repeat: no-repeat;
+    background-position: right -3% center; } }
 
 .panorams {
   padding: 30px 0;

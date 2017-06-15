@@ -18,7 +18,7 @@
 				</div>
 			</div>
 
-			<div class="shooting">	
+			<div class="shooting aeropanoramabg">	
 				<div class="container">
 					<div class="shooting_block">				
 						<div class="shooting__leftbox">
@@ -30,7 +30,7 @@
 								<p>Возможно нанесение инфографиик на панораму.</p>
 							</div>
 							<div class="shooting__button">
-								<a class="button button_2" href="#">Заказать панораму</a>
+								<a class="button button_1" href="#">Заказать панораму</a>
 							</div>
 						</div>
 						<div class="shooting__rightbox">
