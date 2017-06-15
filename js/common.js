@@ -167,6 +167,15 @@ $(document).ready(function(){
         $(tab).css({'display':'block'});
 	});
 
+	$('.portfolio__tab a').on('click', function (e) {
+		e.preventDefault();
+		$('.portfolio__tab a').removeClass('panorams__acivetab');
+		$(this).addClass('panorams__acivetab');
+		var tab = $(this).attr('href');
+        tab = '.' + tab;
+        $('.portfolio__block').not(tab).css({'display':'none'});
+        $(tab).css({'display':'flex'});
+	});
 
 
 
