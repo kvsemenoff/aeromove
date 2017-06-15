@@ -1,30 +1,62 @@
 
 
 $(document).ready(function(){
+	
+	ymaps.ready(init);
+
+	function init() {
+		var center = [55.59113656911934,37.88662649999996];
+		var myMap1 = new ymaps.Map('mape', {
+			center: center,
+			controls: [],
+			zoom: 16,  
+			controls: ['smallMapDefaultSet']
+		}, {
+			searchControlProvider: 'yandex#search'
+
+		});
+
+		myMap.behaviors.disable('scrollZoom');
+
+		var myPlacemark = new ymaps.Placemark(center, {
+        // Свойства.
+        // Содержимое иконки, балуна и хинта.
+        balloonContent: 'улица Ивана Франко, 4к4',
+        hintContent: 'улица Ивана Франко, 4к4'
+    }, {
+        // Опции.
+        iconLayout: 'default#image',
+        iconImageHref: 'img/map-ic.png',
+        iconImageSize: [42, 42]
+        // preset: 'twirl#violetIcon'
+    });
+
+		myMap1.geoObjects.add(myPlacemark);
+	}
 
 
-     var owl2 = $("#our-slider");
-        owl2.owlCarousel({
-            loop:true,
-            nav:true, 
-            autoplay:false,
-            smartSpeed:1000,
-            margin:0,
+	var owl2 = $("#our-slider");
+	owl2.owlCarousel({
+		loop:true,
+		nav:true, 
+		autoplay:false,
+		smartSpeed:1000,
+		margin:0,
         center:false,     //если нужны обрезаные края
         navText:['<span class="nav-left"></span>','<span class="nav-right"></span>'],
         responsive:{
-            0:{
-                items:1
-            },
-            480:{
-                items:2 
-            },
-            768:{
-                items:3
-            },  
-              1240:{
-                items:4
-            },     
+        	0:{
+        		items:1
+        	},
+        	480:{
+        		items:2 
+        	},
+        	768:{
+        		items:3
+        	},  
+        	1240:{
+        		items:4
+        	},     
         }
     });
 
@@ -151,10 +183,10 @@ $(document).ready(function(){
 		$(this).toggleClass('bigpark__accordeon-active');
 		$(this).find('.bigpark__accordeon-hiddenbox').slideToggle();
 
-        var tab = $(this).attr('data-tab');
-        tab = '.' + tab;
-        $('.bigpark__tab').not(tab).css({'display':'none'});
-        $(tab).css({'display':'block'});
+		var tab = $(this).attr('data-tab');
+		tab = '.' + tab;
+		$('.bigpark__tab').not(tab).css({'display':'none'});
+		$(tab).css({'display':'block'});
 	});
 	
 	$('.panorams__tabs a').on('click', function (e) {
@@ -162,9 +194,9 @@ $(document).ready(function(){
 		$('.panorams__tabs a').removeClass('panorams__acivetab');
 		$(this).addClass('panorams__acivetab');
 		var tab = $(this).attr('href');
-        tab = '.' + tab;
-        $('.panorams__img').not(tab).css({'display':'none'});
-        $(tab).css({'display':'block'});
+		tab = '.' + tab;
+		$('.panorams__img').not(tab).css({'display':'none'});
+		$(tab).css({'display':'block'});
 	});
 
 	$('.portfolio__tab a').on('click', function (e) {
@@ -172,9 +204,9 @@ $(document).ready(function(){
 		$('.portfolio__tab a').removeClass('panorams__acivetab');
 		$(this).addClass('panorams__acivetab');
 		var tab = $(this).attr('href');
-        tab = '.' + tab;
-        $('.portfolio__block').not(tab).css({'display':'none'});
-        $(tab).css({'display':'flex'});
+		tab = '.' + tab;
+		$('.portfolio__block').not(tab).css({'display':'none'});
+		$(tab).css({'display':'flex'});
 	});
 
 
@@ -230,6 +262,6 @@ $(document).ready(function(){
 			return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
 		}
 	});
-		
+
 
 });
