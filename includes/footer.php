@@ -70,6 +70,18 @@
 <script src="js/jquery.maskedinput.min.js"></script>
 <script src="js/fonts.js"></script>
 <script src="js/common.js"></script>
+<script type="text/javascript" src="https://www.youtube.com/player_api"></script>
+<script>
+	var player;
+	function onYouTubePlayerAPIReady() {
+		player = new YT.Player('player');
+	}
+
+	$('#stop').click(function(){
+		player.stopVideo()
+	})
+</script>
+
 
 <script src="block/inputext/script.js"></script>
 <script src="block/inpiutcheckbox/script.js"></script>
