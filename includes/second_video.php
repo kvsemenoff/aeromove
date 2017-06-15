@@ -1,10 +1,12 @@
 <div class="container">
+
 	<div class="video-box">
 		<div class="video-box__item">
 			<a href="#video1"><img src="img/play.png" alt=""></a>
 			<p>Посмотрите наше портфолио за 2016 год!</p>
 		</div>
 	</div>
+
 	<!-- Модальный блок начало-->
 	<div class="overlay" id="video1"></div>
 	<div class="modal">
@@ -14,7 +16,8 @@
 		<div>      
 			<a href="#close" id="stop" class="close"></a>
 		</div>
-	
+
 	</div>
 	<!-- Модальный блок конец -->
+	
 </div>
