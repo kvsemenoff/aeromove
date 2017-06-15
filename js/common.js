@@ -1,12 +1,12 @@
 
 
 $(document).ready(function(){
-	
+
 	ymaps.ready(init);
 
 	function init() {
 		var center = [55.59113656911934,37.88662649999996];
-		var myMap1 = new ymaps.Map('mape', {
+		var myMap = new ymaps.Map('mape', {
 			center: center,
 			controls: [],
 			zoom: 16,  
@@ -31,7 +31,7 @@ $(document).ready(function(){
         // preset: 'twirl#violetIcon'
     });
 
-		myMap1.geoObjects.add(myPlacemark);
+		myMap.geoObjects.add(myPlacemark);
 	}
 
 
