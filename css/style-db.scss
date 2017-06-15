@@ -1,95 +1,142 @@
-
-.footer{
+.want{
+	background: url("../img/want.jpg")no-repeat;
+	color: #fff;
 	position: relative;
-	padding-top: 65px;
-	padding-bottom: 18px;
-	span{
-		color: #24242d;
-		font-size: 16px;
-		font-weight: 500;
-		line-height: 22px;
-		display: inline-block;
-		padding-bottom: 10px;
+	padding: 20px 0;
+	@media only screen and (min-width : 992px) {
+		padding: 119px 0;
 	}
-	ul{
-		li{
-			a{
-				color: #191919;
-				font-size: 14px;
-				font-weight: 300;
-				line-height: 24px;
-			}
+	.margin{
+		margin-bottom: 20px !important;
+	}
+	.white{
+		color: #fff !important;
+		span{
+			color: #fff !important;
+			top: -14px !important;
+			left: -45px !important;
 		}
 	}
-	.contact{
-		font-size: 14px;
+	p{
+		font-size: 16px;
 		font-weight: 300;
 		line-height: 22px;
-		color: #191919;
+		max-width: 470px;
+		padding-left: 40px;
+		margin-top: 70px;
+		@media only screen and (min-width : 992px) {
+			margin-top: 57px;
+		}
 	}
-	.icon{
-		padding-top: 24px;
-		
+	img{
+		display: none;
+		@media only screen and (min-width : 992px) {
+			position: absolute;
+			left: 350px; 
+			display: block;	
+		}
+		@media only screen and (min-width : 1248px) {
+			left: 514px; 
+		}
 	}
-	.copyright{
-		font-size: 12px;
-	}
-	.footer-top{
-		border-top: 1px solid #e6e6e6;
-		border-bottom: 1px solid #e6e6e6;
-		padding: 45px 0;
+}
+	
+
+	
+	.footer{
+		@media only screen and (min-width : 992px) {
+			margin-top:120px;
+		} 
+		position: relative;
+		padding-top: 65px;
+		padding-bottom: 18px;
+		span{
+			color: #24242d;
+			font-size: 16px;
+			font-weight: 500;
+			line-height: 22px;
+			display: inline-block;
+			padding-bottom: 10px;
+		}
+		ul{
+			li{
+				a{
+					color: #191919;
+					font-size: 14px;
+					font-weight: 300;
+					line-height: 24px;
+				}
+			}
+		}
+		.contact{
+			font-size: 14px;
+			font-weight: 300;
+			line-height: 22px;
+			color: #191919;
+		}
+		.icon{
+			padding-top: 24px;
+
+		}
+		.copyright{
+			font-size: 12px;
+		}
+		.footer-top{
+			border-top: 1px solid #e6e6e6;
+			border-bottom: 1px solid #e6e6e6;
+			padding: 45px 0;
+
+		}
+		.footer-bottom{
+			padding-top: 18px;
+		}
+		.clear{
+			clear:both;
+			@media only screen and (min-width : 992px) {
+				clear:unset;
+			}
+		}
+		.one, .two, .three, .four{
+			text-align: center;
+			padding-top: 20px;
+		}
+		.one{
+			padding-top: 0;
+		}
+		@media only screen and (min-width : 768px) {
+			.one, .two{
+				text-align: left;
+				padding-top: 0px;
+			}
+			.three{
+				text-align: left;
+				padding-top: 20px;
+			}
+			.four{
+				padding-top: 20px;
+				text-align: left;
+			}
+		}
+		@media only screen and (min-width : 992px) {
+			.three{
+				padding-top: 0px;
+			}
+			.four{
+				padding-top: 0px;
+			}
+		}
 
 	}
-	.footer-bottom{
-		padding-top: 18px;
-	}
-	.clear{
-		clear:both;
-		@media only screen and (min-width : 992px) {
-			clear:unset;
-		}
-	}
-	.one, .two, .three, .four{
-		text-align: center;
-		padding-top: 20px;
-	}
-	.one{
-		padding-top: 0;
-	}
-	@media only screen and (min-width : 768px) {
-		.one, .two{
-		text-align: left;
-		padding-top: 0px;
-	}
-		.three{
-			text-align: left;
-			padding-top: 20px;
-		}
-		.four{
-			padding-top: 20px;
-			text-align: left;
-		}
-	}
 	@media only screen and (min-width : 992px) {
-		.three{
-			padding-top: 0px;
-		}
-		.four{
-			padding-top: 0px;
+		.footer::after{
+			background: url("../img/footer.png")no-repeat;
+			content:"";
+			width: 131px;
+			height: 357px;
+			display: block;
+			position: absolute;
+			bottom: 0;
+			right: 0;
 		}
 	}
-	
-}
-@media only screen and (min-width : 992px) {
-	.footer::after{
-		background: url("../img/footer.png")no-repeat;
-		content:"";
-		width: 131px;
-		height: 357px;
-		display: block;
-		position: absolute;
-		bottom: 0;
-		right: 0;
-	}
-}
 
