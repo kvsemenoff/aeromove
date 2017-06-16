@@ -7,8 +7,6 @@
 		</div>
 	</div>
 
-<!-- 	<div class="video-tube">
 
-	</div> -->
 	
 </div>
