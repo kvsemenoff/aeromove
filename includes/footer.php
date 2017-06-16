@@ -65,6 +65,7 @@
 <?php require_once('popup.php'); ?>
 
 <script src="https://api-maps.yandex.ru/2.1/?lang=tr_TR" type="text/javascript"></script>
+<script src="https://www.youtube.com/player_api"></script>
 
 <!-- scripts start -->
 <script src="libs/jquery/jquery-1.11.1.min.js"></script>
