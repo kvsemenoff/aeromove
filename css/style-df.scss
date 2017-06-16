@@ -1204,7 +1204,10 @@
 	border-bottom: 1px solid #e6e6e6;
 	padding: 30px 0;
 	@media only screen and (min-width : 992px) {
-		padding: 60px 0;	
+		padding: 60px 0;
+		background-image: url(../img/portfoliobg.png);
+		background-repeat: no-repeat;
+		background-position: left 52% top 34%;	
 	}
 }
 .whatweshot__block{
@@ -1277,6 +1280,9 @@
 	border-bottom: 1px solid #e6e6e6;
 	@media only screen and (min-width : 1200px) {
 		padding: 65px 0 80px 0;	
+		background-image: url("../img/aerophoto-compare.png");
+		background-repeat: no-repeat;
+		background-position: right -1% center; 
 	} 
 }
 .compare__block{
