@@ -160,6 +160,9 @@
 .project-more{
 	padding-top: 144px;
 	background:url(../img/pink2.png) no-repeat left top 64px;
+	.common-slider{
+		max-width: 585px;
+	}
 	&__box{
 		h1{
 			margin-bottom: 32px;
@@ -235,13 +238,20 @@
 		color: #848484;
 	}
 }
+#mape{
+	// width: 65%;
+	width: 100%;
+	height:390px;	
+	@media only screen and (min-width: 992px) {
+		width: 65%;
+	}
+}
 .contact-box__wr{
 	background:url(../img/pink3.png) no-repeat left 10px bottom;
 	padding-bottom: 76px;
 	h1{
 		margin-bottom: 68px;
 		margin-top: 52px;
-
 	}
 	.pagination__contact{
 		padding-top: 35px;
@@ -253,8 +263,7 @@
 		}
 	}
 	.contact-box__item{
-		&_1{
-			
+		&_1{	
 			@media only screen and (min-width: 992px) {
 				width: 65%;
 				float: left;
@@ -272,15 +281,12 @@
 			}
 		}
 		&_social{
-			ul{
-				li{
-					display: inline-block;
-					margin-right: 19px;
-				}
-				padding-top: 17px;
-				padding-bottom: 26px;
+			padding-top: 64px;
+			.socials{
+				padding: 10px 0px;
+				padding-bottom: 33px;
 				@media only screen and (min-width: 1240px) {
-					padding-bottom: 44px;
+					padding-bottom: 51px;
 				}
 			}
 		}
@@ -306,10 +312,12 @@
 			}
 		}
 		.cp3{
-			color: #191919;
-			font-size: 16px;
-			font-weight: 400;
-			padding-bottom: 52px;
+			a{
+				color: #191919;
+				font-size: 16px;
+				font-weight: 400;
+				padding-bottom: 52px;
+			}
 		}
 	}
 }
