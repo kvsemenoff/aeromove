@@ -1,3 +1,34 @@
+.faq-box{
+	padding:100px 0; 
+	.faq{
+		h2{
+			color: #282828;
+			font-size: 18px;
+			font-weight: 500;
+			line-height: 16px;
+			padding-bottom: 20px;
+		}
+		p{
+			font-size: 16px;
+			font-weight: 300;
+			line-height: 22px;
+			color: #191919;
+			padding-bottom: 20px;
+		}
+		&::after{
+			border-bottom:1px solid #e8e8e8;
+			content:"";
+			display: block;
+			margin-bottom: 20px;
+		}
+		&:last-child{
+			&::after{
+				border: none;
+				margin-bottom: 0px;
+			}
+		}
+	}
+}
 .comand-box{
 	padding: 50px  0 20px 0;
 	.comand{
@@ -38,7 +69,7 @@
 			padding-bottom: 67px;
 			text-align: center;
 			@media only screen and (min-width : 992px) {
-			text-align: left;
+				text-align: left;
 			}
 		}
 		.comand1{
