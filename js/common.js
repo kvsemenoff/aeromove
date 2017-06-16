@@ -36,6 +36,8 @@ $(document).ready(function(){
 	}
 
 
+	
+
 	var owl2 = $("#our-slider");
 	owl2.owlCarousel({
 		loop:true,
