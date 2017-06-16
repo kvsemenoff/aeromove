@@ -23,7 +23,7 @@
 			</ul>
 			<div class="contact-box">
 				<span class="header-phone">+7 921 521-00-05</span>
-				<a href="#order" data-modal="modal" class="button call-back">Обратный звонок</a>
+				<a href="#tnanks" data-modal="modal" class="button call-back">Обратный звонок</a>
 			</div>
 		</div>
 	</div>
