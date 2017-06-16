@@ -13,5 +13,10 @@
 
 <div class="modal-window" id="thanks">
 	<span class="modal-close">Закрыть</span>
-	<h4></h4>
+	<br>
+	<span class="popup-title">Спасибо за вашу заявку!</span>
+	<p>
+		В ближайшее время наш менеджер <br> свяжется с Вами.
+	</p>
+	<img src="img/copter_thanks.png" alt="">
 </div>

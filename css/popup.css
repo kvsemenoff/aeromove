@@ -31,4 +31,26 @@
       width: 590px;
       height: auto; } }
 
+#thanks {
+  text-align: center;
+  min-height: 370px;
+  top: 0px; }
+  #thanks .popup-title {
+    margin-top: 45px; }
+  #thanks img {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, 0); }
+  #thanks p {
+    margin-top: 25px; }
+
+.popup-title {
+  color: #24242d;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: relative;
+  padding-bottom: 18px; }
+
 /*# sourceMappingURL=popup.css.map */
