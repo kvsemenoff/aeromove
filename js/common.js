@@ -287,4 +287,35 @@ $(document).ready(function(){
 	});
 
 
+
+
+	// slider 
+
+		var aeroowl = $(".howwework__slider");
+		aeroowl.owlCarousel({
+		loop:true,
+		nav:true,
+		autoplay:false,
+		smartSpeed:1000,
+		margin:65,
+		mouseDrag:false,
+		touchDrag: true,
+		center:false,
+		navText:['<span class="prev-left"></span>','<span class="next-right"></span>'],
+		responsive:{
+			0:{
+				items:1
+			},
+			320:{
+				items:1
+			},
+			750:{
+				items:1
+			},
+			1200:{
+				items:1
+			}
+		}
+	});
+
 });
