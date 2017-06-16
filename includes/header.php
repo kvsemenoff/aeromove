@@ -17,6 +17,7 @@
 	<link rel="stylesheet" href="css/style-dh.css">
 	<link rel="stylesheet" href="css/style-di.css">
 	<link rel="stylesheet" href="css/style-dj.css">
+	<link rel="stylesheet" href="css/popup.css">
 	<link rel="stylesheet" href="block/inputext/style.css">
 	<link rel="stylesheet" href="block/inpiutcheckbox/style.css">
 	<link rel="stylesheet" href="block/textarea/style.css">
