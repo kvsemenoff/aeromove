@@ -124,6 +124,9 @@
 .wants-three{
 	padding-top: 15px;
 	padding-bottom: 23px;
+	textarea{
+		max-width: 487px;
+	}
 }
 .wants-first, .wants-two, .wants-three, .wants-four{
 	width: 230px;
