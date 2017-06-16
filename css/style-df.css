@@ -147,6 +147,12 @@
     .bigpark__txtbox h4 b {
       font-size: 18px;
       font-weight: 500; }
+  .bigpark__txtbox span {
+    display: inline-block;
+    color: #adadad;
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 12px; }
   .bigpark__txtbox p {
     font-size: 14px;
     font-weight: 300;
@@ -166,12 +172,12 @@
   max-width: 610px;
   width: 100%;
   display: inline-block;
-  float: right;
   padding-top: 20px; }
   @media only screen and (min-width: 992px) {
     .bigpark__rightbox {
       max-width: 510px;
-      padding-top: 0; } }
+      padding-top: 0;
+      float: right; } }
   @media only screen and (min-width: 1200px) {
     .bigpark__rightbox {
       max-width: 610px; } }
@@ -270,10 +276,19 @@
       width: 180px; } }
   .bigpark__accordeon-pricebox span {
     display: inline-block;
-    background-image: url("../img/arrowbigpark.png");
-    background-repeat: no-repeat;
-    background-position: right center;
-    padding-right: 47px; }
+    padding-right: 47px;
+    position: relative; }
+    .bigpark__accordeon-pricebox span:after {
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 12px;
+      height: 40px;
+      background-image: url("../img/arrowbigpark.png");
+      background-repeat: no-repeat;
+      background-position: right center;
+      transition: 0.3s; }
   .bigpark__accordeon-pricebox b {
     font-weight: 500; }
   .bigpark__accordeon-pricebox i {
@@ -288,6 +303,9 @@
   -webkit-box-shadow: 0px 0px 50px -10px rgba(0, 0, 0, 0.45);
   -moz-box-shadow: 0px 0px 50px -10px rgba(0, 0, 0, 0.45);
   box-shadow: 0px 0px 50px -10px rgba(0, 0, 0, 0.45); }
+  .bigpark__accordeon .bigpark__accordeon-active .bigpark__accordeon-pricebox span:after {
+    transition: 0.3s;
+    transform: rotate(90deg); }
 
 .bigpark__accordeon-characteristics {
   display: inline-block;
@@ -972,5 +990,112 @@
 
 .fancybox-prev span {
   transform: rotate(180deg); }
+
+@media only screen and (min-width: 992px) {
+  .aerophoto {
+    padding: 67px 0 80px 0;
+    background-image: url(../img/aerophotobg.png);
+    background-repeat: no-repeat;
+    background-position: bottom left 9%; } }
+.aerophoto .shooting__leftbox {
+  max-width: 570px; }
+@media only screen and (min-width: 992px) {
+  .aerophoto .shooting__rightbox {
+    padding-top: 35px; } }
+.aerophoto .shooting__txtbox {
+  padding: 33px 0px 15px 0; }
+.aerophoto .shooting__button a {
+  padding: 0 30px; }
+
+.whatweshot {
+  border-bottom: 1px solid #e6e6e6;
+  padding: 30px 0; }
+  @media only screen and (min-width: 992px) {
+    .whatweshot {
+      padding: 60px 0; } }
+
+.whatweshot__block {
+  display: flex;
+  margin-top: 73px; }
+  @media only screen and (min-width: 992px) {
+    .whatweshot__block .portfolio__box {
+      margin-bottom: 32px; } }
+  .whatweshot__block .portfolio__box:after {
+    background-color: rgba(0, 0, 0, 0.4); }
+  .whatweshot__block .portfolio__box:hover:after {
+    background-color: rgba(255, 255, 255, 0.4); }
+
+.whatweshot__button {
+  margin-top: 10px; }
+  .whatweshot__button a {
+    padding: 0 34px; }
+
+.costtheshooting {
+  border-bottom: 1px solid #e6e6e6; }
+  .costtheshooting .bigpark__textbottom {
+    padding-top: 22px; }
+  @media only screen and (min-width: 1200px) {
+    .costtheshooting .bigpark {
+      padding: 65px 0 50px 0; }
+    .costtheshooting .bigpark__img {
+      top: 15px;
+      left: -67px; }
+    .costtheshooting .bigpark__txtbox {
+      padding-left: 88px;
+      margin-top: 32px; }
+    .costtheshooting .bigpark__button {
+      padding-left: 88px; }
+    .costtheshooting .bigpark__rightbox {
+      max-width: 615px;
+      padding-top: 94px; }
+    .costtheshooting .bigpark__accordeon {
+      margin-bottom: 12px; }
+    .costtheshooting .bigpark__accordeon-characteristics {
+      max-width: 443px;
+      width: 100%;
+      padding: 20px 25px 25px 25px; }
+      .costtheshooting .bigpark__accordeon-characteristics .bigpark__accordeon-hourprice {
+        width: 208px;
+        border-right: 1px solid #e6e6e6; }
+      .costtheshooting .bigpark__accordeon-characteristics .bigpark__accordeon-tech {
+        width: 170px;
+        padding-left: 22px; } }
+
+.compare {
+  padding: 35px 0 40px 0; }
+  @media only screen and (min-width: 1200px) {
+    .compare {
+      padding: 65px 0 80px 0; } }
+
+.compare__block {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column; }
+  @media only screen and (min-width: 770px) {
+    .compare__block {
+      flex-direction: row; } }
+
+.compare__leftbox {
+  max-width: 530px;
+  width: 100%;
+  display: inline-block; }
+
+.compare__imgbox {
+  width: 100%;
+  height: 293px;
+  overflow: hidden;
+  position: relative; }
+  .compare__imgbox img {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+.compare__rightbox {
+  display: inline-block;
+  max-width: 615px; }
 
 /*# sourceMappingURL=style-df.css.map */
