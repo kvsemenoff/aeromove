@@ -22,10 +22,7 @@
 					<h1>Контакты</h1>
 
 					<div class="contact-box__item contact-box__item_1" id="mape">
-						ffff
-						<br>
-						rr
-						<br>
+
 					</div>
 
 					<div class="contact-box__item contact-box__item_2">

@@ -198,6 +198,10 @@
     font-weight: 300;
     color: #848484; }
 
+#mape {
+  width: 65%;
+  height: 390px; }
+
 .contact-box__wr {
   background: url(../img/pink3.png) no-repeat left 10px bottom;
   padding-bottom: 76px; }
