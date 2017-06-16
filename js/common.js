@@ -227,7 +227,11 @@ $(document).ready(function(){
 	// end tabs
 
 	$('input[type="range"]').rangeslider({
-		 polyfill: false,		
+		 polyfill: false,	
+		 onSlide: function(position, value) {
+		 	$('.compare__imgbox img').css('width', value+'%');
+		 	$('.compare__imgbox img').css('height', value+'%');
+		 },	
 	});
 	
 	$('.js-phone').mask("+7(999)999-99-99?");

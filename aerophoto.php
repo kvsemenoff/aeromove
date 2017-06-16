@@ -306,10 +306,10 @@
 								<span>100%</span>
 								<input
 								type="range"
-								min="1"                   
-								max="100"                  
+								min="100"                   
+								max="200"                  
 								step="1"                 
-								value="50"                 
+								value="150"                 
 								data-orientation="vertical" 
 								>
 								<span>0%</span>
