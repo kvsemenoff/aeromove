@@ -1,5 +1,67 @@
-.comand-block{
-	padding: 50px 0;
+.comand-box{
+	padding: 50px  0 20px 0;
+	.comand{
+		border-bottom:1px solid #e6e6e6;
+		&:last-child{
+			border:none;
+		} 
+		&:first-child{
+			padding-top: 0px;
+		}
+		padding-top: 40px;
+	}
+	.comand-block{
+		p{
+			color: #282828;
+			font-size: 18px;
+			font-weight: 500;
+			line-height: 16px;
+			text-align: center;
+			padding-top: 24px;
+			padding-bottom: 50px;
+			span{
+				opacity: 0.5;
+				color: #191919;
+				font-size: 16px;
+				font-weight: 300;
+				font-style: italic;
+				line-height: 22px;
+				padding-top: 10px;
+				display: inline-block;
+			}
+		}
+		h2{
+			color: #24242d;
+			font-size: 30px;
+			font-weight: 400;
+			line-height: 36px;
+			padding-bottom: 67px;
+		}
+		.comand1{
+			background: url("../img/comand-1.png")no-repeat top;
+			img{
+				padding-top: 42px;
+			}
+		}
+		.comand2{
+			background: url("../img/comand-2.png")no-repeat top;
+			img{
+				padding-top: 42px;
+			}
+		}
+		.comand3{
+			background: url("../img/comand-3.png")no-repeat top;
+			img{
+				padding-top: 42px;
+			}
+		}
+		.comand4{
+			background: url("../img/comand-4.png")no-repeat top;
+			img{
+				padding-top: 42px;
+			}
+		}
+	}
 }
 .want{
 	@media only screen and (min-width : 1248px) {
