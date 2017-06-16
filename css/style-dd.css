@@ -264,8 +264,11 @@
     font-weight: 400;
     padding-bottom: 52px; }
 
-.video-tube .modal-window {
+.videoframe {
   width: 100%;
-  height: 100%; }
+  height: 250px; }
+  @media screen and (min-width: 992px) {
+    .videoframe {
+      height: 350px; } }
 
 /*# sourceMappingURL=style-dd.css.map */

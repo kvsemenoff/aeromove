@@ -321,9 +321,10 @@
 		}
 	}
 }
-.video-tube{
-	.modal-window{
-		width: 100%;
-		height: 100%;
+.videoframe{
+	width: 100%;
+	height: 250px;
+	@media screen and (min-width: 992px) {
+		height: 350px;
 	}
 }
