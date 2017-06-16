@@ -11,20 +11,24 @@
 				<label class="want-form__label" for="uname">Имя</label><br>
 				<input type="text" name="uname">
 			</div>
-			<label class="want-form__label" for="phone">Телефон</label><br>
-			<input  type="text" name="phone"><br>
+			<div class="wants-two">
+				<label class="want-form__label" for="phone">Телефон</label><br>
+				<input  type="text" name="phone"><br>
+			</div>
 			<div class="clearfix"></div>
 			<div class="wants-three">
 				<label for="comment"  class="want-form__label">Комментарий</label><br>
 				<textarea name="comment"></textarea>
 			</div>
-			<label class="checkbox">
-				<input class="checkbox__hidden" type="checkbox" name="checkbox-test" checked="checked">
-				<span class="checkbox__custom"></span>
-				<span class="checkbox__label">Я согласен(на) с политикой конфиденциальности</span>
-			</label>
-			<span class="want-form__text">Обработка персональных данных осуществляется согласно ФЗ-РФ от 27 июля 2006 г. №152 ФЗ.</span><br>
-			<input type="submit" name="submit" value="Оставить заявку" class="want-form__submit">
+			<div class="wants-four">
+				<label class="checkbox">
+					<input class="checkbox__hidden" type="checkbox" name="checkbox-test" checked="checked">
+					<span class="checkbox__custom"></span>
+					<span class="checkbox__label">Я согласен(на) с политикой конфиденциальности</span>
+				</label>
+				<span class="want-form__text">Обработка персональных данных осуществляется согласно ФЗ-РФ от 27 июля 2006 г. №152 ФЗ.</span><br>
+				<input type="submit" name="submit" value="Оставить заявку" class="want-form__submit">
+			</div>
 		</form>
 	</div>
 </div>
