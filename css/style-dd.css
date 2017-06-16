@@ -136,6 +136,8 @@
 .project-more {
   padding-top: 144px;
   background: url(../img/pink2.png) no-repeat left top 64px; }
+  .project-more .common-slider {
+    max-width: 585px; }
   .project-more__box h1 {
     margin-bottom: 32px; }
   .project-more__box p {
@@ -199,8 +201,11 @@
     color: #848484; }
 
 #mape {
-  width: 65%;
+  width: 100%;
   height: 390px; }
+  @media only screen and (min-width: 992px) {
+    #mape {
+      width: 65%; } }
 
 .contact-box__wr {
   background: url(../img/pink3.png) no-repeat left 10px bottom;
@@ -228,15 +233,14 @@
         padding-top: 38px;
         padding-left: 31px;
         float: right; } }
-  .contact-box__wr .contact-box__item_social ul {
-    padding-top: 17px;
-    padding-bottom: 26px; }
-    .contact-box__wr .contact-box__item_social ul li {
-      display: inline-block;
-      margin-right: 19px; }
-    @media only screen and (min-width: 1240px) {
-      .contact-box__wr .contact-box__item_social ul {
-        padding-bottom: 44px; } }
+  .contact-box__wr .contact-box__item_social {
+    padding-top: 64px; }
+    .contact-box__wr .contact-box__item_social .socials {
+      padding: 10px 0px;
+      padding-bottom: 33px; }
+      @media only screen and (min-width: 1240px) {
+        .contact-box__wr .contact-box__item_social .socials {
+          padding-bottom: 51px; } }
   .contact-box__wr .contact-box__item h1 {
     font-size: 24px !important;
     font-weight: 700 !important;
@@ -254,7 +258,7 @@
       color: #adadad;
       font-size: 14px;
       font-weight: 300; }
-  .contact-box__wr .contact-box__item .cp3 {
+  .contact-box__wr .contact-box__item .cp3 a {
     color: #191919;
     font-size: 16px;
     font-weight: 400;

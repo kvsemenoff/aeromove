@@ -29,15 +29,16 @@
 						<h1>+7 (921) 562-00-05</h1>
 						<p class="cp1">Санкт-Петербург, наб. Лейтенанта Шмидта 23</p>
 						<p class="cp2">Пн - сб с 10:00 до 19:00 <b>(звоните заранее)</b></p>
-						<p class="cp3">contact@aero-movie.ru</p>
+						<p class="cp3"><a href="mailto:simple@gmail.com">contact@aero-movie.ru</a></p>
+
 						<div class="contact-box__item_social">
 							<span>Мы в социальных сетях:</span>
-							<ul>
-								<li><a href="#"><img src="img/f1.png" alt=""></a></li>
-								<li><a href="#"><img src="img/f2.png" alt=""></a></li>
-								<li><a href="#"><img src="img/f3.png" alt=""></a></li>
-								<li><a href="#"><img src="img/f4.png" alt=""></a></li>
-							</ul>
+							<div class="socials socials_big">
+								<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+							</div>
 						</div>
 					</div>
 					<div class="clearfix"></div>
