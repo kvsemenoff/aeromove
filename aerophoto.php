@@ -342,7 +342,57 @@
 				</div>
 			</div>
 
-
+			
+			<div class="howwework">
+				<div class="container">
+					<h1 class="common-title">Как мы работаем</h1>
+				</div>
+				<div class="howwework__slider">
+					<div class="item">
+						<div class="howwework__img">
+							<img src="img/panoram1.jpg" alt="">
+						</div>
+						<p class="howwework__txtbottom">Проведение съемки в горах на высоте 235 метров над землей.</p>
+					</div>
+					<div class="item">
+						<div class="howwework__img">
+							<img src="img/panoram1.jpg" alt="">
+						</div>
+						<p class="howwework__txtbottom">Проведение съемки в горах на высоте 235 метров над землей.</p>
+					</div>
+					<div class="item">
+						<div class="howwework__img">
+							<img src="img/panoram1.jpg" alt="">
+						</div>
+						<p class="howwework__txtbottom">Проведение съемки в горах на высоте 235 метров над землей.</p>
+					</div>
+					<div class="item">
+						<div class="howwework__img">
+							<img src="img/panoram1.jpg" alt="">
+						</div>
+						<p class="howwework__txtbottom">Проведение съемки в горах на высоте 235 метров над землей.</p>
+					</div>
+					<div class="item">
+						<div class="howwework__img">
+							<img src="img/panoram1.jpg" alt="">
+						</div>
+						<p class="howwework__txtbottom">Проведение съемки в горах на высоте 235 метров над землей.</p>
+					</div>
+					<div class="item">
+						<div class="howwework__img">
+							<img src="img/panoram1.jpg" alt="">
+						</div>
+						<p class="howwework__txtbottom">Проведение съемки в горах на высоте 235 метров над землей.</p>
+					</div>
+					<div class="item">
+						<div class="howwework__img">
+							<img src="img/panoram1.jpg" alt="">
+						</div>
+						<p class="howwework__txtbottom">Проведение съемки в горах на высоте 235 метров над землей.</p>
+					</div>
+				</div>
+				
+			</div>
 
 
 		</div>
