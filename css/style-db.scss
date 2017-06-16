@@ -36,29 +36,37 @@
 			font-weight: 400;
 			line-height: 36px;
 			padding-bottom: 67px;
+			text-align: center;
+			@media only screen and (min-width : 992px) {
+			text-align: left;
+			}
 		}
 		.comand1{
 			background: url("../img/comand-1.png")no-repeat top;
 			img{
 				padding-top: 42px;
+				margin: 0 auto;
 			}
 		}
 		.comand2{
 			background: url("../img/comand-2.png")no-repeat top;
 			img{
 				padding-top: 42px;
+				margin: 0 auto;
 			}
 		}
 		.comand3{
 			background: url("../img/comand-3.png")no-repeat top;
 			img{
 				padding-top: 42px;
+				margin: 0 auto;
 			}
 		}
 		.comand4{
 			background: url("../img/comand-4.png")no-repeat top;
 			img{
 				padding-top: 42px;
+				margin: 0 auto;
 			}
 		}
 	}
@@ -203,7 +211,7 @@
 
 
 
-.footer{
+.footer-main{
 	position: relative;
 	padding-top: 65px;
 	padding-bottom: 18px;
@@ -285,7 +293,7 @@
 
 }
 @media only screen and (min-width : 992px) {
-	.footer::after{
+	.footer-main::after{
 		background: url("../img/footer.png")no-repeat;
 		content:"";
 		width: 131px;
