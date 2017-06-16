@@ -10,7 +10,7 @@
 	<div class="video-tube">
 		<div class="modal-window" id="order">
 		<span class="modal-close" id="stop">Х</span>
-			<iframe width="100%" height="100%" src="https://www.youtube.com/embed/qQUzAFFUJng" frameborder="0" allowfullscreen></iframe>
+			<iframe width="100%" height="100%" id="player" src="https://www.youtube.com/embed/qQUzAFFUJng" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</div>
 
