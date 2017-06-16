@@ -72,6 +72,7 @@
 <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
 <script src="js/jquery.maskedinput.min.js"></script>
+<script src="js/rangeslider.min.js"></script>
 <script src="js/fonts.js"></script>
 <script src="js/popup.js"></script>
 <script src="js/common.js"></script>
