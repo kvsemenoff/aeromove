@@ -69,6 +69,16 @@
 
 <!-- scripts start -->
 <script src="libs/jquery/jquery-1.11.1.min.js"></script>
+		<script>
+			var player;
+			function onYouTubePlayerAPIReady() {
+				player = new YT.Player('player');
+			}
+
+			$('#stop').click(function(){
+				player.stopVideo()
+			});
+		</script>
 <script src="libs/owl.carousel/owl.carousel.js"></script>
 <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
 <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
