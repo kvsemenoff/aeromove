@@ -126,8 +126,7 @@
 							<a href="#">
 								<img src="img/bigparkimg.jpg" alt="">
 							</a>
-						</div>
-												
+						</div>												
 					</div>
 					<div class="clearfix"></div>	
 				</div>
@@ -159,8 +158,7 @@
 							<a href="#">
 								<img src="img/bigparkimg.jpg" alt="">
 							</a>
-						</div>
-												
+						</div>												
 					</div>
 					<div class="clearfix"></div>	
 				</div>
@@ -192,8 +190,7 @@
 							<a href="#">
 								<img src="img/bigparkimg.jpg" alt="">
 							</a>
-						</div>
-											
+						</div>											
 					</div>
 					<div class="clearfix"></div>		
 				</div>
@@ -225,18 +222,14 @@
 							<a href="#">
 								<img src="img/bigparkimg.jpg" alt="">
 							</a>
-						</div>
-												
+						</div>												
 					</div>
 					<div class="clearfix"></div>	
 				</div>
 			</div>
 			<p class="bigpark__textbottom">Цена на проведение съемки может меняться в зависимости от требований и параметров съемки. Окончательную цену уточняйте у менеджера.</p>	
-
-
-
-
 		</div>
+		
 		<div class="clearfix"></div>
 	</div>
 </div>
