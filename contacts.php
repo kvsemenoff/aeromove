@@ -29,7 +29,7 @@
 						<h1>+7 (921) 562-00-05</h1>
 						<p class="cp1">Санкт-Петербург, наб. Лейтенанта Шмидта 23</p>
 						<p class="cp2">Пн - сб с 10:00 до 19:00 <b>(звоните заранее)</b></p>
-						<p class="cp3"><a href="mailto:simple@gmail.com">contact@aero-movie.ru</a></p>
+						<p class="cp3"><a href="mailto:contact@aero-movie.ru">contact@aero-movie.ru</a></p>
 
 						<div class="contact-box__item_social">
 							<span>Мы в социальных сетях:</span>

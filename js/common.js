@@ -2,6 +2,15 @@
 
 $(document).ready(function(){
 
+	    var player;
+        function onYouTubePlayerAPIReady() {
+        player = new YT.Player('player');
+        }
+
+        $('#stop').click(function(){
+        player.stopVideo()
+        })
+
 	ymaps.ready(init);
 
 	function init() {
