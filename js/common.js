@@ -36,6 +36,8 @@ $(document).ready(function(){
 	}
 
 
+	
+
 	var owl2 = $("#our-slider");
 	owl2.owlCarousel({
 		loop:true,
@@ -175,6 +177,10 @@ $(document).ready(function(){
 
 	// end slider counter
 
+
+	// tabs
+
+
 	$('.bigpark__accordeon-item').on('click', function (e) {
 		e.preventDefault();
 		if( !$(this).hasClass("bigpark__accordeon-active")){
@@ -188,8 +194,7 @@ $(document).ready(function(){
 		tab = '.' + tab;
 		$('.bigpark__tab').not(tab).css({'display':'none'});
 		$(tab).css({'display':'block'});
-	});
-	
+	});	
 	$('.panorams__tabs a').on('click', function (e) {
 		e.preventDefault();
 		$('.panorams__tabs a').removeClass('panorams__acivetab');
@@ -199,7 +204,6 @@ $(document).ready(function(){
 		$('.panorams__img').not(tab).css({'display':'none'});
 		$(tab).css({'display':'block'});
 	});
-
 	$('.portfolio__tab a').on('click', function (e) {
 		e.preventDefault();
 		$('.portfolio__tab a').removeClass('panorams__acivetab');
@@ -209,10 +213,25 @@ $(document).ready(function(){
 		$('.portfolio__block').not(tab).css({'display':'none'});
 		$(tab).css({'display':'flex'});
 	});
+	$('.compare__tabs a').on('click', function (e) {
+		e.preventDefault();
+		$('.compare__tabs a').removeClass('compare__tabs-activelink');
+		$(this).addClass('compare__tabs-activelink');
+		var tab = $(this).attr('href');
+		tab = '.' + tab;
+		$('.compare__imgbox').not(tab).css({'display':'none'});
+		$(tab).css({'display':'block'});
+	});
 
+
+	// end tabs
 
 	$('input[type="range"]').rangeslider({
-		 polyfill: false,
+		 polyfill: false,	
+		 onSlide: function(position, value) {
+		 	$('.compare__imgbox img').css('width', value+'%');
+		 	$('.compare__imgbox img').css('height', value+'%');
+		 },	
 	});
 	
 	$('.js-phone').mask("+7(999)999-99-99?");
