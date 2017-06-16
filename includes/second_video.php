@@ -7,9 +7,8 @@
 		</div>
 	</div>
 
-	<div class="video-tube">
-		<?php require_once('includes/popup.php'); ?>
+<!-- 	<div class="video-tube">
 
-	</div>
+	</div> -->
 	
 </div>
