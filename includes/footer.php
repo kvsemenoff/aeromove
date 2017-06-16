@@ -62,6 +62,8 @@
 	
 </div>
 
+<?php require_once('popup.php'); ?>
+
 <script src="https://api-maps.yandex.ru/2.1/?lang=tr_TR" type="text/javascript"></script>
 
 <!-- scripts start -->
@@ -71,6 +73,7 @@
 <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
 <script src="js/jquery.maskedinput.min.js"></script>
 <script src="js/fonts.js"></script>
+<script src="js/popup.js"></script>
 <script src="js/common.js"></script>
 <script src="block/inputext/script.js"></script>
 <script src="block/inpiutcheckbox/script.js"></script>
