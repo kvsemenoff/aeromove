@@ -210,7 +210,7 @@ $(document).ready(function(){
 	});
 
 
-	 $('input[type="range"]').rangeslider();
+	$('input[type="range"]').rangeslider();
 	
 	$('.js-phone').mask("+7(999)999-99-99?");
 
