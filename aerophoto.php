@@ -296,10 +296,14 @@
 					<div class="compare__block">
 
 						<div class="compare__leftbox">
-							<div class="compare__imgbox">
+							<div class="compare__imgbox comparetab1">
+								<img src="img/compare1.jpg" alt="">
+							</div>
+							<div class="compare__imgbox comparetab2">
 								<img src="img/compare1.jpg" alt="">
 							</div>
 							<div class="compare__rangeslider">
+								<span>100%</span>
 								<input
 								type="range"
 								min="1"                   
@@ -308,14 +312,15 @@
 								value="50"                 
 								data-orientation="vertical" 
 								>
+								<span>0%</span>
 							</div>
 
 							<div class="compare__tabs">
-								<a href="#">
+								<a href="comparetab1" class="compare__tabs-activelink">
 									<b>DJi Phantom 3</b>
 									<span>4000х2800 рх, 72 pdpi</span>
 								</a>
-								<a href="#">
+								<a href="comparetab2">
 									<b>Canon 5D Mark III</b>
 									<span>5800х3900 рх, 240 pdpi</span>
 								</a>
