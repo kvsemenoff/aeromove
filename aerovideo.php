@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+	<title>Аэровидео</title>
 	<?php require_once('includes/header.php'); ?>
 	<div class="wrapper">
 		<div class="content">
@@ -86,8 +86,187 @@
 				</div>
 			</div>
 
+			<div class="viewshooting">	
+				<div class="container">		
+					<h1 class="common-title panorams__caption">Виды съемки</h1>
+					<ul class="portfolio__tab">
+						<li><a href="viewshootingtab1" class="panorams__acivetab">Съемка для кино и телевидения </a></li>
+						<li><a href="viewshootingtab2">Участие в съемках роликов</a></li>
+						<li><a href="viewshootingtab3">Ролики “под ключ”</a></li>
+					</ul>
 
 
+					<div class="clearfix"></div>
+					<div class="portfolio__block viewshootingtab1">					
+						<a href="#" class="portfolio__box">
+							<div class="portfolio__video">
+								<img src="img/portfolio1.jpg" alt="">
+							</div>
+							<div class="portfolio__txt">
+								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
+								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
+							</div>
+						</a>
+						<a href="#" class="portfolio__box">
+							<div class="portfolio__video">
+								<img src="img/portfolio2.jpg" alt="">
+							</div>
+							<div class="portfolio__txt">
+								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
+								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
+							</div>
+						</a>
+						<a href="#" class="portfolio__box">
+							<div class="portfolio__video">
+								<img src="img/portfolio3.jpg" alt="">
+							</div>
+							<div class="portfolio__txt">
+								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
+								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
+							</div>
+						</a>
+						<a href="#" class="portfolio__box">
+							<div class="portfolio__video">
+								<img src="img/portfolio1.jpg" alt="">
+							</div>
+							<div class="portfolio__txt">
+								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
+								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
+							</div>
+						</a>
+						<a href="#" class="portfolio__box">
+							<div class="portfolio__video">
+								<img src="img/portfolio2.jpg" alt="">
+							</div>
+							<div class="portfolio__txt">
+								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
+								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
+							</div>
+						</a>
+						<a href="#" class="portfolio__box">
+							<div class="portfolio__video">
+								<img src="img/portfolio3.jpg" alt="">
+							</div>
+							<div class="portfolio__txt">
+								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
+								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
+							</div>
+						</a>						
+					</div>
+					<div class="portfolio__block viewshootingtab2">					
+						<a href="#" class="portfolio__box">
+							<div class="portfolio__video">
+								<img src="img/portfolio1.jpg" alt="">
+							</div>
+							<div class="portfolio__txt">
+								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
+								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
+							</div>
+						</a>
+						<a href="#" class="portfolio__box">
+							<div class="portfolio__video">
+								<img src="img/portfolio2.jpg" alt="">
+							</div>
+							<div class="portfolio__txt">
+								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
+								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
+							</div>
+						</a>
+						<a href="#" class="portfolio__box">
+							<div class="portfolio__video">
+								<img src="img/portfolio3.jpg" alt="">
+							</div>
+							<div class="portfolio__txt">
+								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
+								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
+							</div>
+						</a>
+						<a href="#" class="portfolio__box">
+							<div class="portfolio__video">
+								<img src="img/portfolio1.jpg" alt="">
+							</div>
+							<div class="portfolio__txt">
+								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
+								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
+							</div>
+						</a>
+						<a href="#" class="portfolio__box">
+							<div class="portfolio__video">
+								<img src="img/portfolio2.jpg" alt="">
+							</div>
+							<div class="portfolio__txt">
+								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
+								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
+							</div>
+						</a>
+						<a href="#" class="portfolio__box">
+							<div class="portfolio__video">
+								<img src="img/portfolio3.jpg" alt="">
+							</div>
+							<div class="portfolio__txt">
+								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
+								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
+							</div>
+						</a>						
+					</div>
+					<div class="portfolio__block viewshootingtab3">					
+						<a href="#" class="portfolio__box">
+							<div class="portfolio__video">
+								<img src="img/portfolio1.jpg" alt="">
+							</div>
+							<div class="portfolio__txt">
+								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
+								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
+							</div>
+						</a>
+						<a href="#" class="portfolio__box">
+							<div class="portfolio__video">
+								<img src="img/portfolio2.jpg" alt="">
+							</div>
+							<div class="portfolio__txt">
+								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
+								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
+							</div>
+						</a>
+						<a href="#" class="portfolio__box">
+							<div class="portfolio__video">
+								<img src="img/portfolio3.jpg" alt="">
+							</div>
+							<div class="portfolio__txt">
+								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
+								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
+							</div>
+						</a>
+						<a href="#" class="portfolio__box">
+							<div class="portfolio__video">
+								<img src="img/portfolio1.jpg" alt="">
+							</div>
+							<div class="portfolio__txt">
+								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
+								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
+							</div>
+						</a>
+						<a href="#" class="portfolio__box">
+							<div class="portfolio__video">
+								<img src="img/portfolio2.jpg" alt="">
+							</div>
+							<div class="portfolio__txt">
+								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
+								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
+							</div>
+						</a>
+						<a href="#" class="portfolio__box">
+							<div class="portfolio__video">
+								<img src="img/portfolio3.jpg" alt="">
+							</div>
+							<div class="portfolio__txt">
+								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
+								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
+							</div>
+						</a>						
+					</div>
+				</div>
+			</div>
 
 
 
@@ -104,5 +283,5 @@
 			<?php require_once('includes/footer.php'); ?>
 		</div>
 	</div>
-	</body>
+</body>
 </html>
