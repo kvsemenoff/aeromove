@@ -333,18 +333,18 @@
 	-webkit-transition:0.5s;
 	transition:0.5s;
 	z-index: 9998;
+	margin-bottom: 70px;
 	&:hover{
 		box-shadow: 0 15px 35px rgba(34, 17, 54, 0.13);
 		-webkit-transition:0.5s;
 		transition:0.5s;
-		// background:url(../img/pink-kadr.png) no-repeat right bottom;
 	}
 	&:hover:before{
 		content: "";
 		position: absolute;
 		z-index: 0;
-		bottom: 0;
-		right: 0;
+		bottom: -110px;
+		right: -35px;
 		width: 384px;
 		height: 256px;
 		background:url(../img/pink-kadr.png) no-repeat;
