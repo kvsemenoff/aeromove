@@ -70,20 +70,29 @@
 <!-- scripts start -->
 <script src="libs/jquery/jquery-1.11.1.min.js"></script>
 <script>
-	var player="";
+	var player,player1,player2,player3,player4,player5,player6;	
 	function onYouTubePlayerAPIReady() {		
-		player = new YT.Player(
-			document.querySelector('.player')
-		);
-	}
+		player = new YT.Player('player');	
+		player1 = new YT.Player('portfolioplayer1');			
+		player2 = new YT.Player('portfolioplayer2');	
+		player3 = new YT.Player('portfolioplayer3');	
+		player4 = new YT.Player('portfolioplayer4');	
+		player5 = new YT.Player('portfolioplayer5');	
+		player6 = new YT.Player('portfolioplayer6');	
+	}	
 	$('.stop').on('click', function(){
 		player.stopVideo();
-	});
-	
+		player1.stopVideo();
+		player2.stopVideo();
+		player3.stopVideo();
+		player4.stopVideo();
+		player5.stopVideo();
+		player6.stopVideo();
+	});	
 </script>
 <script src="libs/owl.carousel/owl.carousel.js"></script>
 <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
-<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<!-- <script type="text/javascript" src="js/jquery.mousewheel.js"></script> -->
 <script src="js/jquery.maskedinput.min.js"></script>
 <script src="js/rangeslider.min.js"></script>
 <script src="js/fonts.js"></script>

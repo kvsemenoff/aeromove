@@ -18,7 +18,7 @@
 					</ul>
 					<div class="clearfix"></div>
 					<div class="portfolio__block videoblock">					
-						<a href="#" class="portfolio__box">
+						<a href="#portfoliovideo1" class="portfolio__box" data-modal="modal">
 							<div class="portfolio__video">
 								<img src="img/portfolio1.jpg" alt="">
 							</div>
@@ -26,8 +26,12 @@
 								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
 								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
 							</div>
+							<div  class="modal-window" id="portfoliovideo1">
+								<span class="modal-close stop" >Закрыть</span>
+								<iframe class="videoframe" id="portfolioplayer1" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
+							</div>
 						</a>
-						<a href="#" class="portfolio__box">
+						<a href="#portfoliovideo2" class="portfolio__box" data-modal="modal">
 							<div class="portfolio__video">
 								<img src="img/portfolio2.jpg" alt="">
 							</div>
@@ -35,8 +39,12 @@
 								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
 								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
 							</div>
+							<div  class="modal-window" id="portfoliovideo2">
+								<span class="modal-close stop" >Закрыть</span>
+								<iframe class="videoframe" id="portfolioplayer2" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
+							</div>
 						</a>
-						<a href="#" class="portfolio__box">
+						<a href="#portfoliovideo3" class="portfolio__box" data-modal="modal">
 							<div class="portfolio__video">
 								<img src="img/portfolio3.jpg" alt="">
 							</div>
@@ -44,8 +52,12 @@
 								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
 								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
 							</div>
+							<div  class="modal-window" id="portfoliovideo3">
+								<span class="modal-close stop" >Закрыть</span>
+								<iframe class="videoframe" id="portfolioplayer3" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
+							</div>
 						</a>
-						<a href="#" class="portfolio__box">
+						<a href="#portfoliovideo4" class="portfolio__box" data-modal="modal">
 							<div class="portfolio__video">
 								<img src="img/portfolio1.jpg" alt="">
 							</div>
@@ -53,8 +65,12 @@
 								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
 								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
 							</div>
+							<div  class="modal-window" id="portfoliovideo4">
+								<span class="modal-close stop" >Закрыть</span>
+								<iframe class="videoframe" id="portfolioplayer4" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
+							</div>
 						</a>
-						<a href="#" class="portfolio__box">
+						<a href="#portfoliovideo5" class="portfolio__box" data-modal="modal">
 							<div class="portfolio__video">
 								<img src="img/portfolio2.jpg" alt="">
 							</div>
@@ -62,14 +78,22 @@
 								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
 								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
 							</div>
+							<div  class="modal-window" id="portfoliovideo5">
+								<span class="modal-close stop" >Закрыть</span>
+								<iframe class="videoframe" id="portfolioplayer5" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
+							</div>
 						</a>
-						<a href="#" class="portfolio__box">
+						<a href="#portfoliovideo6" class="portfolio__box" data-modal="modal">
 							<div class="portfolio__video">
 								<img src="img/portfolio3.jpg" alt="">
 							</div>
 							<div class="portfolio__txt">
 								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
 								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
+							</div>
+							<div  class="modal-window" id="portfoliovideo6">
+								<span class="modal-close stop" >Закрыть</span>
+								<iframe class="videoframe" id="portfolioplayer6" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
 							</div>
 						</a>						
 					</div>
