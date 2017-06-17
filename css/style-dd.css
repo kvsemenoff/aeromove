@@ -275,11 +275,20 @@
   position: relative;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  z-index: 990; }
+  z-index: 9998; }
   .cadr-box:hover {
     box-shadow: 0 15px 35px rgba(34, 17, 54, 0.13);
     -webkit-transition: 0.5s;
     transition: 0.5s; }
+  .cadr-box:hover:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    right: 0;
+    width: 384px;
+    height: 256px;
+    background: url(../img/pink-kadr.png) no-repeat; }
   .cadr-box:hover:after {
     content: "";
     position: absolute;
