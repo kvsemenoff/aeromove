@@ -229,8 +229,10 @@ $(document).ready(function(){
 	$('input[type="range"]').rangeslider({
 		 polyfill: false,	
 		 onSlide: function(position, value) {
-		 	$('.compare__imgbox img').css('width', value+'%');
-		 	$('.compare__imgbox img').css('height', value+'%');
+		 	$('.compare__imgbox img').css({
+		 		'width'  : value+'%',
+		 		'height' : value+'%'
+		 	});
 		 },	
 	});
 	
