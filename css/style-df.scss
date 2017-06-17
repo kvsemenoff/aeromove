@@ -1652,11 +1652,147 @@
 
 
 
+// blog =================
+
+.lastnews{
+	padding: 34px 0;
+	.lastnews__tab{
+		margin-bottom: 30px;
+	}
+	@media only screen and (min-width : 992px) {
+		padding: 54px 0 73px 0;
+		background-image: url(../img/portfoliobg.png);
+		background-repeat: no-repeat;
+		background-position: bottom 11% right 2%;
+		.lastnews__tab{
+			margin-bottom: 50px;
+		}
+	}
+}
+.lastnews__button{
+	a{
+		padding: 0 23px;
+	}
+}
 
 
 
 
 
+.lastnews__topnews{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	flex-wrap: wrap;
+	background-color: white;
+	box-shadow: 0 15px 35px rgba(34, 17, 54, 0.13);	
+	@media only screen and (min-width : 770px) {
+		flex-direction: row;			
+	}
+}
 
+.lastnews__leftimg{	
+	overflow: hidden;
+	display: inline-block;
+	width: 100%;
+	@media only screen and (min-width : 992px) {		
+		width: 50%;
+	}
+	@media only screen and (min-width : 1200px) {
+		max-width: 655px;
+		width: 100%;
+		height: 330px;
+	}
+	img{
+		width: 100%;
+		height: auto;
+	}
+}
+.lastnews__righttxt{
+	width: 100%;
+	display: inline-block;	
+	padding: 0px 15px;
+	background-color: #fff;	
+	@media only screen and (min-width : 992px) {
+		width: 50%;
+		padding: 0px 33px 0px 30px;
+	}
+	@media only screen and (min-width : 1200px) {
+		max-width: 545px;
+		width: 100%;
+	}
+}
+.lastnews__txtbox{
+	border-bottom: 1px solid #f8f8f8;
+	padding: 15px 0 10px 0;
+	@media only screen and (min-width : 1200px) {
+		padding: 22px 0 20px 0;
+	}   
+}
+.lastnews__txtleftbox{	
+	display: inline-block;
+	max-width: 270px;
+	@media only screen and (min-width : 992px) {
+		width: 100%;
+		float: left;
+	}
+}
+.lastnews__daynews, .lastnews__hashtag, .lastnews__link, .lastnews__date, .lastnews__imgsmoll{
+	display: inline-block;
+	line-height: 16px;
+}
+.lastnews__daynews{
+	color: #df7171;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding-right: 20px;
+}
+.lastnews__hashtag{
+	color: #a4a4a4;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 32px;
+}
+.lastnews__link{
+	color: #191919;
+	font-size: 18px;
+	font-weight: 500;
+	display: block;
+	padding: 10px 0 35px 0;
+	@media only screen and (min-width : 1200px) {
+		padding: 10px 0 45px 0;
+	}
+	&:hover{
+		color: #df7171;
+	}
+}
+.lastnews__date{
+	color: #adadad;
+	font-size: 14px;
+	font-weight: 500;	
+}
+.lastnews__imgsmoll{
+	display: block;
+	text-align: center;
+	margin-top: 15px;
+	img{
+		max-width: 100%;
+		height: auto;
+	}	
+	@media only screen and (min-width : 480px) {
+		width: 121px;
+		height: 121px;
+		float: right;
+		margin-top: 0px;
+		img{
+			width: 100%;
+			height: 100%;
+		}
+	}
 
+}
 
+.clearboth{
+	clear: both;
+}
