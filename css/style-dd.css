@@ -326,4 +326,38 @@
 .cadr-tab {
   padding-top: 84px; }
 
+.pag-nav {
+  width: 256px;
+  margin-bottom: 88px; }
+  .pag-nav ul {
+    display: flex;
+    justify-content: space-between; }
+    .pag-nav ul li {
+      display: inline-block; }
+      .pag-nav ul li a {
+        font-size: 16px;
+        font-weight: 500;
+        color: #282828;
+        vertical-align: -webkit-baseline-middle;
+        -webkit-transition: 0.5s;
+        transition: 0.5s; }
+        .pag-nav ul li a:hover {
+          color: #DF7171;
+          text-decoration: underline; }
+      .pag-nav ul li span {
+        display: inline-block;
+        vertical-align: sub; }
+  .pag-nav__left {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    background: url(../img/lef.jpg) no-repeat top center;
+    margin-right: 22px; }
+  .pag-nav__right {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    background: url(../img/righ.jpg) no-repeat top center;
+    margin-left: 22px; }
+
 /*# sourceMappingURL=style-dd.css.map */

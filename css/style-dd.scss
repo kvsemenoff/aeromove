@@ -394,3 +394,44 @@
 .cadr-tab{
 	padding-top: 84px;
 }
+.pag-nav{
+	width: 256px;
+	margin-bottom: 88px;
+	ul{
+		display: flex;
+		justify-content: space-between;
+		li{
+			display: inline-block;
+			a{
+				font-size: 16px;
+				font-weight: 500;
+				color: #282828;
+				vertical-align: -webkit-baseline-middle;
+				-webkit-transition:0.5s;
+				transition:0.5s;
+				&:hover{
+					color:#DF7171;
+					text-decoration: underline;
+				}
+			}
+			span{
+				display: inline-block;
+				vertical-align: sub;
+			}
+		}
+	}
+	&__left{
+		display: inline-block;
+		width: 23px;
+		height: 23px;
+		background:url(../img/lef.jpg) no-repeat top center;
+		margin-right: 22px;
+	}
+	&__right{
+		display: inline-block;
+		width: 23px;
+		height: 23px;
+		background:url(../img/righ.jpg) no-repeat top center;
+		margin-left: 22px;
+	}
+}
