@@ -97,6 +97,7 @@
 					<div class="clearfix"></div>
 					<div class="portfolio__block viewshootingtab1">					
 						<a href="#aerovideo1" class="portfolio__box" data-modal="modal">
+							<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio1.jpg" alt="">
 							</div>
@@ -110,6 +111,7 @@
 							<iframe class="videoframe" id="aerovideoplayer1" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
 						</div>
 						<a href="#aerovideo2" class="portfolio__box" data-modal="modal">
+						<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio2.jpg" alt="">
 							</div>
@@ -123,6 +125,7 @@
 							<iframe class="videoframe" id="aerovideoplayer2" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
 						</div>
 						<a href="#aerovideo3" class="portfolio__box" data-modal="modal">
+						<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio3.jpg" alt="">
 							</div>
@@ -136,6 +139,7 @@
 							<iframe class="videoframe" id="aerovideoplayer3" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
 						</div>
 						<a href="#aerovideo4" class="portfolio__box" data-modal="modal">
+						<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio1.jpg" alt="">
 							</div>
@@ -149,6 +153,7 @@
 							<iframe class="videoframe" id="aerovideoplayer4" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
 						</div>
 						<a href="#aerovideo5" class="portfolio__box" data-modal="modal">
+						<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio2.jpg" alt="">
 							</div>
@@ -162,6 +167,7 @@
 							<iframe class="videoframe" id="aerovideoplayer5" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
 						</div>
 						<a href="#aerovideo6" class="portfolio__box" data-modal="modal">
+						<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio3.jpg" alt="">
 							</div>
@@ -177,6 +183,7 @@
 					</div>
 					<div class="portfolio__block viewshootingtab2">					
 						<a href="#aerovideo7" class="portfolio__box" data-modal="modal">
+						<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio1.jpg" alt="">
 							</div>
@@ -190,6 +197,7 @@
 							<iframe class="videoframe" id="aerovideoplayer7" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
 						</div>
 						<a href="#aerovideo8" class="portfolio__box" data-modal="modal">
+						<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio2.jpg" alt="">
 							</div>
@@ -203,6 +211,7 @@
 							<iframe class="videoframe" id="aerovideoplayer8" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
 						</div>
 						<a href="#aerovideo9" class="portfolio__box" data-modal="modal">
+						<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio3.jpg" alt="">
 							</div>
@@ -216,6 +225,7 @@
 							<iframe class="videoframe" id="aerovideoplayer9" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
 						</div>
 						<a href="#aerovideo10" class="portfolio__box" data-modal="modal">
+						<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio1.jpg" alt="">
 							</div>
@@ -229,6 +239,7 @@
 							<iframe class="videoframe" id="aerovideoplayer10" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
 						</div>
 						<a href="#aerovideo11" class="portfolio__box" data-modal="modal">
+						<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio2.jpg" alt="">
 							</div>
@@ -242,6 +253,7 @@
 							<iframe class="videoframe" id="aerovideoplayer11" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
 						</div>
 						<a href="#aerovideo12" class="portfolio__box" data-modal="modal">
+						<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio3.jpg" alt="">
 							</div>
@@ -257,6 +269,7 @@
 					</div>
 					<div class="portfolio__block viewshootingtab3">					
 						<a href="#aerovideo13" class="portfolio__box" data-modal="modal">
+						<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio1.jpg" alt="">
 							</div>
@@ -270,6 +283,7 @@
 							<iframe class="videoframe" id="aerovideoplayer13" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
 						</div>
 						<a href="#aerovideo14" class="portfolio__box" data-modal="modal">
+						<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio2.jpg" alt="">
 							</div>
@@ -283,6 +297,7 @@
 							<iframe class="videoframe" id="aerovideoplayer14" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
 						</div>
 						<a href="#aerovideo15" class="portfolio__box" data-modal="modal">
+						<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio3.jpg" alt="">
 							</div>
@@ -296,6 +311,7 @@
 							<iframe class="videoframe" id="aerovideoplayer15" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
 						</div>
 						<a href="#aerovideo16" class="portfolio__box" data-modal="modal">
+						<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio1.jpg" alt="">
 							</div>
@@ -309,6 +325,7 @@
 							<iframe class="videoframe" id="aerovideoplayer16" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
 						</div>
 						<a href="#aerovideo17" class="portfolio__box" data-modal="modal">
+						<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio2.jpg" alt="">
 							</div>
@@ -322,6 +339,7 @@
 							<iframe class="videoframe" id="aerovideoplayer17" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
 						</div>
 						<a href="#aerovideo18" class="portfolio__box" data-modal="modal">
+						<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio3.jpg" alt="">
 							</div>

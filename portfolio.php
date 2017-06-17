@@ -19,6 +19,7 @@
 					<div class="clearfix"></div>
 					<div class="portfolio__block videoblock">					
 						<a href="#portfoliovideo1" class="portfolio__box" data-modal="modal">
+							<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio1.jpg" alt="">
 							</div>
@@ -32,6 +33,7 @@
 							</div>
 						</a>
 						<a href="#portfoliovideo2" class="portfolio__box" data-modal="modal">
+							<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio2.jpg" alt="">
 							</div>
@@ -45,6 +47,7 @@
 							</div>
 						</a>
 						<a href="#portfoliovideo3" class="portfolio__box" data-modal="modal">
+							<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio3.jpg" alt="">
 							</div>
@@ -58,6 +61,7 @@
 							</div>
 						</a>
 						<a href="#portfoliovideo4" class="portfolio__box" data-modal="modal">
+							<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio1.jpg" alt="">
 							</div>
@@ -71,6 +75,7 @@
 							</div>
 						</a>
 						<a href="#portfoliovideo5" class="portfolio__box" data-modal="modal">
+							<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio2.jpg" alt="">
 							</div>
@@ -84,6 +89,7 @@
 							</div>
 						</a>
 						<a href="#portfoliovideo6" class="portfolio__box" data-modal="modal">
+							<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio3.jpg" alt="">
 							</div>
