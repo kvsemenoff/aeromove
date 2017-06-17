@@ -8,9 +8,19 @@
 .services-h1{
 	margin-bottom: 50px;
 }
-.services-text{
-	 text-align: left !important;
-	 float:unset !important;
+.shooting .services{
+	max-width: 590px;
+}
+.shooting .services-text{
+	 text-align: left;
+	 // float:unset !important;	 	 
+	 @media only screen and (min-width : 770px) {
+		max-width: 310px;
+		padding-top: 22px;
+	 }
+	 @media only screen and (min-width : 1200px) {
+	 	max-width: 395px;
+	 }
 }
 .faq-box{
 	padding:20px 0; 
