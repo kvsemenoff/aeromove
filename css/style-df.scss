@@ -509,15 +509,19 @@
 	@media only screen and (min-width : 992px) {
 		padding-top: 0px;
 	}
-	.common-slider__txt{
-		max-width: 375px;
+	.common-slider__txt{		
 		text-align: left;
+		@media only screen and (min-width : 770px) {
+			max-width: 380px;
+			padding-top: 29px;
+		}
 	}
 	.common-slider__txtbox {
-		padding-top: 22px;
+		// padding-top: 22px;
+		margin-top: -39px;
 	}
 	.common-slider .prev-left, .common-slider .next-right{
-		bottom: -50px;	
+		bottom: 12px;	
 	}
 	.common-slider__numberbox{
 		padding-top: 5px;
@@ -731,21 +735,24 @@
 			padding-top: 40px;
 		}
 		.common-slider__txt{
-			max-width: 375px;
 			text-align: left;
+			@media only screen and (min-width : 770px) {
+				max-width: 375px;
+				padding-top: 22px;
+			}
 		}
 		.common-slider__txtbox {
-			padding-top: 22px;
+			margin-top: -39px;
 		}
 		.common-slider .prev-left, .common-slider .next-right{
-			bottom: -50px;	
+			bottom: 12px;	
 		}
 		.common-slider__numberbox{
 			padding-top: 5px;
 		}
 	}
-
 }
+
 
 .panorams{
 	padding: 30px 0;
@@ -753,19 +760,7 @@
 	position: relative;
 	@media only screen and (min-width : 1200px) {
 		padding: 80px 0;
-	}
-	// &:after{	
-	// 	@media only screen and (min-width : 1200px) {			
-	// 		content: "";
-	// 		position: absolute;
-	// 		right: 0;
-	// 		top:114px;
-	// 		width: 45%;
-	// 		height: 1px;
-	// 		border-bottom: 1px solid  #df7171;
-	// 	}
-	// }
-	
+	}	
 }
 .panorams__caption{
 	display: inline-block;

@@ -172,7 +172,7 @@
 			font-weight: 300;
 			line-height: 21px;
 			color: #191919;
-			padding-bottom: 28px;
+			
 		}
 		a{
 			margin-top: 37px;
@@ -184,6 +184,11 @@
 			@media only screen and (min-width: 1240px) {
 				padding-left: 45px;
 			}
+		}
+	}
+	&__box_2{
+		p{
+			padding-bottom: 28px;
 		}
 	}
 }

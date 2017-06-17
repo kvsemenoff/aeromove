@@ -449,12 +449,15 @@
     .shooting__rightbox {
       padding-top: 0px; } }
   .shooting__rightbox .common-slider__txt {
-    max-width: 375px;
     text-align: left; }
+    @media only screen and (min-width: 770px) {
+      .shooting__rightbox .common-slider__txt {
+        max-width: 380px;
+        padding-top: 29px; } }
   .shooting__rightbox .common-slider__txtbox {
-    padding-top: 22px; }
+    margin-top: -39px; }
   .shooting__rightbox .common-slider .prev-left, .shooting__rightbox .common-slider .next-right {
-    bottom: -50px; }
+    bottom: 12px; }
   .shooting__rightbox .common-slider__numberbox {
     padding-top: 5px; }
 
@@ -633,12 +636,15 @@
       .aeropanoramabg .shooting__rightbox {
         padding-top: 40px; } }
     .aeropanoramabg .shooting__rightbox .common-slider__txt {
-      max-width: 375px;
       text-align: left; }
+      @media only screen and (min-width: 770px) {
+        .aeropanoramabg .shooting__rightbox .common-slider__txt {
+          max-width: 375px;
+          padding-top: 22px; } }
     .aeropanoramabg .shooting__rightbox .common-slider__txtbox {
-      padding-top: 22px; }
+      margin-top: -39px; }
     .aeropanoramabg .shooting__rightbox .common-slider .prev-left, .aeropanoramabg .shooting__rightbox .common-slider .next-right {
-      bottom: -50px; }
+      bottom: 12px; }
     .aeropanoramabg .shooting__rightbox .common-slider__numberbox {
       padding-top: 5px; }
 

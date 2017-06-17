@@ -33,22 +33,26 @@
 									<div class="item">
 										<div class="common-slider__img">
 											<img src="img/sliderimg1.jpg" alt="">
-										</div>			
+										</div>
+										<p class="common-slider__txt">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>			
 									</div>
 									<div class="item">
 										<div class="common-slider__img">
 											<img src="img/sliderimg1.jpg" alt="">
-										</div>			
+										</div>
+										<p class="common-slider__txt">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>			
 									</div>
 									<div class="item">
 										<div class="common-slider__img">
 											<img src="img/sliderimg1.jpg" alt="">
-										</div>			
+										</div>
+										<p class="common-slider__txt">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>			
 									</div>
 									<div class="item">
 										<div class="common-slider__img">
 											<img src="img/sliderimg1.jpg" alt="">
-										</div>			
+										</div>
+										<p class="common-slider__txt">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>			
 									</div>
 									<div class="item">
 										<div class="common-slider__img">
@@ -58,17 +62,20 @@
 									<div class="item">
 										<div class="common-slider__img">
 											<img src="img/sliderimg1.jpg" alt="">
-										</div>			
+										</div>
+										<p class="common-slider__txt">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>			
 									</div>
 									<div class="item">
 										<div class="common-slider__img">
 											<img src="img/sliderimg1.jpg" alt="">
-										</div>			
+										</div>
+										<p class="common-slider__txt">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>			
 									</div>
 									<div class="item">
 										<div class="common-slider__img">
 											<img src="img/sliderimg1.jpg" alt="">
-										</div>			
+										</div>
+										<p class="common-slider__txt">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>			
 									</div>				
 								</div>
 								<div class="common-slider__txtbox">
@@ -76,8 +83,7 @@
 										<span class="number-active">1</span>
 										<i>/</i>
 										<span class="number-all">9</span>
-									</div>
-									<p class="common-slider__txt">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>
+									</div>									
 								</div>
 								<div class="clearfix"></div>
 							</div>

@@ -11,14 +11,13 @@
   height: 100%; }
 
 .common-slider__txtbox {
-  padding-top: 18px; }
+  margin-top: -28px; }
 
 .common-slider__numberbox {
   width: 100%;
   display: inline-block;
   text-align: center;
-  float: left;
-  padding-top: 9px; }
+  float: left; }
   @media only screen and (min-width: 770px) {
     .common-slider__numberbox {
       width: 114px; } }
@@ -37,7 +36,8 @@
 .common-slider__txt {
   width: 100%;
   display: inline-block;
-  padding-top: 10px;
+  padding-top: 15px;
+  margin-bottom: 45px;
   color: #191919;
   font-size: 14px;
   font-weight: 300;
@@ -45,13 +45,14 @@
   @media only screen and (min-width: 770px) {
     .common-slider__txt {
       float: right;
-      padding-top: 0px;
+      padding-top: 18px;
+      margin-bottom: 0;
       max-width: 335px;
       text-align: right; } }
 
 .common-slider .prev-left, .common-slider .next-right {
   position: absolute;
-  bottom: -48px;
+  bottom: 7px;
   left: 0;
   width: 23px;
   height: 23px;
