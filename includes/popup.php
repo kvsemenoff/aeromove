@@ -23,7 +23,7 @@
 
 
 <div  class="modal-window" id="video-tube">
-	<span class="modal-close stop" id="stop">Закрыть</span>
+	<span class="modal-close stop" >Закрыть</span>
 	<iframe class="videoframe player" id="player" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
 
 </div>
