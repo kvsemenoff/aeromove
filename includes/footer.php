@@ -75,7 +75,7 @@
 		player = new YT.Player('player');
 	}
 
-	$('#stop').click(function(){
+	$('.stop').click(function(){
 		player.stopVideo()
 	});
 </script>
