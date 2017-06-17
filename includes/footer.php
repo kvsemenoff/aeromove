@@ -70,13 +70,13 @@
 <!-- scripts start -->
 <script src="libs/jquery/jquery-1.11.1.min.js"></script>
 <script>
-	var player;
+	var player = 
 	function onYouTubePlayerAPIReady() {
-		player = new YT.Player('player');
+		player = new YT.Player('.player');
 	}
 
 	$('.stop').click(function(){
-		player.stopVideo()
+		player.stopVideo();
 	});
 </script>
 <script src="libs/owl.carousel/owl.carousel.js"></script>
