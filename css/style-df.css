@@ -496,6 +496,9 @@
       flex-direction: row;
       margin-bottom: 50px; } }
 
+.examplesblock__wrap .examplesblock__box:nth-last-child(-n+3) {
+  display: none; }
+
 .examplesblock__left {
   width: 100%;
   display: inline-block;

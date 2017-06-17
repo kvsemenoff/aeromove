@@ -553,6 +553,9 @@
 		}
 	}
 }
+
+
+
 .examplesblock__box{
 	display: flex;
 	justify-content: space-between;	
@@ -564,6 +567,9 @@
 		flex-direction: row;
 		margin-bottom: 50px;
 	}	
+}
+.examplesblock__wrap .examplesblock__box:nth-last-child(-n+3){
+	display: none;
 }
 .examplesblock__left{	
 	width: 100%;

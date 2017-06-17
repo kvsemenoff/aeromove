@@ -91,59 +91,111 @@
 			<div class="examplesblock">
 				<div class="container">
 					<h1 class="common-title">Примеры проектов под ключ</h1>
-
-					<div class="examplesblock__box">
-						<div class="examplesblock__left">
-							<div class="examplesblock__video">
-								<a href="#"><img src="img/videoservice.jpg" alt=""></a>
-							</div>
-						</div>
-						<div class="examplesblock__right">
-							<h4>Съемка обзорного ролика о центре распределения</h4>
-							<p>Провели аэровидеосъемку распределительного центра в Парголово. Выполнили монтаж, цветокоррекцию и установили инфографику, согласно режиссерскому сценарию.</p>
-							<p>На этапе предпродакшена выполнен режиссерский сценарий, подготовлен аниматик для графики и примерная раскадровка.</p>
-							<div class="examplesblock__txtbottom">
-								<span class="budjet"><b>Бюджет:</b> до 250 000 руб.</span>
-								<span>Аэросъемка - AERO MOVIE</span>
-								<span>Оператор - Вадим Гусев; VFX - Васильев Илья; монтаж - Илья Клименко</span>
-							</div>
-						</div>
-					</div>
-					<div class="examplesblock__box">
-						<div class="examplesblock__left">
-							<div class="examplesblock__video">
-								<a href="#"><img src="img/videoservice.jpg" alt=""></a>
-							</div>
-						</div>
-						<div class="examplesblock__right">
-							<h4>Съемка обзорного ролика о центре распределения</h4>
-							<p>Провели аэровидеосъемку распределительного центра в Парголово. Выполнили монтаж, цветокоррекцию и установили инфографику, согласно режиссерскому сценарию.</p>
-							<p>На этапе предпродакшена выполнен режиссерский сценарий, подготовлен аниматик для графики и примерная раскадровка.</p>
-							<div class="examplesblock__txtbottom">
-								<span class="budjet"><b>Бюджет:</b> до 250 000 руб.</span>
-								<span>Аэросъемка - AERO MOVIE</span>
-								<span>Оператор - Вадим Гусев; VFX - Васильев Илья; монтаж - Илья Клименко</span>
-							</div>
-						</div>
-					</div>
-					<div class="examplesblock__box">
-						<div class="examplesblock__left">
-							<div class="examplesblock__video">
-								<a href="#"><img src="img/videoservice.jpg" alt=""></a>
-							</div>
-						</div>
-						<div class="examplesblock__right">
-							<h4>Съемка обзорного ролика о центре распределения</h4>
-							<p>Провели аэровидеосъемку распределительного центра в Парголово. Выполнили монтаж, цветокоррекцию и установили инфографику, согласно режиссерскому сценарию.</p>
-							<p>На этапе предпродакшена выполнен режиссерский сценарий, подготовлен аниматик для графики и примерная раскадровка.</p>
-							<div class="examplesblock__txtbottom">
-								<span class="budjet"><b>Бюджет:</b> до 250 000 руб.</span>
-								<span>Аэросъемка - AERO MOVIE</span>
-								<span>Оператор - Вадим Гусев; VFX - Васильев Илья; монтаж - Илья Клименко</span>
-							</div>
-						</div>
-					</div>
 					
+					<div class="examplesblock__wrap">	
+						<div class="examplesblock__box">
+							<div class="examplesblock__left">
+								<div class="examplesblock__video">
+									<a href="#"><img src="img/videoservice.jpg" alt=""></a>
+								</div>
+							</div>
+							<div class="examplesblock__right">
+								<h4>Съемка обзорного ролика о центре распределения</h4>
+								<p>Провели аэровидеосъемку распределительного центра в Парголово. Выполнили монтаж, цветокоррекцию и установили инфографику, согласно режиссерскому сценарию.</p>
+								<p>На этапе предпродакшена выполнен режиссерский сценарий, подготовлен аниматик для графики и примерная раскадровка.</p>
+								<div class="examplesblock__txtbottom">
+									<span class="budjet"><b>Бюджет:</b> до 250 000 руб.</span>
+									<span>Аэросъемка - AERO MOVIE</span>
+									<span>Оператор - Вадим Гусев; VFX - Васильев Илья; монтаж - Илья Клименко</span>
+								</div>
+							</div>
+						</div>
+						<div class="examplesblock__box">
+							<div class="examplesblock__left">
+								<div class="examplesblock__video">
+									<a href="#"><img src="img/videoservice.jpg" alt=""></a>
+								</div>
+							</div>
+							<div class="examplesblock__right">
+								<h4>Съемка обзорного ролика о центре распределения</h4>
+								<p>Провели аэровидеосъемку распределительного центра в Парголово. Выполнили монтаж, цветокоррекцию и установили инфографику, согласно режиссерскому сценарию.</p>
+								<p>На этапе предпродакшена выполнен режиссерский сценарий, подготовлен аниматик для графики и примерная раскадровка.</p>
+								<div class="examplesblock__txtbottom">
+									<span class="budjet"><b>Бюджет:</b> до 250 000 руб.</span>
+									<span>Аэросъемка - AERO MOVIE</span>
+									<span>Оператор - Вадим Гусев; VFX - Васильев Илья; монтаж - Илья Клименко</span>
+								</div>
+							</div>
+						</div>
+						<div class="examplesblock__box">
+							<div class="examplesblock__left">
+								<div class="examplesblock__video">
+									<a href="#"><img src="img/videoservice.jpg" alt=""></a>
+								</div>
+							</div>
+							<div class="examplesblock__right">
+								<h4>Съемка обзорного ролика о центре распределения</h4>
+								<p>Провели аэровидеосъемку распределительного центра в Парголово. Выполнили монтаж, цветокоррекцию и установили инфографику, согласно режиссерскому сценарию.</p>
+								<p>На этапе предпродакшена выполнен режиссерский сценарий, подготовлен аниматик для графики и примерная раскадровка.</p>
+								<div class="examplesblock__txtbottom">
+									<span class="budjet"><b>Бюджет:</b> до 250 000 руб.</span>
+									<span>Аэросъемка - AERO MOVIE</span>
+									<span>Оператор - Вадим Гусев; VFX - Васильев Илья; монтаж - Илья Клименко</span>
+								</div>
+							</div>
+						</div>
+						<div class="examplesblock__box">
+							<div class="examplesblock__left">
+								<div class="examplesblock__video">
+									<a href="#"><img src="img/videoservice.jpg" alt=""></a>
+								</div>
+							</div>
+							<div class="examplesblock__right">
+								<h4>Съемка обзорного ролика о центре распределения</h4>
+								<p>Провели аэровидеосъемку распределительного центра в Парголово. Выполнили монтаж, цветокоррекцию и установили инфографику, согласно режиссерскому сценарию.</p>
+								<p>На этапе предпродакшена выполнен режиссерский сценарий, подготовлен аниматик для графики и примерная раскадровка.</p>
+								<div class="examplesblock__txtbottom">
+									<span class="budjet"><b>Бюджет:</b> до 250 000 руб.</span>
+									<span>Аэросъемка - AERO MOVIE</span>
+									<span>Оператор - Вадим Гусев; VFX - Васильев Илья; монтаж - Илья Клименко</span>
+								</div>
+							</div>
+						</div>
+						<div class="examplesblock__box">
+							<div class="examplesblock__left">
+								<div class="examplesblock__video">
+									<a href="#"><img src="img/videoservice.jpg" alt=""></a>
+								</div>
+							</div>
+							<div class="examplesblock__right">
+								<h4>Съемка обзорного ролика о центре распределения</h4>
+								<p>Провели аэровидеосъемку распределительного центра в Парголово. Выполнили монтаж, цветокоррекцию и установили инфографику, согласно режиссерскому сценарию.</p>
+								<p>На этапе предпродакшена выполнен режиссерский сценарий, подготовлен аниматик для графики и примерная раскадровка.</p>
+								<div class="examplesblock__txtbottom">
+									<span class="budjet"><b>Бюджет:</b> до 250 000 руб.</span>
+									<span>Аэросъемка - AERO MOVIE</span>
+									<span>Оператор - Вадим Гусев; VFX - Васильев Илья; монтаж - Илья Клименко</span>
+								</div>
+							</div>
+						</div>
+						<div class="examplesblock__box">
+							<div class="examplesblock__left">
+								<div class="examplesblock__video">
+									<a href="#"><img src="img/videoservice.jpg" alt=""></a>
+								</div>
+							</div>
+							<div class="examplesblock__right">
+								<h4>Съемка обзорного ролика о центре распределения</h4>
+								<p>Провели аэровидеосъемку распределительного центра в Парголово. Выполнили монтаж, цветокоррекцию и установили инфографику, согласно режиссерскому сценарию.</p>
+								<p>На этапе предпродакшена выполнен режиссерский сценарий, подготовлен аниматик для графики и примерная раскадровка.</p>
+								<div class="examplesblock__txtbottom">
+									<span class="budjet"><b>Бюджет:</b> до 250 000 руб.</span>
+									<span>Аэросъемка - AERO MOVIE</span>
+									<span>Оператор - Вадим Гусев; VFX - Васильев Илья; монтаж - Илья Клименко</span>
+								</div>
+							</div>
+						</div>
+					</div>
 					<div class="examplesblock__button">
 						<a class="button button_1" href="#">Посмотреть еще</a>
 						<a href="#" class="video__lookmore">Остальные работы в разделе “Порфтолио”</a>

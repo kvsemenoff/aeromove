@@ -286,7 +286,19 @@ $(document).ready(function(){
 		}
 	});
 
-
+	// hide show 3last elements page->prodacshn
+	$('.examplesblock__button a').on('click', function(e) {
+		e.preventDefault();
+		var last3el = $('.examplesblock__box:gt(2)');
+		if ($(this).text()=='Посмотреть еще') {
+			$(last3el).css('display', 'flex');
+			$(this).text('Скрыть');
+		}else{
+			$(last3el).css('display', 'none');
+			$(this).text('Посмотреть еще');	
+		}		
+	});
+	////////////////////////
 
 
 	// slider 
