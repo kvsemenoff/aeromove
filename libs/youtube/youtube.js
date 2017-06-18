@@ -4,8 +4,8 @@ tag.src = "https://www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-// 2. Содается объект player. This function creates an <iframe> (and YouTube player)
-// где videoId - это идентификтор видео. 
+// 2. Создается объект player. This function creates an <iframe> (and YouTube player)
+// где videoId - это идентификатор видео. 
 // В любом месте можно изменить значение видео с помощью player.loadVideoById('новый_идентификатор_видео');
 // Параметры плеера, такие как показать/скрыть controls, showinfo можно править в массиве playerVars
  var player;
@@ -35,7 +35,7 @@ function stopVideo() {
     player.stopVideo();
 }
 
-//Эта простая функция парсит URL ссылки видео с youtube и возвращает идентификтор видео.
+//Эта простая функция парсит URL ссылки видео с youtube и возвращает идентификатор видео.
 function youtube_parser(url){
     var regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#\&\?]*).*/;
     var match = url.match(regExp);
