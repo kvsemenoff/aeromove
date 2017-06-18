@@ -105,54 +105,55 @@
 								<div class="slider-owl-carousel">						
 									<div class="item">
 										<div class="common-slider__img">
-											<img src="img/sliderimg1.jpg" alt="">
+											<img src="img/services.jpg" alt="">
 										</div>
 										<p class="common-slider__txt services-text">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>			
 									</div>
 									<div class="item">
 										<div class="common-slider__img">
-											<img src="img/sliderimg1.jpg" alt="">
+											<img src="img/services.jpg" alt="">
 										</div>
 										<p class="common-slider__txt services-text">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>			
 									</div>
 									<div class="item">
 										<div class="common-slider__img">
-											<img src="img/sliderimg1.jpg" alt="">
+											<img src="img/services.jpg" alt="">
 										</div>
 										<p class="common-slider__txt services-text">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>			
 									</div>
 									<div class="item">
 										<div class="common-slider__img">
-											<img src="img/sliderimg1.jpg" alt="">
+											<img src="img/services.jpg" alt="">
 										</div>
 										<p class="common-slider__txt services-text">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>			
 									</div>
 									<div class="item">
 										<div class="common-slider__img">
-											<img src="img/sliderimg1.jpg" alt="">
-										</div>			
+											<img src="img/services.jpg" alt="">
+										</div>	
+										<p class="common-slider__txt services-text">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>		
 									</div>
 									<div class="item">
 										<div class="common-slider__img">
-											<img src="img/sliderimg1.jpg" alt="">
+											<img src="img/services.jpg" alt="">
 										</div>
 										<p class="common-slider__txt services-text">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>			
 									</div>		
 									<div class="item">
 										<div class="common-slider__img">
-											<img src="img/sliderimg1.jpg" alt="">
+											<img src="img/services.jpg" alt="">
 										</div>
 										<p class="common-slider__txt services-text">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>			
 									</div>
 									<div class="item">
 										<div class="common-slider__img">
-											<img src="img/sliderimg1.jpg" alt="">
+											<img src="img/services.jpg" alt="">
 										</div>
 										<p class="common-slider__txt services-text">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>			
 									</div>
 									<div class="item">
 										<div class="common-slider__img">
-											<img src="img/sliderimg1.jpg" alt="">
+											<img src="img/services.jpg" alt="">
 										</div>
 										<p class="common-slider__txt services-text">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>			
 									</div>				
@@ -173,13 +174,184 @@
 								<p>Видеосъемка с воздуха — наша основная специализация. У нас есть коптеры, способные решать разные задачи и с разным бюджетом.</p>
 								<p>Небольшие квадрокоптеры для съемок малобюджетных роликов, тяжелый гексакоптер с профессиональными камерами и каосильный коптер с подвесом на камеры линейки RED, который принимает участиев съемках большого кино.</p>
 								<p>Видеосъемка с воздуха — наша основная специализация. У нас есть коптеры, способные решать разные задачи и с разным бюджетом.</p>
+								<div class="shooting__button">
+									<a class="button button_1" href="#">Заказать мастер-класс</a>
+								</div>
 							</div>
-							<div class="shooting__button">
-								<a class="button button_1" href="#">Заказать мастер-класс</a>
-							</div>
+							
 						</div>
 						
 						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="shooting">	
+					<div class="container">
+						<div class="shooting_block">	
+							<div class="col-md-6">
+								<div class="services common-slider">
+									<div class="slider-owl-carousel">						
+										<div class="item">
+											<div class="common-slider__img">
+												<img src="img/services.jpg" alt="">
+											</div>
+											<p class="common-slider__txt services-text">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>			
+										</div>
+										<div class="item">
+											<div class="common-slider__img">
+												<img src="img/services.jpg" alt="">
+											</div>
+											<p class="common-slider__txt services-text">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>			
+										</div>
+										<div class="item">
+											<div class="common-slider__img">
+												<img src="img/services.jpg" alt="">
+											</div>
+											<p class="common-slider__txt services-text">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>			
+										</div>
+										<div class="item">
+											<div class="common-slider__img">
+												<img src="img/services.jpg" alt="">
+											</div>
+											<p class="common-slider__txt services-text">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>			
+										</div>
+										<div class="item">
+											<div class="common-slider__img">
+												<img src="img/services.jpg" alt="">
+											</div>	
+											<p class="common-slider__txt services-text">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>		
+										</div>
+										<div class="item">
+											<div class="common-slider__img">
+												<img src="img/services.jpg" alt="">
+											</div>
+											<p class="common-slider__txt services-text">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>			
+										</div>		
+										<div class="item">
+											<div class="common-slider__img">
+												<img src="img/services.jpg" alt="">
+											</div>
+											<p class="common-slider__txt services-text">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>			
+										</div>
+										<div class="item">
+											<div class="common-slider__img">
+												<img src="img/services.jpg" alt="">
+											</div>
+											<p class="common-slider__txt services-text">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>			
+										</div>
+										<div class="item">
+											<div class="common-slider__img">
+												<img src="img/services.jpg" alt="">
+											</div>
+											<p class="common-slider__txt services-text">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>			
+										</div>				
+									</div>
+									<div class="common-slider__txtbox">
+										<div class="common-slider__numberbox">
+											<span class="number-active">1</span>
+											<i>/</i>
+											<span class="number-all">9</span>
+										</div>
+
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="shooting__leftbervices.jpg2">
+									<h1 class="common-title title2">Использование дронов для интерактива</h1>
+									<div class="shooting__txtbox services-p2">
+										<p>Видеосъемка с воздуха — наша основная специализация. У нас есть коптеры, способные решать разные задачи и с разным бюджетом.</p>
+										<p>Небольшие квадрокоптеры для съемок малобюджетных роликов, тяжелый гексакоптер с профессиональными камерами.</p>
+									</div>
+									<div class="shooting__button">
+										<a class="button button_1" href="#">Заказать дрон</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						<div class="shooting_block service-block2">
+							<div class="col-md-6">
+								<div class="shooting__leftbervices.jpg2">
+									<h1 class="common-title title2">Установка дополнительного оборудования на дрон</h1>
+									<div class="shooting__txtbox services-p2">
+										<p>Видеосъемка с воздуха — наша основная специализация. У нас есть коптеры, способные решать разные задачи и с разным бюджетом.</p>
+										<p>Небольшие квадрокоптеры для съемок малобюджетных роликов, тяжелый гексакоптер с профессиональными камерами.</p>
+									</div>
+									<div class="shooting__button button-service">
+										<a class="button button_1" href="#">Заказать дрон</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="services common-slider">
+									<div class="slider-owl-carousel">						
+										<div class="item">
+											<div class="common-slider__img">
+												<img src="img/services.jpg" alt="">
+											</div>
+											<p class="common-slider__txt services-text">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>			
+										</div>
+										<div class="item">
+											<div class="common-slider__img">
+												<img src="img/services.jpg" alt="">
+											</div>
+											<p class="common-slider__txt services-text">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>			
+										</div>
+										<div class="item">
+											<div class="common-slider__img">
+												<img src="img/services.jpg" alt="">
+											</div>
+											<p class="common-slider__txt services-text">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>			
+										</div>
+										<div class="item">
+											<div class="common-slider__img">
+												<img src="img/services.jpg" alt="">
+											</div>
+											<p class="common-slider__txt services-text">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>			
+										</div>
+										<div class="item">
+											<div class="common-slider__img">
+												<img src="img/services.jpg" alt="">
+											</div>	
+											<p class="common-slider__txt services-text">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>		
+										</div>
+										<div class="item">
+											<div class="common-slider__img">
+												<img src="img/services.jpg" alt="">
+											</div>
+											<p class="common-slider__txt services-text">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>			
+										</div>		
+										<div class="item">
+											<div class="common-slider__img">
+												<img src="img/services.jpg" alt="">
+											</div>
+											<p class="common-slider__txt services-text">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>			
+										</div>
+										<div class="item">
+											<div class="common-slider__img">
+												<img src="img/services.jpg" alt="">
+											</div>
+											<p class="common-slider__txt services-text">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>			
+										</div>
+										<div class="item">
+											<div class="common-slider__img">
+												<img src="img/services.jpg" alt="">
+											</div>
+											<p class="common-slider__txt services-text">Проведение аэрофотосъемки ЖК в Сертолово для компании “Балтйский лизинг”</p>			
+										</div>				
+									</div>
+									<div class="common-slider__txtbox">
+										<div class="common-slider__numberbox">
+											<span class="number-active">1</span>
+											<i>/</i>
+											<span class="number-all">9</span>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="servicetxt">
