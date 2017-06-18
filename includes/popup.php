@@ -24,10 +24,7 @@
 
 <div  class="modal-window" id="video-tube">
 	<span class="modal-close stop" >Закрыть</span>
-	<div id="player">
-		qq
-	</div>
-	<!-- <iframe class="videoframe" id="player" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe> -->
+	<div id="player"></div>
 </div>
 
 
