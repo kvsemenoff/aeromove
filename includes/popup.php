@@ -28,3 +28,23 @@
 </div>
 
 
+<div class="mobile-window" id="mobile">
+	<span class="modal-close" >Закрыть</span>
+	<ul class="mobile-main-menu">
+		<li class="has-child">
+			<a href="http://yandex.ru">Услуги</a>
+			<ul class="sub-menu">
+				<li><a href="#">Аэровидеосъемка</a></li>
+				<li><a href="#">Аэрофотосъемка</a></li>
+				<li><a href="#">Аренда оборудования</a></li>
+				<li><a href="#">Виртуальные туры</a></li>
+				<li><a href="#">Онлайн-трансляции</a></li>
+				<li><a href="#">Пост-продакшн</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Портфолио</a></li>
+		<li><a href="#">За кадром</a></li>
+		<li><a href="#">Блог</a></li>
+		<li><a href="#">Контакты</a></li>
+	</ul>
+</div>

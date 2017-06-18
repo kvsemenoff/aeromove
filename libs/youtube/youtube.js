@@ -15,6 +15,7 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
       width: '100%',
       videoId: '974CsH5Cumg',
       playerVars: { 
+      	'autoplay': 0,
 	    'controls': 0, 
 	    'showinfo': 0
 	  },
@@ -26,7 +27,7 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 // 3. API вызовит эту функцию когда видео плеер будет загружен
 function onPlayerReady(event) {
-	event.target.playVideo();
+	//event.target.playVideo();
 }
 
 //функция, которая останавливает проигрывание      
