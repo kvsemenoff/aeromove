@@ -65,23 +65,67 @@
 <?php require_once('popup.php'); ?>
 
 <script src="https://api-maps.yandex.ru/2.1/?lang=tr_TR" type="text/javascript"></script>
-<script src="https://www.youtube.com/player_api"></script>
+
+
+<script>
+      // 2. This code loads the IFrame Player API code asynchronously.
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+      // 3. This function creates an <iframe> (and YouTube player)
+      //    after the API code downloads.
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          height: '320',
+          width: '100%',
+          controls: 0,
+          showinfo: 0,
+          videoId: '974CsH5Cumg',
+          playerVars: { 
+		    'controls': 0, 
+		    'showinfo': 0
+		  },
+          events: {
+            'onReady': onPlayerReady
+          }
+        });
+      }
+
+      // 4. The API will call this function when the video player is ready.
+      function onPlayerReady(event) {
+        event.target.playVideo();
+      }
+
+     
+      
+      function stopVideo() {
+        player.stopVideo();
+      }
+    </script>
+
 
 <!-- scripts start -->
 <script src="libs/jquery/jquery-1.11.1.min.js"></script>
+
 <script>
-	var player = [];	
-	function onYouTubePlayerAPIReady() {		
-		$('.videoframe').each(function(index, el) {
-			var thisId = $(this).attr('id');
-			player[index] = new YT.Player(thisId);	
-		});
-	}	
-	$('.stop').on('click', function(){		
-		$('.videoframe').each(function(index, el) {
-			player[index].stopVideo();	
-		});
-	});	
+
+      
+	// var player = [];	
+	// function onYouTubePlayerAPIReady() {		
+	// 	$('.videoframe').each(function(index, el) {
+	// 		var thisId = $(this).attr('id');
+	// 		player[index] = new YT.Player(thisId);	
+	// 	});
+	// }	
+	// $('.stop').on('click', function(){		
+	// 	$('.videoframe').each(function(index, el) {
+	// 		player[index].stopVideo();	
+	// 	});
+	// });	
 </script>
 <script src="libs/owl.carousel/owl.carousel.js"></script>
 <script src="libs/fancybox/jquery.fancybox.pack.js"></script>

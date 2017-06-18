@@ -3,7 +3,9 @@
 body, html{
 	height:100%;
 }
-
+a{
+	outline: none !important;
+}
 .wrapper {
  	display: flex;
   	flex-direction: column;
@@ -145,4 +147,8 @@ strong, b{
 			}
 		}
 	}
+}
+
+.video-bag{
+	display: none;
 }

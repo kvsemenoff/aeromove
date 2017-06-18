@@ -179,7 +179,9 @@ $(document).ready(function(){
 
 
 	// tabs
+		
 
+	
 
 	$('.bigpark__accordeon-item').on('click', function (e) {
 		e.preventDefault();
@@ -331,5 +333,24 @@ $(document).ready(function(){
 			}
 		}
 	});
+	$('.portfolio__box, .main-page-video').on('click', function (e) {
+		var videoId = $(this).find('.video-bag').html();
+		videoId = youtube_parser(videoId);
+		player.loadVideoById(videoId);
+	});	
+
+	
+
+		
+	$('.stop').on('click', function(){		
+		stopVideo();
+	});	
+
 
 });
+
+function youtube_parser(url){
+    var regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#\&\?]*).*/;
+    var match = url.match(regExp);
+    return (match&&match[7].length==11)? match[7] : false;
+}
