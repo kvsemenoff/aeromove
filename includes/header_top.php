@@ -1,6 +1,5 @@
 <div class="header-top">
 	<div class="container">
-		
 		<div class="row">
 			<div class="col-md-2 col-sm-12 col-xs-12">
 				<div class="logo-box">
@@ -9,8 +8,7 @@
 				<a href="#mobile" data-modal="modal" class="burg hidden-md hidden-lg"><i class="fa fa-bars" aria-hidden="true"></i></a>
 				
 			</div>
-			
-			<div class="col-md-6  hidden-sm hidden-xs">
+			<div class="col-md-6 hidden-sm hidden-xs">
 				<ul class="main-menu">
 					<li class="has-child">
 						<a href="#">Услуги</a>

@@ -5,6 +5,7 @@ a {
   outline: none !important; }
 
 .wrapper {
+  width: 100%;
   display: flex;
   flex-direction: column; }
 
