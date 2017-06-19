@@ -93,9 +93,13 @@
   margin: 0 auto; }
 
 .our-wrap {
-  padding-top: 107px;
-  padding-bottom: 109px;
-  background: url(../img/pink.png) no-repeat right center; }
+  padding-top: 80px;
+  padding-bottom: 80px; }
+  @media only screen and (min-width: 992px) {
+    .our-wrap {
+      background: url(../img/pink.png) no-repeat right center;
+      padding-top: 107px;
+      padding-bottom: 109px; } }
 
 .our-wrap__title {
   height: 55px;
@@ -134,8 +138,11 @@
       right: -128px; } }
 
 .project-more {
-  padding-top: 144px;
-  background: url(../img/pink2.png) no-repeat left top 64px; }
+  padding-top: 50px; }
+  @media only screen and (min-width: 992px) {
+    .project-more {
+      padding-top: 144px;
+      background: url(../img/pink2.png) no-repeat left top 64px; } }
   .project-more .common-slider {
     max-width: 585px; }
   .project-more__box h1 {
