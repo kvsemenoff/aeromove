@@ -14,7 +14,7 @@
   padding: 40px 0 30px 0;
   display: flex;
   justify-content: space-between;
-  flex-direction: column; }
+  flex-direction: column-reverse; }
   @media only screen and (min-width: 770px) {
     .video {
       flex-direction: row; } }
@@ -52,20 +52,23 @@
   display: block; }
 
 .video__rightbox {
-  max-width: 607px;
   display: inline-block;
   vertical-align: top;
   text-align: center;
-  margin-top: 20px; }
+  margin-bottom: 20px; }
   @media only screen and (min-width: 770px) {
     .video__rightbox {
       text-align: right;
-      margin-top: 62px; } }
+      margin-top: 62px;
+      margin-bottom: 0;
+      max-width: 607px; } }
 
 .video__imgbox {
   display: inline-block;
-  max-width: 290px;
   height: 290px; }
+  @media only screen and (min-width: 480px) {
+    .video__imgbox {
+      width: 49%; } }
   @media only screen and (min-width: 770px) {
     .video__imgbox {
       width: 290px;
