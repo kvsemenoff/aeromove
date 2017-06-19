@@ -44,7 +44,7 @@ strong, b{
 
 }
 .container{
-	@media screen and (min-width: 12100px) {
+	@media screen and (min-width: 1240px) {
 		width: 1230px;
 		
 	}
@@ -184,6 +184,7 @@ strong, b{
 	width: 100%;
 	text-align: center;
 	padding: 0px;
+	margin-top: 45px;
 	ul{
 		display: block;
 		width: 100%;
@@ -191,14 +192,15 @@ strong, b{
 	}
 	li{
 		width: 100%;
-		height: 40px;
-		line-height: 40px;
+		height: 60px !important;
+		line-height: 60px;
 		background: #ccc;
 		display: block;
 		margin: 0 auto;
 		margin-bottom: 20px;
 		text-align: center;
-		padding: 0px;
+		outline: 1px solid red;
+		//padding: 0px;
 		a{
 			display: inline-block;
 		}
