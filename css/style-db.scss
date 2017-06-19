@@ -17,7 +17,7 @@
 	margin-top: 100px;
 }
 .service-bg{
-		background: url("../img/services.png")no-repeat;
+	background: url("../img/services.png")no-repeat;
 }
 .button-service{
 	margin-bottom: 40px;
@@ -206,7 +206,6 @@
 	.want-form{
 		background: #fff;
 		padding: 15px;
-		max-width: 320px;
 		margin: 0 auto;
 		margin-top: 25px;
 		@media only screen and (min-width : 1248px) {
@@ -272,31 +271,42 @@
 			display: inline-block;
 			padding-bottom: 23px;
 			padding-top: 6px;
-			max-width: 375px;
 		}
 	}
 	.wants-first{
 		padding-bottom: 20px;
+		input[type="text"]{
+			max-width: 100% !important;
+		}
 		@media only screen and (min-width : 992px) {
 			padding-bottom: 0px;
 			float: left;
 			padding-right: 30px;
+			input[type="text"]{
+				max-width: auto !important;
+			}
+		}
+	}
+	.wants-two{
+		input[type="text"]{
+			max-width: 100% !important;
+		}
+		@media only screen and (min-width : 992px) {
+			input[type="text"]{
+				max-width: 228px !important;
+			}
 		}
 	}
 	.wants-three{
 		padding-top: 15px;
 		padding-bottom: 23px;
-		textarea{
-			max-width: 487px;
-		}
-	}
-	.wants-first, .wants-two, .wants-three, .wants-four{
-		width: 230px;
-		margin: 0 auto;
 		@media only screen and (min-width : 992px) {
-			width: auto;
+			textarea{
+				max-width: 487px;
+			}
 		}
 	}
+
 
 
 
