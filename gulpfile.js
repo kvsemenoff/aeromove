@@ -28,31 +28,31 @@ var css_our = new Array(
 );
 
 var scss_our = new Array(
-'css/reset.scss',
-'css/fonts.scss',
-'css/style.scss',
-'css/style-db.scss',
-'css/style-dd.scss',
-'css/style-de.scss',
-'css/style-df.scss',
-'css/style-dg.scss',
-'css/popup.scss',
-'block/inputext/style.scss',
-'block/inpiutcheckbox/style.scss',
-'block/textarea/style.scss',
-'block/call-back/style.scss',
-'block/common-title/style.scss',
-'block/h1/style.scss',
-'block/button/style.scss',
-'block/card-item/style.scss',
-'block/cadr-row/style.scss',
-'block/pagintation/style.scss',
-'block/socials/style.scss',
-'block/header-top/style.scss',
-'block/header-bottom-main/style.scss',
-'block/header-botom-inner/style.scss',
-'block/common-slider/style.scss',
-'block/main-menu/style.scss'
+	'css/reset.scss',
+	'css/fonts.scss',
+	'css/style.scss',
+	'css/style-db.scss',
+	'css/style-dd.scss',
+	'css/style-de.scss',
+	'css/style-df.scss',
+	'css/style-dg.scss',
+	'css/popup.scss',
+	'block/inputext/style.scss',
+	'block/inpiutcheckbox/style.scss',
+	'block/textarea/style.scss',
+	'block/call-back/style.scss',
+	'block/common-title/style.scss',
+	'block/h1/style.scss',
+	'block/button/style.scss',
+	'block/card-item/style.scss',
+	'block/cadr-row/style.scss',
+	'block/pagintation/style.scss',
+	'block/socials/style.scss',
+	'block/header-top/style.scss',
+	'block/header-bottom-main/style.scss',
+	'block/header-botom-inner/style.scss',
+	'block/common-slider/style.scss',
+	'block/main-menu/style.scss'
 );
 var css_libs = new Array(
 	'libs/bootstrap/bootstrap-grid-3.3.1.min.css',
@@ -90,10 +90,11 @@ var js_our = new Array(
 );
 var js_libs = new Array(
 	'libs/jquery/jquery-1.11.1.min.js',
+	'libs/youtube/youtube.js',
 	'libs/owl.carousel/owl.carousel.js',
 	'libs/fancybox/jquery.fancybox.pack.js',
 	'js/jquery.maskedinput.min.js',
-	'js/jquery.maskedinput.min.js'
+	'js/rangeslider.min.js'
 );
 var js_all = js_libs.concat(js_our);
 

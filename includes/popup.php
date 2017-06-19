@@ -31,9 +31,9 @@
 <div class="mobile-window" id="mobile">
 	<span class="modal-close" >Закрыть</span>
 	<ul class="mobile-main-menu">
-		<li class="has-child">
+		<li>
 			<a href="http://yandex.ru">Услуги</a>
-			<ul class="sub-menu">
+			<ul>
 				<li><a href="#">Аэровидеосъемка</a></li>
 				<li><a href="#">Аэрофотосъемка</a></li>
 				<li><a href="#">Аренда оборудования</a></li>

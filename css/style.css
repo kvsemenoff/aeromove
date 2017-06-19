@@ -6,8 +6,7 @@ a {
 
 .wrapper {
   display: flex;
-  flex-direction: column;
-  height: 100%; }
+  flex-direction: column; }
 
 .content {
   flex: 1 0 auto; }
@@ -118,14 +117,22 @@ strong, b {
 .mobile-main-menu {
   display: block;
   width: 100%;
-  text-align: center; }
+  text-align: center;
+  padding: 0px; }
   .mobile-main-menu ul {
     display: block;
-    margin-bottom: 20px; }
+    width: 100%; }
   .mobile-main-menu li {
-    width: auto;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: #ccc;
     display: block;
     margin: 0 auto;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 0px; }
+    .mobile-main-menu li a {
+      display: inline-block; }
 
 /*# sourceMappingURL=style.css.map */
