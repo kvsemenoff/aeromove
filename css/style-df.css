@@ -721,7 +721,7 @@
     .panorams__img {
       margin-top: 70px; } }
   .panorams__img img {
-    max-width: 100%;
+    width: 100%;
     height: auto; }
 
 .panoramstab1 {
