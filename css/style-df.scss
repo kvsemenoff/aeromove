@@ -1,11 +1,13 @@
 .stop{
 	color: #191919;	
 }
-.videobgimg{
-	background-image: url("../img/videobgimg.png");
-	background-repeat: no-repeat;
-	background-position: right top 10%;
+.videobgimg{	
 	border-bottom: 1px solid #e6e6e6;
+	@media only screen and (min-width : 992px) {
+		background-image: url("../img/videobgimg.png");
+		background-repeat: no-repeat;
+		background-position: right top 10%;
+	}
 }
 .video{
 	font-family: 'Ubuntu', sans-serif;
