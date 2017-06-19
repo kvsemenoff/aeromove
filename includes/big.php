@@ -72,14 +72,17 @@
 			<h4>Список оборудования и стоимость:</h4>
 			<div class="bigpark__accordeon">
 				<div class="bigpark__accordeon-item" data-tab="bigparktab1">
-					<div class="bigpark__accordeon-img">
-						<img src="img/coptersm1.png" alt="">
+					<div class="accordeon__visiblebox">
+						<div class="bigpark__accordeon-img">
+							<img src="img/coptersm1.png" alt="">
+						</div>
+						<span class="bigpark__accordeon-nameproduct">DJI Phantom 4</span>
+						<div class="bigpark__accordeon-pricebox">
+							<span>от <b>5.000</b> <i class="fa fa-rub" aria-hidden="true"></i></span>
+						</div>
+						<div class="clearfix"></div>
 					</div>
-					<span class="bigpark__accordeon-nameproduct">DJI Phantom 4</span>
-					<div class="bigpark__accordeon-pricebox">
-						<span>от <b>5.000</b> <i class="fa fa-rub" aria-hidden="true"></i></span>
-					</div>
-					<div class="clearfix"></div>
+					
 					<div class="bigpark__accordeon-hiddenbox">
 						<div class="bigpark__accordeon-characteristics">
 							<div class="bigpark__accordeon-hourprice">
@@ -96,22 +99,26 @@
 							</div>
 						</div>
 						<div class="bigpark__accordeon-video">
-							<a href="#">
+							<a href="#video-tube" data-modal="modal">
 								<img src="img/bigparkimg.jpg" alt="">
+								<div class="video-bag">https://www.youtube.com/watch?v=974CsH5Cumg</div>
 							</a>
 						</div>													
 					</div>
 					<div class="clearfix"></div>
 				</div>
 				<div class="bigpark__accordeon-item" data-tab="bigparktab2">
-					<div class="bigpark__accordeon-img">
-						<img src="img/coptersm2.png" alt="">
+					<div class="accordeon__visiblebox">
+						<div class="bigpark__accordeon-img">
+							<img src="img/coptersm2.png" alt="">
+						</div>
+						<span class="bigpark__accordeon-nameproduct">DJi Inspire Zenmuse X3</span>
+						<div class="bigpark__accordeon-pricebox">
+							<span>от <b>10.000</b> <i class="fa fa-rub" aria-hidden="true"></i></span>
+						</div>
+						<div class="clearfix"></div>
 					</div>
-					<span class="bigpark__accordeon-nameproduct">DJi Inspire Zenmuse X3</span>
-					<div class="bigpark__accordeon-pricebox">
-						<span>от <b>10.000</b> <i class="fa fa-rub" aria-hidden="true"></i></span>
-					</div>
-					<div class="clearfix"></div>
+					
 					<div class="bigpark__accordeon-hiddenbox">
 						<div class="bigpark__accordeon-characteristics">
 							<div class="bigpark__accordeon-hourprice">
@@ -128,22 +135,26 @@
 							</div>
 						</div>
 						<div class="bigpark__accordeon-video">
-							<a href="#">
+							<a href="#video-tube" data-modal="modal">
 								<img src="img/bigparkimg.jpg" alt="">
+								<div class="video-bag">https://www.youtube.com/watch?v=974CsH5Cumg</div>
 							</a>
 						</div>												
 					</div>
 					<div class="clearfix"></div>	
 				</div>
 				<div class="bigpark__accordeon-item" data-tab="bigparktab3">
-					<div class="bigpark__accordeon-img">
-						<img src="img/coptersm3.png" alt="">
+					<div class="accordeon__visiblebox">
+						<div class="bigpark__accordeon-img">
+							<img src="img/coptersm3.png" alt="">
+						</div>
+						<span class="bigpark__accordeon-nameproduct">DJI NSPIRE X5, X5R</span>
+						<div class="bigpark__accordeon-pricebox">
+							<span>от <b>15.000</b> <i class="fa fa-rub" aria-hidden="true"></i></span>
+						</div>
+						<div class="clearfix"></div>
 					</div>
-					<span class="bigpark__accordeon-nameproduct">DJI NSPIRE X5, X5R</span>
-					<div class="bigpark__accordeon-pricebox">
-						<span>от <b>15.000</b> <i class="fa fa-rub" aria-hidden="true"></i></span>
-					</div>
-					<div class="clearfix"></div>
+					
 					<div class="bigpark__accordeon-hiddenbox">
 						<div class="bigpark__accordeon-characteristics">
 							<div class="bigpark__accordeon-hourprice">
@@ -160,22 +171,25 @@
 							</div>
 						</div>
 						<div class="bigpark__accordeon-video">
-							<a href="#">
+							<a href="#video-tube" data-modal="modal">
 								<img src="img/bigparkimg.jpg" alt="">
+								<div class="video-bag">https://www.youtube.com/watch?v=974CsH5Cumg</div>
 							</a>
 						</div>												
 					</div>
 					<div class="clearfix"></div>	
 				</div>
 				<div class="bigpark__accordeon-item" data-tab="bigparktab4">
-					<div class="bigpark__accordeon-img">
-						<img src="img/coptersm4.png" alt="">
-					</div>
-					<span class="bigpark__accordeon-nameproduct">DJI MATRICE 600 <i> и </i> SONY ALPHA A4S II</span>
-					<div class="bigpark__accordeon-pricebox">
-						<span>от <b>15.000</b> <i class="fa fa-rub" aria-hidden="true"></i></span>
-					</div>
-					<div class="clearfix"></div>
+					<div class="accordeon__visiblebox">
+						<div class="bigpark__accordeon-img">
+							<img src="img/coptersm4.png" alt="">
+						</div>
+						<span class="bigpark__accordeon-nameproduct">DJI MATRICE 600 <i> и </i> SONY ALPHA A4S II</span>
+						<div class="bigpark__accordeon-pricebox">
+							<span>от <b>15.000</b> <i class="fa fa-rub" aria-hidden="true"></i></span>
+						</div>
+						<div class="clearfix"></div>
+					</div>					
 					<div class="bigpark__accordeon-hiddenbox">
 						<div class="bigpark__accordeon-characteristics">
 							<div class="bigpark__accordeon-hourprice">
@@ -192,22 +206,26 @@
 							</div>
 						</div>
 						<div class="bigpark__accordeon-video">
-							<a href="#">
+							<a href="#video-tube" data-modal="modal">
 								<img src="img/bigparkimg.jpg" alt="">
+								<div class="video-bag">https://www.youtube.com/watch?v=974CsH5Cumg</div>
 							</a>
 						</div>											
 					</div>
 					<div class="clearfix"></div>		
 				</div>
 				<div class="bigpark__accordeon-item" data-tab="bigparktab5">
-					<div class="bigpark__accordeon-img">
-						<img src="img/coptersm4.png" alt="">
+					<div class="accordeon__visiblebox">
+						<div class="bigpark__accordeon-img">
+							<img src="img/coptersm4.png" alt="">
+						</div>
+						<span class="bigpark__accordeon-nameproduct">DJI matrice 600 <i>и</i> red</span>
+						<div class="bigpark__accordeon-pricebox">
+							<span>от <b>15.000</b> <i class="fa fa-rub" aria-hidden="true"></i></span>
+						</div>
+						<div class="clearfix"></div>
 					</div>
-					<span class="bigpark__accordeon-nameproduct">DJI matrice 600 <i>и</i> red</span>
-					<div class="bigpark__accordeon-pricebox">
-						<span>от <b>15.000</b> <i class="fa fa-rub" aria-hidden="true"></i></span>
-					</div>
-					<div class="clearfix"></div>
+					
 					<div class="bigpark__accordeon-hiddenbox">
 						<div class="bigpark__accordeon-characteristics">
 							<div class="bigpark__accordeon-hourprice">
@@ -224,8 +242,9 @@
 							</div>
 						</div>
 						<div class="bigpark__accordeon-video">
-							<a href="#">
+							<a href="#video-tube" data-modal="modal">
 								<img src="img/bigparkimg.jpg" alt="">
+								<div class="video-bag">https://www.youtube.com/watch?v=974CsH5Cumg</div>
 							</a>
 						</div>												
 					</div>
