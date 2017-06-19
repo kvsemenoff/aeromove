@@ -107,9 +107,13 @@
 	margin: 0 auto;
 }
 .our-wrap{
-	padding-top: 107px;
-	padding-bottom: 109px;
-	background:url(../img/pink.png) no-repeat right center;
+	padding-top: 80px;
+	padding-bottom: 80px;	
+	@media only screen and (min-width : 992px) {
+		background:url(../img/pink.png) no-repeat right center;
+		padding-top: 107px;
+		padding-bottom: 109px;	
+	}
 }
 .our-wrap__title{
 	height: 55px;
@@ -158,8 +162,11 @@
 	}
 }
 .project-more{
-	padding-top: 144px;
-	background:url(../img/pink2.png) no-repeat left top 64px;
+	padding-top: 50px;	
+	@media only screen and (min-width : 992px) {
+		padding-top: 144px;
+		background:url(../img/pink2.png) no-repeat left top 64px;
+	}
 	.common-slider{
 		max-width: 585px;
 	}
