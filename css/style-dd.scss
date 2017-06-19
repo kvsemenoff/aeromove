@@ -261,9 +261,24 @@
 .contact-box__wr{
 	background:url(../img/pink3.png) no-repeat left 10px bottom;
 	padding-bottom: 76px;
-	h1{
-		margin-bottom: 68px;
-		margin-top: 52px;
+	.tel-cont{
+		display: inline-block;
+		padding-bottom: 13px;
+		color: #24242d;
+		font-family: Ubuntu,sans-serif;
+		font-size: 25px;
+		font-weight: 400;
+		line-height: 36px;
+		position: relative;
+		&:after{
+			content: "";
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 41px;
+			height: 1px;
+			background-color: #df7171;
+		}
 	}
 	.pagination__contact{
 		padding-top: 35px;
@@ -285,6 +300,9 @@
 			background-color: white;
 			box-shadow: 0 20px 57px rgba(0, 0, 0, 0.1);
 			padding-left: 18px;
+			a{
+
+			}
 			@media only screen and (min-width: 992px) {
 				width: 35%;
 				padding-top: 38px;
