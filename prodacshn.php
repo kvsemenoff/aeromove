@@ -105,7 +105,10 @@
 						<div class="examplesblock__box">
 							<div class="examplesblock__left">
 								<div class="examplesblock__video">
-									<a href="#"><img src="img/videoservice.jpg" alt=""></a>
+									<a href="#video-tube" data-modal="modal">
+										<img src="img/videoservice.jpg" alt="">
+										<div class="video-bag">https://www.youtube.com/watch?v=974CsH5Cumg</div>
+									</a>
 								</div>
 							</div>
 							<div class="examplesblock__right">
@@ -122,7 +125,10 @@
 						<div class="examplesblock__box">
 							<div class="examplesblock__left">
 								<div class="examplesblock__video">
-									<a href="#"><img src="img/videoservice.jpg" alt=""></a>
+									<a href="#video-tube" data-modal="modal">
+										<img src="img/videoservice.jpg" alt="">
+										<div class="video-bag">https://www.youtube.com/watch?v=974CsH5Cumg</div>
+									</a>
 								</div>
 							</div>
 							<div class="examplesblock__right">
@@ -139,7 +145,10 @@
 						<div class="examplesblock__box">
 							<div class="examplesblock__left">
 								<div class="examplesblock__video">
-									<a href="#"><img src="img/videoservice.jpg" alt=""></a>
+									<a href="#video-tube" data-modal="modal">
+										<img src="img/videoservice.jpg" alt="">
+										<div class="video-bag">https://www.youtube.com/watch?v=974CsH5Cumg</div>
+									</a>
 								</div>
 							</div>
 							<div class="examplesblock__right">
@@ -156,7 +165,10 @@
 						<div class="examplesblock__box">
 							<div class="examplesblock__left">
 								<div class="examplesblock__video">
-									<a href="#"><img src="img/videoservice.jpg" alt=""></a>
+									<a href="#video-tube" data-modal="modal">
+										<img src="img/videoservice.jpg" alt="">
+										<div class="video-bag">https://www.youtube.com/watch?v=974CsH5Cumg</div>
+									</a>
 								</div>
 							</div>
 							<div class="examplesblock__right">
@@ -173,7 +185,10 @@
 						<div class="examplesblock__box">
 							<div class="examplesblock__left">
 								<div class="examplesblock__video">
-									<a href="#"><img src="img/videoservice.jpg" alt=""></a>
+									<a href="#video-tube" data-modal="modal">
+										<img src="img/videoservice.jpg" alt="">
+										<div class="video-bag">https://www.youtube.com/watch?v=974CsH5Cumg</div>
+									</a>
 								</div>
 							</div>
 							<div class="examplesblock__right">
@@ -190,7 +205,10 @@
 						<div class="examplesblock__box">
 							<div class="examplesblock__left">
 								<div class="examplesblock__video">
-									<a href="#"><img src="img/videoservice.jpg" alt=""></a>
+									<a href="#video-tube" data-modal="modal">
+										<img src="img/videoservice.jpg" alt="">
+										<div class="video-bag">https://www.youtube.com/watch?v=974CsH5Cumg</div>
+									</a>
 								</div>
 							</div>
 							<div class="examplesblock__right">
