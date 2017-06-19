@@ -24,8 +24,27 @@
 
 <div  class="modal-window" id="video-tube">
 	<span class="modal-close stop" >Закрыть</span>
-	<iframe class="videoframe" id="player" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
-
+	<div id="player"></div>
 </div>
 
 
+<div class="mobile-window" id="mobile">
+	<span class="modal-close" >Закрыть</span>
+	<ul class="mobile-main-menu">
+		<li>
+			<a href="http://yandex.ru">Услуги</a>
+			<ul>
+				<li><a href="#">Аэровидеосъемка</a></li>
+				<li><a href="#">Аэрофотосъемка</a></li>
+				<li><a href="#">Аренда оборудования</a></li>
+				<li><a href="#">Виртуальные туры</a></li>
+				<li><a href="#">Онлайн-трансляции</a></li>
+				<li><a href="#">Пост-продакшн</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Портфолио</a></li>
+		<li><a href="#">За кадром</a></li>
+		<li><a href="#">Блог</a></li>
+		<li><a href="#">Контакты</a></li>
+	</ul>
+</div>

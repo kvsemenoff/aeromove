@@ -65,27 +65,12 @@
 <?php require_once('popup.php'); ?>
 
 <script src="https://api-maps.yandex.ru/2.1/?lang=tr_TR" type="text/javascript"></script>
-<script src="https://www.youtube.com/player_api"></script>
 
 <!-- scripts start -->
 <script src="libs/jquery/jquery-1.11.1.min.js"></script>
-<script>
-	var player = [];	
-	function onYouTubePlayerAPIReady() {		
-		$('.videoframe').each(function(index, el) {
-			var thisId = $(this).attr('id');
-			player[index] = new YT.Player(thisId);	
-		});
-	}	
-	$('.stop').on('click', function(){		
-		$('.videoframe').each(function(index, el) {
-			player[index].stopVideo();	
-		});
-	});	
-</script>
+<script src="libs/youtube/youtube.js"></script>
 <script src="libs/owl.carousel/owl.carousel.js"></script>
 <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
-<!-- <script type="text/javascript" src="js/jquery.mousewheel.js"></script> -->
 <script src="js/jquery.maskedinput.min.js"></script>
 <script src="js/rangeslider.min.js"></script>
 <script src="js/fonts.js"></script>

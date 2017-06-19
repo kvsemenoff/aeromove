@@ -3,11 +3,14 @@
 body, html{
 	height:100%;
 }
-
+a{
+	outline: none !important;
+}
 .wrapper {
+	width: 100%;
+	//height: 100%;
  	display: flex;
   	flex-direction: column;
-  	height: 100%;
 }
 .content {
   	flex: 1 0 auto;
@@ -41,7 +44,7 @@ strong, b{
 
 }
 .container{
-	@media screen and (min-width: 1200px) {
+	@media screen and (min-width: 1240px) {
 		width: 1230px;
 		
 	}
@@ -51,98 +54,157 @@ strong, b{
 	background: #24242d;
 	padding: 30px 0px;
 	border-bottom: 1px solid #df7171;
-	.header-top-content{
-		width: 100%;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content:space-between;
-		align-items: center;
-		.main-menu{
-			display: flex;
-			flex-wrap: wrap;
-			justify-content:space-between;
-			align-items: center;
-			@media screen and (min-width: 1200px) {
-				margin-left: -40px;
+	.container{
+		position: relative;
+	}
+	.logo-box{
+		margin-top: 7px;
+	}
+	.main-menu{
+		display: block;
+		margin-top: 10px;
+		white-space: nowrap;
+		@media screen and (max-width: 1220px) {
+			display: none;
+		}
+		
+		li{
+			display: inline-block;
+			margin-right: 50px;
+			position: relative;
+
+			//padding-bottom: 20px;
+			//margin-top: 20px;
+			
+			&:last-child{
+				margin-right: 0px;
 			}
-			li{
-				display: block;
-				margin-left: 57px;
-				position: relative;
-				padding-bottom: 20px;
-				margin-top: 20px;
-				a{
-					color: #fff;
-					font-size: 16px;
-				}
-				&:hover{
-					.sub-menu{
-						display: flex;
-					}
-				}
+			a{
+				color: #fff;
+				font-size: 16px;
+			}
+			&:hover{
 				.sub-menu{
-					display: none;
-					position: absolute;
-					
-					margin-top: 10px;
-					left: 20%;
-					transform: translate(-20%, 0);
-					flex-wrap: wrap;
-					justify-content:space-between;
+					display: block;
+				}
+			}
+			.sub-menu{
+				display: none;
+				position: absolute;
+				
+				padding-top: 20px;
+				left: 20%;
+				transform: translate(-20%, 0);
+				
+				border-bottom: 5px solid #df7171;
+				background: #fff;
+				z-index: 100;
+				li{
+					display: block;
+					padding: 0px;
+					margin: 0px;
+					height: 43px;
 					align-items: center;
-					border-bottom: 5px solid #df7171;
-					background: #fff;
+					border-bottom: 1px solid #e8e8e8;
 					
-					li{
-						display: flex;
-						padding: 0px;
-						margin: 0px;
-						height: 43px;
-						align-items: center;
-						border-bottom: 1px solid #e8e8e8;
-						
-						a{
-							display: inline-block;
-							padding: 0px 33px;
-							color: #282828;
-							font-size: 16px;
-							&:after{
-								content: "";
-							}
+					a{
+						display: inline-block;
+						padding: 0px 33px;
+						color: #282828;
+						font-size: 16px;
+						&:after{
+							content: "";
 						}
 					}
 				}
 			}
-			.has-child{
-				
-				a{
-					display: inline-block;
-					position: relative;	
-					&:after{
-						content: ">";
-						position: absolute;
-						display: block;
-						width: 15px;
-						height: 16px;
-						color: #fff;
-						top: 0px;
-						right: -25px;
+		}
+		.has-child{
+			
+			a{
+				display: inline-block;
+				position: relative;	
+				&:after{
+					content: ">";
+					position: absolute;
+					display: block;
+					width: 15px;
+					height: 16px;
+					color: #fff;
+					top: 0px;
+					right: -25px;
 
 
-					}
 				}
-				
 			}
 			
 		}
-		.contact-box{
-			.header-phone{
-				display: inline-block;
-				color: #fff;
-				font-size: 16px;
-				font-weight: 500;
-				margin-right: 27px;
-			}
+		
+	}
+	.header-contact-box{
+		margin-left: auto;
+		text-align: right;
+		@media screen and (max-width: 1220px) {
+			display: none;
 		}
+		
+
+		.header-phone{
+			display: inline-block;
+			color: #fff;
+			font-size: 16px;
+			font-weight: 500;
+			margin-right: 27px;
+		}
+	}
+
+}
+
+.video-bag{
+	display: none;
+}
+.burg{
+	position: absolute;
+	right: 15px;
+	top: 2px;
+	color: #fff;
+	font-size: 30px;
+	cursor: pointer;
+	
+	@media screen and (min-width: 1220px) {
+		display: none;
+	}
+	
+	i{
+		font-weight: 300;	
+	}
+}
+.mobile-main-menu{
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding: 0px;
+	margin-top: 45px;
+	ul{
+		display: block;
+		width: 100%;
+		
+	}
+	li{
+		width: 100%;
+		height: 60px !important;
+		line-height: 60px;
+		background: #ccc;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		text-align: center;
+		outline: 1px solid red;
+		//padding: 0px;
+		a{
+			display: inline-block;
+		}
+		
+
 	}
 }

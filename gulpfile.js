@@ -4,14 +4,11 @@ var css_our = new Array(
 	'css/fonts.css',
 	'css/style.css',
 	'css/style-db.css',
-	'css/style-dc.css',
 	'css/style-dd.css',
 	'css/style-de.css',
 	'css/style-df.css',
 	'css/style-dg.css',
-	'css/style-dh.css',
-	'css/style-di.css',
-	'css/style-dj.css',
+	'css/popup.css',
 	'block/inputext/style.css',
 	'block/inpiutcheckbox/style.css',
 	'block/textarea/style.css',
@@ -31,18 +28,15 @@ var css_our = new Array(
 );
 
 var scss_our = new Array(
-	'scss/reset.scss',
-	'scss/fonts.scss',
-	'scss/style.scss',
-	'scss/style-db.scss',
-	'scss/style-dc.scss',
-	'scss/style-dd.scss',
-	'scss/style-de.scss',
-	'scss/style-df.scss',
-	'scss/style-dg.scss',
-	'scss/style-dh.scss',
-	'scss/style-di.scss',
-	'scss/style-dj.scss',
+	'css/reset.scss',
+	'css/fonts.scss',
+	'css/style.scss',
+	'css/style-db.scss',
+	'css/style-dd.scss',
+	'css/style-de.scss',
+	'css/style-df.scss',
+	'css/style-dg.scss',
+	'css/popup.scss',
 	'block/inputext/style.scss',
 	'block/inpiutcheckbox/style.scss',
 	'block/textarea/style.scss',
@@ -73,7 +67,9 @@ var css_style_name = 'style.min.css';
 
 //файлы js-скриптов
 var js_our = new Array(
+	'js/rangeslider.min.js',
 	'js/fonts.js',
+	'js/popup.js',
 	'js/common.js',
 	'block/inputext/script.js',
 	'block/inpiutcheckbox/script.js',
@@ -94,10 +90,11 @@ var js_our = new Array(
 );
 var js_libs = new Array(
 	'libs/jquery/jquery-1.11.1.min.js',
+	'libs/youtube/youtube.js',
 	'libs/owl.carousel/owl.carousel.js',
 	'libs/fancybox/jquery.fancybox.pack.js',
-	'js/jquery.mousewheel.js',
-	'js/jquery.maskedinput.min.js'
+	'js/jquery.maskedinput.min.js',
+	'js/rangeslider.min.js'
 );
 var js_all = js_libs.concat(js_our);
 

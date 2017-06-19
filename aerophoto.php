@@ -206,14 +206,16 @@
 							<h4>Список оборудования и стоимость:</h4>
 							<div class="bigpark__accordeon">
 								<div class="bigpark__accordeon-item" data-tab="bigparktab1">
-									<div class="bigpark__accordeon-img">
-										<img src="img/coptersm1.png" alt="">
+									<div class="accordeon__visiblebox">
+										<div class="bigpark__accordeon-img">
+											<img src="img/coptersm1.png" alt="">
+										</div>
+										<span class="bigpark__accordeon-nameproduct">DJI Phantom 4</span>
+										<div class="bigpark__accordeon-pricebox">
+											<span>от <b>5.000</b> <i class="fa fa-rub" aria-hidden="true"></i></span>
+										</div>
+										<div class="clearfix"></div>
 									</div>
-									<span class="bigpark__accordeon-nameproduct">DJI Phantom 4</span>
-									<div class="bigpark__accordeon-pricebox">
-										<span>от <b>5.000</b> <i class="fa fa-rub" aria-hidden="true"></i></span>
-									</div>
-									<div class="clearfix"></div>
 									<div class="bigpark__accordeon-hiddenbox">
 										<div class="bigpark__accordeon-characteristics">
 											<div class="bigpark__accordeon-hourprice">
@@ -233,14 +235,16 @@
 									<div class="clearfix"></div>
 								</div>
 								<div class="bigpark__accordeon-item" data-tab="bigparktab2">
-									<div class="bigpark__accordeon-img">
-										<img src="img/coptersm2.png" alt="">
+									<div class="accordeon__visiblebox">
+										<div class="bigpark__accordeon-img">
+											<img src="img/coptersm2.png" alt="">
+										</div>
+										<span class="bigpark__accordeon-nameproduct">DJi Inspire Zenmuse X3</span>
+										<div class="bigpark__accordeon-pricebox">
+											<span>от <b>10.000</b> <i class="fa fa-rub" aria-hidden="true"></i></span>
+										</div>
+										<div class="clearfix"></div>
 									</div>
-									<span class="bigpark__accordeon-nameproduct">DJi Inspire Zenmuse X3</span>
-									<div class="bigpark__accordeon-pricebox">
-										<span>от <b>10.000</b> <i class="fa fa-rub" aria-hidden="true"></i></span>
-									</div>
-									<div class="clearfix"></div>
 									<div class="bigpark__accordeon-hiddenbox">
 										<div class="bigpark__accordeon-characteristics">
 											<div class="bigpark__accordeon-hourprice">
@@ -261,14 +265,16 @@
 									<div class="clearfix"></div>	
 								</div>
 								<div class="bigpark__accordeon-item" data-tab="bigparktab3">
-									<div class="bigpark__accordeon-img">
-										<img src="img/coptersm3.png" alt="">
+									<div class="accordeon__visiblebox">
+										<div class="bigpark__accordeon-img">
+											<img src="img/coptersm3.png" alt="">
+										</div>
+										<span class="bigpark__accordeon-nameproduct">DJI NSPIRE X5, X5R</span>
+										<div class="bigpark__accordeon-pricebox">
+											<span>от <b>15.000</b> <i class="fa fa-rub" aria-hidden="true"></i></span>
+										</div>
+										<div class="clearfix"></div>
 									</div>
-									<span class="bigpark__accordeon-nameproduct">DJI NSPIRE X5, X5R</span>
-									<div class="bigpark__accordeon-pricebox">
-										<span>от <b>15.000</b> <i class="fa fa-rub" aria-hidden="true"></i></span>
-									</div>
-									<div class="clearfix"></div>
 									<div class="bigpark__accordeon-hiddenbox">
 										<div class="bigpark__accordeon-characteristics">
 											<div class="bigpark__accordeon-hourprice">

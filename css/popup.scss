@@ -60,3 +60,23 @@
 	position: relative;
 	padding-bottom: 18px;
 }
+
+.mobile-window{
+	z-index: 1000;
+	position: fixed;
+	top:0;
+	left:0px;
+	background: #fff;
+	display: none;
+	width: 100%;
+	height: 100%;
+	
+	
+	@media screen and (min-width: 800px) {
+		
+	}
+	.popup-title{
+
+	}
+
+}

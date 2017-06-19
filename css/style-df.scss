@@ -1,18 +1,20 @@
 .stop{
 	color: #191919;	
 }
-.videobgimg{
-	background-image: url("../img/videobgimg.png");
-	background-repeat: no-repeat;
-	background-position: right top 10%;
+.videobgimg{	
 	border-bottom: 1px solid #e6e6e6;
+	@media only screen and (min-width : 992px) {
+		background-image: url("../img/videobgimg.png");
+		background-repeat: no-repeat;
+		background-position: right top 10%;
+	}
 }
 .video{
 	font-family: 'Ubuntu', sans-serif;
 	padding: 40px 0 30px 0; 
 	display: flex;	
 	justify-content: space-between;	
-	flex-direction: column;	
+	flex-direction: column-reverse;	
 	@media only screen and (min-width : 770px) {
 		flex-direction: row;		
 	}
@@ -50,31 +52,30 @@
 	font-weight: 300;
 	line-height: 22px;
 	display: block;
-	
-	
 }
-.video__rightbox{
-	max-width: 607px;//700
+.video__rightbox{	
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
-	margin-top: 20px;
+	margin-bottom: 20px;
 	@media only screen and (min-width : 770px) {
 		text-align: right;
 		margin-top: 62px;
+		margin-bottom: 0;
+		max-width: 607px;
 	}
 }
 .video__imgbox{
 	display: inline-block;
-	max-width: 290px;
+	// max-width: 290px;
 	height: 290px;	
+	@media only screen and (min-width : 480px) {
+		width: 49%;
+	}
 	@media only screen and (min-width : 770px) {
 		width: 290px;
 		height: 290px;
-	}
-	@media only screen and (min-width : 992px) {
-		// width: 49%;
-	}	
+	}		
 	img{
 		width: 100%;
 		height: 100%;
@@ -414,7 +415,7 @@
 	height: 128px;
 	vertical-align: top;	
 	border-left: 1px solid #f0f0f0;
-	position: relative;
+	// position: relative;
 	@media only screen and (min-width : 550px) {
 		float: right;
 	}
@@ -424,20 +425,22 @@
 	@media only screen and (min-width : 1200px) {
 		width: 180px;
 	}
-	&:after{
-		content: "";
-		position: absolute;
-		width: 50px;
-		height: 50px;
-		top:50%;
-		left:50%;
-		transform:translate(-50%,-50%);
-		background-image: url("../img/playbutton.png");
-		background-repeat: no-repeat;
-		background-position: center;
-	}
+	
 	a{
 		display: inline-block;
+		position: relative;
+		&:after{
+			content: "";
+			position: absolute;
+			width: 50px;
+			height: 50px;
+			top:50%;
+			left:50%;
+			transform:translate(-50%,-50%);
+			background-image: url("../img/playbutton.png");
+			background-repeat: no-repeat;
+			background-position: center;
+		}
 		img{
 			max-width: 100%;
 			height: 100%;

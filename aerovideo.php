@@ -102,7 +102,7 @@
 					</ul>
 					<div class="clearfix"></div>
 					<div class="portfolio__block viewshootingtab1">					
-						<a href="#aerovideo1" class="portfolio__box" data-modal="modal">
+						<a href="#video-tube" class="portfolio__box" data-modal="modal">
 							<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio1.jpg" alt="">
@@ -111,13 +111,11 @@
 								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
 								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
 							</div>
+							<div class="video-bag">https://www.youtube.com/watch?v=974CsH5Cumg</div>
 						</a>
-						<div  class="modal-window" id="aerovideo1">
-							<span class="modal-close stop" >Закрыть</span>
-							<iframe class="videoframe" id="aerovideoplayer1" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
-						</div>
-						<a href="#aerovideo2" class="portfolio__box" data-modal="modal">
-						<span class="portfolio__playimg"></span>
+
+						<a href="#video-tube" class="portfolio__box" data-modal="modal">
+							<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio2.jpg" alt="">
 							</div>
@@ -125,13 +123,12 @@
 								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
 								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
 							</div>
+							<div class="video-bag">https://www.youtube.com/watch?v=t2ByLmLnYJ8</div>
 						</a>
-						<div  class="modal-window" id="aerovideo2">
-							<span class="modal-close stop" >Закрыть</span>
-							<iframe class="videoframe" id="aerovideoplayer2" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
-						</div>
-						<a href="#aerovideo3" class="portfolio__box" data-modal="modal">
-						<span class="portfolio__playimg"></span>
+						
+
+						<a href="#video-tube" class="portfolio__box" data-modal="modal">
+							<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio3.jpg" alt="">
 							</div>
@@ -139,13 +136,11 @@
 								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
 								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
 							</div>
+							<div class="video-bag">https://www.youtube.com/watch?v=974CsH5Cumg</div>
 						</a>
-						<div  class="modal-window" id="aerovideo3">
-							<span class="modal-close stop" >Закрыть</span>
-							<iframe class="videoframe" id="aerovideoplayer3" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
-						</div>
-						<a href="#aerovideo4" class="portfolio__box" data-modal="modal">
-						<span class="portfolio__playimg"></span>
+						
+						<a href="#video-tube" class="portfolio__box" data-modal="modal">
+							<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio1.jpg" alt="">
 							</div>
@@ -153,13 +148,11 @@
 								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
 								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
 							</div>
+							<div class="video-bag">https://www.youtube.com/watch?v=t2ByLmLnYJ8</div>
 						</a>
-						<div  class="modal-window" id="aerovideo4">
-							<span class="modal-close stop" >Закрыть</span>
-							<iframe class="videoframe" id="aerovideoplayer4" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
-						</div>
-						<a href="#aerovideo5" class="portfolio__box" data-modal="modal">
-						<span class="portfolio__playimg"></span>
+						
+						<a href="#video-tube" class="portfolio__box" data-modal="modal">
+							<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio2.jpg" alt="">
 							</div>
@@ -167,13 +160,11 @@
 								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
 								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
 							</div>
+							<div class="video-bag">https://www.youtube.com/watch?v=974CsH5Cumg</div>
 						</a>
-						<div  class="modal-window" id="aerovideo5">
-							<span class="modal-close stop" >Закрыть</span>
-							<iframe class="videoframe" id="aerovideoplayer5" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
-						</div>
-						<a href="#aerovideo6" class="portfolio__box" data-modal="modal">
-						<span class="portfolio__playimg"></span>
+						
+						<a href="#video-tube" class="portfolio__box" data-modal="modal">
+							<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio3.jpg" alt="">
 							</div>
@@ -181,15 +172,12 @@
 								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
 								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
 							</div>
+							<div class="video-bag">https://www.youtube.com/watch?v=t2ByLmLnYJ8</div>
 						</a>
-						<div  class="modal-window" id="aerovideo6">
-							<span class="modal-close stop" >Закрыть</span>
-							<iframe class="videoframe" id="aerovideoplayer6" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
-						</div>						
 					</div>
 					<div class="portfolio__block viewshootingtab2">					
-						<a href="#aerovideo7" class="portfolio__box" data-modal="modal">
-						<span class="portfolio__playimg"></span>
+						<a href="#video-tube" class="portfolio__box" data-modal="modal">
+							<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio1.jpg" alt="">
 							</div>
@@ -197,13 +185,11 @@
 								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
 								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
 							</div>
+							<div class="video-bag">https://www.youtube.com/watch?v=974CsH5Cumg</div>
 						</a>
-						<div  class="modal-window" id="aerovideo7">
-							<span class="modal-close stop" >Закрыть</span>
-							<iframe class="videoframe" id="aerovideoplayer7" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
-						</div>
-						<a href="#aerovideo8" class="portfolio__box" data-modal="modal">
-						<span class="portfolio__playimg"></span>
+
+						<a href="#video-tube" class="portfolio__box" data-modal="modal">
+							<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio2.jpg" alt="">
 							</div>
@@ -211,13 +197,12 @@
 								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
 								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
 							</div>
+							<div class="video-bag">https://www.youtube.com/watch?v=t2ByLmLnYJ8</div>
 						</a>
-						<div  class="modal-window" id="aerovideo8">
-							<span class="modal-close stop" >Закрыть</span>
-							<iframe class="videoframe" id="aerovideoplayer8" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
-						</div>
-						<a href="#aerovideo9" class="portfolio__box" data-modal="modal">
-						<span class="portfolio__playimg"></span>
+						
+
+						<a href="#video-tube" class="portfolio__box" data-modal="modal">
+							<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio3.jpg" alt="">
 							</div>
@@ -225,13 +210,11 @@
 								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
 								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
 							</div>
+							<div class="video-bag">https://www.youtube.com/watch?v=974CsH5Cumg</div>
 						</a>
-						<div  class="modal-window" id="aerovideo9">
-							<span class="modal-close stop" >Закрыть</span>
-							<iframe class="videoframe" id="aerovideoplayer9" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
-						</div>
-						<a href="#aerovideo10" class="portfolio__box" data-modal="modal">
-						<span class="portfolio__playimg"></span>
+						
+						<a href="#video-tube" class="portfolio__box" data-modal="modal">
+							<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio1.jpg" alt="">
 							</div>
@@ -239,13 +222,11 @@
 								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
 								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
 							</div>
+							<div class="video-bag">https://www.youtube.com/watch?v=t2ByLmLnYJ8</div>
 						</a>
-						<div  class="modal-window" id="aerovideo10">
-							<span class="modal-close stop" >Закрыть</span>
-							<iframe class="videoframe" id="aerovideoplayer10" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
-						</div>
-						<a href="#aerovideo11" class="portfolio__box" data-modal="modal">
-						<span class="portfolio__playimg"></span>
+						
+						<a href="#video-tube" class="portfolio__box" data-modal="modal">
+							<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio2.jpg" alt="">
 							</div>
@@ -253,13 +234,11 @@
 								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
 								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
 							</div>
+							<div class="video-bag">https://www.youtube.com/watch?v=974CsH5Cumg</div>
 						</a>
-						<div  class="modal-window" id="aerovideo11">
-							<span class="modal-close stop" >Закрыть</span>
-							<iframe class="videoframe" id="aerovideoplayer11" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
-						</div>
-						<a href="#aerovideo12" class="portfolio__box" data-modal="modal">
-						<span class="portfolio__playimg"></span>
+						
+						<a href="#video-tube" class="portfolio__box" data-modal="modal">
+							<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio3.jpg" alt="">
 							</div>
@@ -267,15 +246,13 @@
 								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
 								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
 							</div>
+							<div class="video-bag">https://www.youtube.com/watch?v=t2ByLmLnYJ8</div>
 						</a>
-						<div  class="modal-window" id="aerovideo12">
-							<span class="modal-close stop" >Закрыть</span>
-							<iframe class="videoframe" id="aerovideoplayer12" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
-						</div>						
+
 					</div>
 					<div class="portfolio__block viewshootingtab3">					
-						<a href="#aerovideo13" class="portfolio__box" data-modal="modal">
-						<span class="portfolio__playimg"></span>
+						<a href="#video-tube" class="portfolio__box" data-modal="modal">
+							<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio1.jpg" alt="">
 							</div>
@@ -283,13 +260,11 @@
 								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
 								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
 							</div>
+							<div class="video-bag">https://www.youtube.com/watch?v=974CsH5Cumg</div>
 						</a>
-						<div  class="modal-window" id="aerovideo13">
-							<span class="modal-close stop" >Закрыть</span>
-							<iframe class="videoframe" id="aerovideoplayer13" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
-						</div>
-						<a href="#aerovideo14" class="portfolio__box" data-modal="modal">
-						<span class="portfolio__playimg"></span>
+
+						<a href="#video-tube" class="portfolio__box" data-modal="modal">
+							<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio2.jpg" alt="">
 							</div>
@@ -297,13 +272,12 @@
 								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
 								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
 							</div>
+							<div class="video-bag">https://www.youtube.com/watch?v=t2ByLmLnYJ8</div>
 						</a>
-						<div  class="modal-window" id="aerovideo14">
-							<span class="modal-close stop" >Закрыть</span>
-							<iframe class="videoframe" id="aerovideoplayer14" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
-						</div>
-						<a href="#aerovideo15" class="portfolio__box" data-modal="modal">
-						<span class="portfolio__playimg"></span>
+						
+
+						<a href="#video-tube" class="portfolio__box" data-modal="modal">
+							<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio3.jpg" alt="">
 							</div>
@@ -311,13 +285,11 @@
 								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
 								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
 							</div>
+							<div class="video-bag">https://www.youtube.com/watch?v=974CsH5Cumg</div>
 						</a>
-						<div  class="modal-window" id="aerovideo15">
-							<span class="modal-close stop" >Закрыть</span>
-							<iframe class="videoframe" id="aerovideoplayer15" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
-						</div>
-						<a href="#aerovideo16" class="portfolio__box" data-modal="modal">
-						<span class="portfolio__playimg"></span>
+						
+						<a href="#video-tube" class="portfolio__box" data-modal="modal">
+							<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio1.jpg" alt="">
 							</div>
@@ -325,13 +297,11 @@
 								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
 								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
 							</div>
+							<div class="video-bag">https://www.youtube.com/watch?v=t2ByLmLnYJ8</div>
 						</a>
-						<div  class="modal-window" id="aerovideo16">
-							<span class="modal-close stop" >Закрыть</span>
-							<iframe class="videoframe" id="aerovideoplayer16" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
-						</div>
-						<a href="#aerovideo17" class="portfolio__box" data-modal="modal">
-						<span class="portfolio__playimg"></span>
+						
+						<a href="#video-tube" class="portfolio__box" data-modal="modal">
+							<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio2.jpg" alt="">
 							</div>
@@ -339,13 +309,11 @@
 								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
 								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
 							</div>
+							<div class="video-bag">https://www.youtube.com/watch?v=974CsH5Cumg</div>
 						</a>
-						<div  class="modal-window" id="aerovideo17">
-							<span class="modal-close stop" >Закрыть</span>
-							<iframe class="videoframe" id="aerovideoplayer17" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
-						</div>
-						<a href="#aerovideo18" class="portfolio__box" data-modal="modal">
-						<span class="portfolio__playimg"></span>
+						
+						<a href="#video-tube" class="portfolio__box" data-modal="modal">
+							<span class="portfolio__playimg"></span>
 							<div class="portfolio__video">
 								<img src="img/portfolio3.jpg" alt="">
 							</div>
@@ -353,11 +321,8 @@
 								<span class="portfolio__txtcap">Кадры из т/с  “5 минут тишины”</span>
 								<span class="portfolio__txtbot">для киностудии GreenFilm</span>
 							</div>
+							<div class="video-bag">https://www.youtube.com/watch?v=t2ByLmLnYJ8</div>
 						</a>
-						<div  class="modal-window" id="aerovideo18">
-							<span class="modal-close stop" >Закрыть</span>
-							<iframe class="videoframe" id="aerovideoplayer18" src="https://www.youtube.com/embed/974CsH5Cumg?version=3&enablejsapi=1&color=red&showinfo=0&vq=highres&modestbranding=1&buffering=0&loop=0&rel=0" allowfullscreen></iframe>
-						</div>						
 					</div>
 
 					<div class="shooting__button whatweshot__button">
@@ -444,14 +409,16 @@
 							<h4>Список оборудования и стоимость:</h4>
 							<div class="bigpark__accordeon">
 								<div class="bigpark__accordeon-item" data-tab="bigparktab1">
-									<div class="bigpark__accordeon-img">
-										<img src="img/coptersm1.png" alt="">
+									<div class="accordeon__visiblebox">
+										<div class="bigpark__accordeon-img">
+											<img src="img/coptersm1.png" alt="">
+										</div>
+										<span class="bigpark__accordeon-nameproduct">DJI Phantom 4</span>
+										<div class="bigpark__accordeon-pricebox">
+											<span>от <b>5.000</b> <i class="fa fa-rub" aria-hidden="true"></i></span>
+										</div>
+										<div class="clearfix"></div>
 									</div>
-									<span class="bigpark__accordeon-nameproduct">DJI Phantom 4</span>
-									<div class="bigpark__accordeon-pricebox">
-										<span>от <b>5.000</b> <i class="fa fa-rub" aria-hidden="true"></i></span>
-									</div>
-									<div class="clearfix"></div>
 									<div class="bigpark__accordeon-hiddenbox">
 										<div class="bigpark__accordeon-characteristics">
 											<div class="bigpark__accordeon-hourprice">
@@ -468,22 +435,25 @@
 											</div>
 										</div>
 										<div class="bigpark__accordeon-video">
-											<a href="#">
+											<a href="#video-tube" data-modal="modal">
 												<img src="img/bigparkimg.jpg" alt="">
+												<div class="video-bag">https://www.youtube.com/watch?v=974CsH5Cumg</div>
 											</a>
 										</div>													
 									</div>
 									<div class="clearfix"></div>
 								</div>
 								<div class="bigpark__accordeon-item" data-tab="bigparktab2">
-									<div class="bigpark__accordeon-img">
-										<img src="img/coptersm2.png" alt="">
+									<div class="accordeon__visiblebox">
+										<div class="bigpark__accordeon-img">
+											<img src="img/coptersm2.png" alt="">
+										</div>
+										<span class="bigpark__accordeon-nameproduct">DJi Inspire Zenmuse X3</span>
+										<div class="bigpark__accordeon-pricebox">
+											<span>от <b>10.000</b> <i class="fa fa-rub" aria-hidden="true"></i></span>
+										</div>
+										<div class="clearfix"></div>
 									</div>
-									<span class="bigpark__accordeon-nameproduct">DJi Inspire Zenmuse X3</span>
-									<div class="bigpark__accordeon-pricebox">
-										<span>от <b>10.000</b> <i class="fa fa-rub" aria-hidden="true"></i></span>
-									</div>
-									<div class="clearfix"></div>
 									<div class="bigpark__accordeon-hiddenbox">
 										<div class="bigpark__accordeon-characteristics">
 											<div class="bigpark__accordeon-hourprice">
@@ -500,22 +470,25 @@
 											</div>
 										</div>
 										<div class="bigpark__accordeon-video">
-											<a href="#">
+											<a href="#video-tube" data-modal="modal">
 												<img src="img/bigparkimg.jpg" alt="">
+												<div class="video-bag">https://www.youtube.com/watch?v=974CsH5Cumg</div>
 											</a>
 										</div>												
 									</div>
 									<div class="clearfix"></div>	
 								</div>
 								<div class="bigpark__accordeon-item" data-tab="bigparktab3">
-									<div class="bigpark__accordeon-img">
-										<img src="img/coptersm3.png" alt="">
+									<div class="accordeon__visiblebox">
+										<div class="bigpark__accordeon-img">
+											<img src="img/coptersm3.png" alt="">
+										</div>
+										<span class="bigpark__accordeon-nameproduct">DJI NSPIRE X5, X5R</span>
+										<div class="bigpark__accordeon-pricebox">
+											<span>от <b>15.000</b> <i class="fa fa-rub" aria-hidden="true"></i></span>
+										</div>
+										<div class="clearfix"></div>
 									</div>
-									<span class="bigpark__accordeon-nameproduct">DJI NSPIRE X5, X5R</span>
-									<div class="bigpark__accordeon-pricebox">
-										<span>от <b>15.000</b> <i class="fa fa-rub" aria-hidden="true"></i></span>
-									</div>
-									<div class="clearfix"></div>
 									<div class="bigpark__accordeon-hiddenbox">
 										<div class="bigpark__accordeon-characteristics">
 											<div class="bigpark__accordeon-hourprice">
@@ -532,22 +505,25 @@
 											</div>
 										</div>
 										<div class="bigpark__accordeon-video">
-											<a href="#">
+											<a href="#video-tube" data-modal="modal">
 												<img src="img/bigparkimg.jpg" alt="">
+												<div class="video-bag">https://www.youtube.com/watch?v=974CsH5Cumg</div>
 											</a>
 										</div>												
 									</div>
 									<div class="clearfix"></div>	
 								</div>
 								<div class="bigpark__accordeon-item" data-tab="bigparktab4">
-									<div class="bigpark__accordeon-img">
-										<img src="img/coptersm4.png" alt="">
+									<div class="accordeon__visiblebox">
+										<div class="bigpark__accordeon-img">
+											<img src="img/coptersm4.png" alt="">
+										</div>
+										<span class="bigpark__accordeon-nameproduct">DJI MATRICE 600 <i> и </i> SONY ALPHA A4S II</span>
+										<div class="bigpark__accordeon-pricebox">
+											<span>от <b>15.000</b> <i class="fa fa-rub" aria-hidden="true"></i></span>
+										</div>
+										<div class="clearfix"></div>
 									</div>
-									<span class="bigpark__accordeon-nameproduct">DJI MATRICE 600 <i> и </i> SONY ALPHA A4S II</span>
-									<div class="bigpark__accordeon-pricebox">
-										<span>от <b>15.000</b> <i class="fa fa-rub" aria-hidden="true"></i></span>
-									</div>
-									<div class="clearfix"></div>
 									<div class="bigpark__accordeon-hiddenbox">
 										<div class="bigpark__accordeon-characteristics">
 											<div class="bigpark__accordeon-hourprice">
@@ -564,22 +540,25 @@
 											</div>
 										</div>
 										<div class="bigpark__accordeon-video">
-											<a href="#">
+											<a href="#video-tube" data-modal="modal">
 												<img src="img/bigparkimg.jpg" alt="">
+												<div class="video-bag">https://www.youtube.com/watch?v=974CsH5Cumg</div>
 											</a>
 										</div>											
 									</div>
 									<div class="clearfix"></div>		
 								</div>
 								<div class="bigpark__accordeon-item" data-tab="bigparktab5">
-									<div class="bigpark__accordeon-img">
-										<img src="img/coptersm4.png" alt="">
+									<div class="accordeon__visiblebox">
+										<div class="bigpark__accordeon-img">
+											<img src="img/coptersm4.png" alt="">
+										</div>
+										<span class="bigpark__accordeon-nameproduct">DJI matrice 600 <i>и</i> red</span>
+										<div class="bigpark__accordeon-pricebox">
+											<span>от <b>15.000</b> <i class="fa fa-rub" aria-hidden="true"></i></span>
+										</div>
+										<div class="clearfix"></div>
 									</div>
-									<span class="bigpark__accordeon-nameproduct">DJI matrice 600 <i>и</i> red</span>
-									<div class="bigpark__accordeon-pricebox">
-										<span>от <b>15.000</b> <i class="fa fa-rub" aria-hidden="true"></i></span>
-									</div>
-									<div class="clearfix"></div>
 									<div class="bigpark__accordeon-hiddenbox">
 										<div class="bigpark__accordeon-characteristics">
 											<div class="bigpark__accordeon-hourprice">
@@ -596,8 +575,9 @@
 											</div>
 										</div>
 										<div class="bigpark__accordeon-video">
-											<a href="#">
+											<a href="#video-tube" data-modal="modal">
 												<img src="img/bigparkimg.jpg" alt="">
+												<div class="video-bag">https://www.youtube.com/watch?v=974CsH5Cumg</div>
 											</a>
 										</div>											
 									</div>
@@ -617,14 +597,17 @@
 					<div class="compare__block">
 
 						<div class="compare__leftbox">
-							<a href="#" class="compare__imgbox comparetab1">
+							<a href="#video-tube" data-modal="modal" class="compare__imgbox comparetab1">						
 								<img src="img/compare1.jpg" alt="">
+								<div class="video-bag">https://www.youtube.com/watch?v=974CsH5Cumg</div>
 							</a>
-							<a href="#" class="compare__imgbox comparetab2">
+							<a href="#video-tube" data-modal="modal" class="compare__imgbox comparetab2">
 								<img src="img/compare1.jpg" alt="">
+								<div class="video-bag">https://www.youtube.com/watch?v=974CsH5Cumg</div>
 							</a>
-							<a href="#" class="compare__imgbox comparetab3">
+							<a href="#video-tube" data-modal="modal" class="compare__imgbox comparetab3">
 								<img src="img/compare1.jpg" alt="">
+								<div class="video-bag">https://www.youtube.com/watch?v=974CsH5Cumg</div>
 							</a>					
 
 							<div class="compare__tabs aerovideo__tabs">

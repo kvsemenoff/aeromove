@@ -8,16 +8,16 @@
 		<form action="#" method="post" class="want-form">
 			<h3 class="want-form__title">Оставьте свой номер и специалист вас проконсультирует</h3>
 			<div class="wants-first">
-				<label class="want-form__label" for="uname">Имя</label><br>
+				<label class="want-form__label">Имя</label><br>
 				<input type="text" name="uname">
 			</div>
 			<div class="wants-two">
-				<label class="want-form__label" for="phone">Телефон</label><br>
+				<label class="want-form__label">Телефон</label><br>
 				<input  type="text" name="phone"><br>
 			</div>
 			<div class="clearfix"></div>
 			<div class="wants-three">
-				<label for="comment"  class="want-form__label">Комментарий</label><br>
+				<label class="want-form__label">Комментарий</label><br>
 				<textarea name="comment"></textarea>
 			</div>
 			<div class="wants-four">
