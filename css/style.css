@@ -39,7 +39,7 @@ strong, b {
 
 .header-top {
   background: #24242d;
-  padding: 30px 0px;
+  padding: 38px 0px;
   border-bottom: 1px solid #df7171; }
   .header-top .container {
     position: relative; }
@@ -52,9 +52,12 @@ strong, b {
     @media screen and (max-width: 1220px) {
       .header-top .main-menu {
         display: none; } }
+    @media screen and (min-width: 1220px) {
+      .header-top .main-menu {
+        margin-left: 34px; } }
     .header-top .main-menu li {
       display: inline-block;
-      margin-right: 50px;
+      margin-right: 53px;
       position: relative; }
       .header-top .main-menu li:last-child {
         margin-right: 0px; }
