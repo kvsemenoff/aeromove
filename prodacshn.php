@@ -225,7 +225,7 @@
 					</div>
 					<div class="examplesblock__button">
 						<a class="button button_1" href="#">Посмотреть еще</a>
-						<a href="#" class="video__lookmore">Остальные работы в разделе “Порфтолио”</a>
+						<!-- <a href="#" class="video__lookmore">Остальные работы в разделе “Порфтолио”</a> -->
 					</div>	
 
 				</div>
