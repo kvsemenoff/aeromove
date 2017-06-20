@@ -109,16 +109,13 @@
 							<img src="img/panoramswf.swf" alt="">
 						</div>
 						<div class="panorams__img panoramstab2">
-							<img src="img/panoramswf.swf" alt="">
-							2
+							<img src="img/panoramswf.swf" alt="">						
 						</div>
 						<div class="panorams__img panoramstab3">
-							<img src="img/panoramswf.swf" alt="">
-							3
+							<img src="img/panoramswf.swf" alt="">						
 						</div>
 						<div class="panorams__img panoramstab4">
-							<img src="img/panoramswf.swf" alt="">
-							4
+							<img src="img/panoramswf.swf" alt="">						
 						</div>
 					</div>
 				</div>
