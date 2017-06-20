@@ -52,9 +52,17 @@
 	&__box{
 		text-align:center;
 		@media only screen and (min-width: 768px) {
-			display: flex;
-			justify-content: space-between;
+			display: flex;	
+			display: -webkit-box;
+			display: -webkit-flex;
+			display: -ms-flexbox;
+			justify-content: space-between;	
+			-webkit-box-pack: justify;
+			-webkit-justify-content: space-between;
+			-ms-flex-pack: justify;
 			flex-wrap: wrap;
+			-webkit-flex-wrap: wrap;
+			-ms-flex-wrap: wrap;
 		}
 		li{
 			a{
@@ -427,9 +435,15 @@
 .pag-nav{
 	width: 256px;
 	margin-bottom: 88px;
-	ul{
-		display: flex;
-		justify-content: space-between;
+	ul{	
+		display: flex;	
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		justify-content: space-between;	
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		-ms-flex-pack: justify;
 		li{
 			display: inline-block;
 			a{
