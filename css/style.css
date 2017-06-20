@@ -58,7 +58,9 @@ strong, b {
     .header-top .main-menu li {
       display: inline-block;
       margin-right: 53px;
-      position: relative; }
+      position: relative;
+      padding-bottom: 20px;
+      margin-top: -20px; }
       .header-top .main-menu li:last-child {
         margin-right: 0px; }
       .header-top .main-menu li a {
@@ -69,9 +71,9 @@ strong, b {
       .header-top .main-menu li .sub-menu {
         display: none;
         position: absolute;
-        padding-top: 20px;
-        left: 20%;
-        transform: translate(-20%, 0);
+        min-width: 250px;
+        margin-top: 20px;
+        left: 0px;
         border-bottom: 5px solid #df7171;
         background: #fff;
         z-index: 100; }
@@ -79,16 +81,18 @@ strong, b {
           display: block;
           padding: 0px;
           margin: 0px;
-          height: 43px;
-          align-items: center;
+          vertical-align: middle;
           border-bottom: 1px solid #e8e8e8; }
           .header-top .main-menu li .sub-menu li a {
             display: inline-block;
-            padding: 0px 33px;
+            padding: 10px 15px;
+            width: 100%;
             color: #282828;
             font-size: 16px; }
             .header-top .main-menu li .sub-menu li a:after {
               content: ""; }
+            .header-top .main-menu li .sub-menu li a:hover {
+              background: #e5e5e5; }
     .header-top .main-menu .has-child a {
       display: inline-block;
       position: relative; }
@@ -99,7 +103,9 @@ strong, b {
         width: 15px;
         height: 16px;
         color: #fff;
-        top: 0px;
+        font-size: 16px;
+        font-family: "MyriadPro-Regular";
+        top: 2px;
         right: -25px; }
   .header-top .header-contact-box {
     margin-left: auto;

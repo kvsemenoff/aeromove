@@ -75,7 +75,8 @@ strong, b{
 			margin-right: 53px;
 			position: relative;
 
-			//padding-bottom: 20px;
+			padding-bottom: 20px;
+			margin-top: -20px;
 			//margin-top: 20px;
 			
 			&:last-child{
@@ -93,10 +94,10 @@ strong, b{
 			.sub-menu{
 				display: none;
 				position: absolute;
-				
-				padding-top: 20px;
-				left: 20%;
-				transform: translate(-20%, 0);
+				min-width: 250px;
+				margin-top: 20px;
+				left: 0px;
+				//transform: translate(-20%, 0);
 				
 				border-bottom: 5px solid #df7171;
 				background: #fff;
@@ -105,17 +106,21 @@ strong, b{
 					display: block;
 					padding: 0px;
 					margin: 0px;
-					height: 43px;
-					align-items: center;
+					vertical-align: middle;
+					
 					border-bottom: 1px solid #e8e8e8;
 					
 					a{
 						display: inline-block;
-						padding: 0px 33px;
+						padding: 10px 15px;
+						width: 100%;
 						color: #282828;
 						font-size: 16px;
 						&:after{
 							content: "";
+						}
+						&:hover{
+							background: #e5e5e5;
 						}
 					}
 				}
@@ -133,7 +138,9 @@ strong, b{
 					width: 15px;
 					height: 16px;
 					color: #fff;
-					top: 0px;
+					font-size: 16px;
+					font-family: "MyriadPro-Regular";
+					top: 2px;
 					right: -25px;
 
 
