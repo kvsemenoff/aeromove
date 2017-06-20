@@ -93,3 +93,4 @@
 <script src="block/common-slider/script.js"></script>
 <script src="block/main-menu/script.js"></script>
 <!-- scripts end -->
+
