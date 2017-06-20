@@ -1,2 +1,15 @@
-@font-face{font-family:"Ludvig";src:url("../fonts/Ludvig/Ludvig.eot");src:url("../fonts/Ludvig/Ludvig.eot?#iefix") format("embedded-opentype"),url("../fonts/Ludvig/Ludvig.woff") format("woff"),url("../fonts/Ludvig/Ludvig.ttf") format("truetype");font-style:normal;font-weight:normal}
+@charset "UTF-8";
+@font-face {
+  font-family: "Ludvig";
+  src: url("../fonts/Ludvig/Ludvig.eot");
+  src: url("../fonts/Ludvig/Ludvig.eot?#iefix") format("embedded-opentype"), url("../fonts/Ludvig/Ludvig.woff") format("woff"), url("../fonts/Ludvig/Ludvig.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "MyriadPro-Regular";
+  src: url("../fonts/MyriadPro-Regular/MyriadPro-Regular.eot");
+  src: local("тШ║"), url("../fonts/MyriadPro-Regular/MyriadPro-Regular.woff") format("woff"), url("../fonts/MyriadPro-Regular/MyriadPro-Regular.ttf") format("truetype"), url("../fonts/MyriadPro-Regular/MyriadPro-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 /*# sourceMappingURL=fonts.css.map */

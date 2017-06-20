@@ -35,6 +35,15 @@
 	}
 
 }
+.modal-window-video{
+
+	@media screen and (min-width: 800px) {
+		min-height: 360px;
+		width: 700px;
+		height: 400px;
+	}
+}
+
 #thanks{
 	text-align: center;
 	min-height: 370px;
@@ -46,7 +55,11 @@
 		position: absolute;
 		bottom: 0px;
 		left: 50%;
-		transform: translate(-50%, 0);
+		-ms-transform: translate(-50%, 0);
+	-webkit-transform: translate(-50%, 0);
+	-moz-transform: translate(-50%, 0);
+	-o-transform: translate(-50%, 0);
+	transform: translate(-50%, 0);
 	}
 	p{
 		margin-top: 25px;
