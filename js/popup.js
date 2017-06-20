@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$('a[data-modal="modal"').on("click", function(e){
+	$('a[data-modal="modal"]').on("click", function(e){
 		e.preventDefault();
 		var  id = $(this).attr('href'),
 		winW = $(window).width(),
@@ -10,7 +10,7 @@ $(document).ready(function(){
 		$(id).fadeIn();
 	});
 
-	$('a[data-modal="mobile"').on("click", function(e){
+	$('a[data-modal="mobile"]').on("click", function(e){
 		e.preventDefault();
 		var  id = $(this).attr('href'),
 		winW = $(window).width(),
@@ -20,26 +20,23 @@ $(document).ready(function(){
 		$('body').append('<div class="mask"></div>');
 		$(id).fadeIn();
 	});
-
 	$('body').on("click", ".mobile-main-menu", function(e){
-		
+		e.preventDefault();
 		$('.mask').remove();
 		$('.modal-window').hide();
 		$('.mobile-window').hide();
-	});
-	 
+	});	 
 	$('body').on("click", ".modal-close", function(e){
 		e.preventDefault();
 		$('.mask').remove();
 		$('.modal-window').hide();
 		$('.mobile-window').hide();
 	});
-	$('body').on("click", ".mask", function(){
+	$('body').on("click", ".mask", function(e){
 		e.preventDefault();
-	$('.mask').remove();
+		$('.mask').remove();
 		$('.modal-window').hide();
 		$('.mobile-window').hide();
 	});
-
 
 });
