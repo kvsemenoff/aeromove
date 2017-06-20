@@ -17,19 +17,19 @@
 	<link rel="stylesheet" href="block/inputext/style.css">
 	<link rel="stylesheet" href="block/inpiutcheckbox/style.css">
 	<link rel="stylesheet" href="block/textarea/style.css">
-	<link rel="stylesheet" href="block/call-back/style.css">
-	<link rel="stylesheet" href="block/common-title/style.css">
+	<!-- <link rel="stylesheet" href="block/call-back/style.css"> -->
+	<!-- <link rel="stylesheet" href="block/common-title/style.css"> -->
 	<link rel="stylesheet" href="block/h1/style.css">
 	<link rel="stylesheet" href="block/button/style.css">
-	<link rel="stylesheet" href="block/card-item/style.css">
-	<link rel="stylesheet" href="block/cadr-row/style.css">
+	<!-- <link rel="stylesheet" href="block/card-item/style.css"> -->
+	<!-- <link rel="stylesheet" href="block/cadr-row/style.css"> -->
 	<link rel="stylesheet" href="block/pagintation/style.css">
 	<link rel="stylesheet" href="block/socials/style.css">
-	<link rel="stylesheet" href="block/header-top/style.css">
-	<link rel="stylesheet" href="block/header-bottom-main/style.css">
-	<link rel="stylesheet" href="block/header-botom-inner/style.css">
+	<!-- <link rel="stylesheet" href="block/header-top/style.css"> -->
+	<!-- <link rel="stylesheet" href="block/header-bottom-main/style.css"> -->
+	<!-- <link rel="stylesheet" href="block/header-botom-inner/style.css"> -->
 	<link rel="stylesheet" href="block/common-slider/style.css">
-	<link rel="stylesheet" href="block/main-menu/style.css">
+	<!-- <link rel="stylesheet" href="block/main-menu/style.css"> -->
 	<!-- styles end -->
 </head>
 <body>
