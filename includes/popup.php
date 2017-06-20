@@ -22,7 +22,7 @@
 </div>
 
 
-<div  class="modal-window" id="video-tube">
+<div  class="modal-window modal-window-video" id="video-tube">
 	<span class="modal-close stop" >Закрыть</span>
 	<div id="player"></div>
 </div>

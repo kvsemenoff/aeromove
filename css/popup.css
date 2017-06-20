@@ -31,6 +31,12 @@
       width: 590px;
       height: auto; } }
 
+@media screen and (min-width: 800px) {
+  .modal-window-video {
+    min-height: 360px;
+    width: 700px;
+    height: 400px; } }
+
 #thanks {
   text-align: center;
   min-height: 370px;
