@@ -1,6 +1,12 @@
 .stop{
 	color: #191919;	
 }
+.flexjs{
+	display: flex !important;
+	display: -webkit-box !important;
+	display: -webkit-flex !important;
+	display: -ms-flexbox !important;
+}
 .videobgimg{	
 	border-bottom: 1px solid #e6e6e6;
 	@media only screen and (min-width : 992px) {
