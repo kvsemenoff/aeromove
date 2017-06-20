@@ -3,12 +3,15 @@
   width: 100%;
   margin: 0 auto; }
 
+.common-slider__img img {
+  width: 100%;
+  height: auto; }
 @media only screen and (min-width: 990px) {
   .common-slider__img {
-    height: 338px; } }
-.common-slider__img img {
-  max-width: 100%;
-  height: 100%; }
+    height: 338px; }
+    .common-slider__img img {
+      width: 100%;
+      height: 100%; } }
 
 .common-slider__txtbox {
   margin-top: -28px; }
