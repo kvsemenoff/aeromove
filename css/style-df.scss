@@ -1308,7 +1308,28 @@
 		transform:rotate(180deg);
 	}
 }
-
+.fancybox-skin{
+	border-radius: 0;
+	padding: 20px !important;
+}
+// .fancybox-close{
+// 	background-image: none;
+// 	width: 70px;
+// 	top:0;
+// 	right:10px;
+// 	&:before{
+// 		content: "Close";
+// 		display: block;
+// 		width: 100%;
+// 		height:30%;
+// 		line-height: 30px;
+// 		font-size: 17px;
+// 		color: #000;
+// 		font-weight: 300;
+// 		text-align: right;
+// 		font-family: 'Ubuntu', sans-serif;
+// 	}
+// }
 
 
 
