@@ -1,7 +1,7 @@
 
 
 $(document).ready(function(){
-"use strict";
+
 
 	ymaps.ready(init);
 
@@ -175,10 +175,10 @@ $(document).ready(function(){
 		}	
 	});
 
-	// end slider counter
+	// // end slider counter
 
 
-	// tabs	
+	// // tabs	
 	$('.accordeon__visiblebox').on('click', function (e) {
 		e.preventDefault();
 		if( !$(this).parents('.bigpark__accordeon-item').hasClass("bigpark__accordeon-active")){
@@ -233,7 +233,7 @@ $(document).ready(function(){
 		$(tab).addClass('flexjs');
 	});
 
-	// end tabs
+	// // end tabs
 
 	$('input[type="range"]').rangeslider({
 		 polyfill: false,	

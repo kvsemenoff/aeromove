@@ -13,7 +13,7 @@
     .videobgimg {
       background-image: url("../img/videobgimg.png");
       background-repeat: no-repeat;
-      background-position: right top 10%; } }
+      background-position: 100% 50%; } }
 
 .video {
   font-family: 'Ubuntu', sans-serif;

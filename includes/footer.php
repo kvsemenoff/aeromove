@@ -74,7 +74,7 @@
 <script src="js/jquery.maskedinput.min.js"></script>
 <script src="js/rangeslider.min.js"></script>
 <script src="js/fonts.js"></script>
-<script src="js/popup.js"></script>
+<!-- <script src="js/popup.js"></script> -->
 <script src="js/common.js"></script>
 <script src="block/inputext/script.js"></script>
 <script src="block/inpiutcheckbox/script.js"></script>
