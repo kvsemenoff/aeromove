@@ -749,7 +749,9 @@
       width: auto;
       flex-direction: row;
       -webkit-flex-direction: row;
-      -ms-flex-direction: row; } }
+      -ms-flex-direction: row;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal; } }
   .panorams__tabs li {
     display: inline-block; }
     @media only screen and (min-width: 992px) {
@@ -777,10 +779,20 @@
 
 .panorams__img {
   display: none;
-  margin-top: 25px; }
+  margin-top: 25px;
+  height: 390px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none; }
   @media only screen and (min-width: 1200px) {
     .panorams__img {
-      margin-top: 70px; } }
+      margin-top: 70px;
+      height: 590px; } }
   .panorams__img img {
     width: 100%;
     height: auto; }

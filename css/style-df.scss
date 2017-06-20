@@ -856,6 +856,8 @@
 		flex-direction: row;
 		-webkit-flex-direction: row;
 		-ms-flex-direction: row;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
 	}		
 	li{
 		display: inline-block;		
@@ -889,8 +891,18 @@
 .panorams__img{
 	display: none;
 	margin-top: 25px;
+	height:390px;
+	width: 100%;
+	position:relative;
+	overflow:hidden;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
 	@media only screen and (min-width : 1200px) {
 		margin-top: 70px;
+		height:590px;
 	}
 	img{
 		width: 100%;
@@ -930,7 +942,7 @@
 	@media only screen and (min-width : 992px) {
 		flex-direction: row;
 		-webkit-flex-direction: row;
-		-ms-flex-direction: row;		
+		-ms-flex-direction: row;			
 	}
 	@media only screen and (min-width : 1200px) {
 		padding: 0 42px;

@@ -76,6 +76,8 @@
 <script src="js/fonts.js"></script>
 <script src="js/popup.js"></script>
 <script src="js/common.js"></script>
+<script src="js/1.js"></script>
+<script src="js/swfscript.js"></script>
 <script src="block/inputext/script.js"></script>
 <script src="block/inpiutcheckbox/script.js"></script>
 <script src="block/textarea/script.js"></script>
@@ -92,4 +94,5 @@
 <script src="block/header-botom-inner/script.js"></script>
 <script src="block/common-slider/script.js"></script>
 <script src="block/main-menu/script.js"></script>
+
 <!-- scripts end -->

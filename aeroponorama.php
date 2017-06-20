@@ -5,12 +5,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Панорамы</title>
 	<?php require_once('includes/header.php'); ?>
+
 	<div class="wrapper">
 		<div class="content">
 			<?php require_once('includes/header_top.php'); ?>
 			<?php require_once('includes/header_bottom2.php'); ?>
 			
- 
+
 			<div class="shooting aeropanoramabg">	
 				<div class="container">
 					<div class="shooting_block">				
@@ -104,18 +105,40 @@
 						<li><a href="panoramstab4">Инфраструктура</a></li>
 					</ul>
 					<div class="clearfix"></div>                    		
-					<div class="panorams__content">
-						<div class="panorams__img panoramstab1">
-							<img src="img/panoramswf.swf" alt="">
+					<div class="panorams__content" >
+						
+						<div class="panorams__img panoramstab1" id="panoDIV">
+							<noscript>
+								<object classid="lsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="100%" height="100%" id="js/1">
+									<param name="movie" value="img/swf/1.swf"/>
+									<param name="allowFullScreen" value="true"/>		
+								</object>
+							</noscript>
 						</div>
-						<div class="panorams__img panoramstab2">
-							<img src="img/panoramswf.swf" alt="">						
+						
+						<div class="panorams__img panoramstab2" id="panoDIV2">
+							<noscript>
+								<object classid="lsid:d27cd6e-ae6d-11cf-96b8-444553540000" width="100%" height="100%" id="js/2">
+									<param name="movie" value="img/swf/1.swf"/>
+									<param name="allowFullScreen" value="true"/>		
+								</object>
+							</noscript>						
 						</div>
-						<div class="panorams__img panoramstab3">
-							<img src="img/panoramswf.swf" alt="">						
+						<div class="panorams__img panoramstab3" id="panoDIV3">
+							<noscript>
+								<object classid="lsid:d27cd6e-ae6d-11cf-96b8-444553540000" width="100%" height="100%" id="js/3">
+									<param name="movie" value="img/swf/1.swf"/>
+									<param name="allowFullScreen" value="true"/>		
+								</object>
+							</noscript>						
 						</div>
-						<div class="panorams__img panoramstab4">
-							<img src="img/panoramswf.swf" alt="">						
+						<div class="panorams__img panoramstab4" id="panoDIV4">
+							<noscript>
+								<object classid="lsid:d27cd6e-ae6d-11cf-96b8-444553540000" width="100%" height="100%" id="js/4">
+									<param name="movie" value="img/swf/1.swf"/>
+									<param name="allowFullScreen" value="true"/>		
+								</object>
+							</noscript>						
 						</div>
 					</div>
 				</div>
@@ -170,3 +193,8 @@
 	</div>
 </body>
 </html>
+<script>
+		
+</script>
+
+	
