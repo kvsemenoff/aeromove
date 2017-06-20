@@ -800,6 +800,16 @@
 .panoramstab1 {
   display: block; }
 
+.panorams__content .cursorMoveMode {
+  cursor: move;
+  cursor: url("../img/swf/graphics/cursors_move_html5.cur"), move; }
+
+.panorams__content .cursorDragMode {
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+  cursor: url("../img/swf/graphics/cursors_drag_html5.cur"), default; }
+
 .pricedays {
   padding: 30px 0;
   border-bottom: 1px solid #e6e6e6;

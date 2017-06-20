@@ -912,6 +912,18 @@
 .panoramstab1{
 	display: block;
 }
+.panorams__content .cursorMoveMode {
+	cursor: move;
+	cursor: url("../img/swf/graphics/cursors_move_html5.cur"), move;
+}
+.panorams__content .cursorDragMode {
+	cursor: grab;
+	cursor: -moz-grab;
+	cursor: -webkit-grab;
+	cursor: url("../img/swf/graphics/cursors_drag_html5.cur"), default;
+}
+
+
 
 
 .pricedays{
