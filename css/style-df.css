@@ -652,7 +652,7 @@
     .servicetxt {
       background-image: url("../img/servicebg3.png");
       background-repeat: no-repeat;
-      background-position: right bottom 25%; } }
+      background-position: 100% 75%; } }
 
 .servicetxt__block {
   max-width: 964px;
@@ -680,7 +680,7 @@
     .aeropanoramabg {
       background-image: url("../img/videobgimg.png");
       background-repeat: no-repeat;
-      background-position: right -3% center;
+      background-position: 103% 50%;
       padding: 83px 0 55px 0; } }
   .aeropanoramabg .shooting__txtbox {
     padding: 33px 0 26px 0; }
