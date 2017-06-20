@@ -228,6 +228,15 @@ $(document).ready(function(){
 		$(tab).css({'display':'block'});
 	});
 
+	$('.second-menu__box a').on('click', function (e) {
+		e.preventDefault();
+		$('.second-menu__box a').removeClass('second-menu__acivetab');
+		$(this).addClass('second-menu__acivetab');
+		var tab = $(this).attr('href');
+		tab = '.' + tab;
+		$('.video').not(tab).css({'display':'none'});
+		$(tab).css({'display':'flex'});
+	});
 
 	// end tabs
 

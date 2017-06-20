@@ -15,6 +15,7 @@
 	display: flex;	
 	justify-content: space-between;	
 	flex-direction: column-reverse;	
+	display: none;
 	@media only screen and (min-width : 770px) {
 		flex-direction: row;		
 	}
@@ -22,6 +23,14 @@
 		padding: 130px 0 90px 0; 
 	}
 }
+.second-menu__tab1{
+	display: flex;
+}
+.second-menu__box .second-menu__acivetab{
+	border-bottom: 3px solid #DF7171;
+    color: #DF7171;
+}
+
 .video__leftbox{
 	max-width: 555px;
 	display: inline-block;
