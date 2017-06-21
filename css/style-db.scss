@@ -275,15 +275,10 @@
 	}
 		.want-form2{
 		background: #fff;
-		padding: 15px;
 		margin: 0 auto;
 		margin-top: 25px;
 		@media only screen and (min-width : 1248px) {
 			margin-top: 0px;
-		}
-		@media only screen and (min-width : 992px) {
-			max-width: 600px;
-			padding: 35px 45px;
 		}
 		&__title{
 			@media only screen and (min-width : 992px) {
