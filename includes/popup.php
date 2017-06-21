@@ -21,6 +21,11 @@
 	<img src="img/copter_thanks.png" alt="">
 </div>
 
+<div class="modal-window" id="order">
+	<span class="modal-close">Закрыть</span>
+	<!-- Здесь форма -->
+</div>
+
 
 <div  class="modal-window modal-window-video" id="video-tube">
 	<span class="modal-close stop" >Закрыть</span>
