@@ -176,6 +176,12 @@
 		}
 		.white{
 			color: #fff !important;
+			margin-left: 20px !important;
+			text-align: center;
+			@media only screen and (min-width : 992px) {
+			margin-left: 20px auto !important;
+			text-align: left;
+			}
 			span{
 				color: #fff !important;
 				top: -14px !important;
@@ -187,10 +193,11 @@
 			font-weight: 300;
 			line-height: 22px;
 			max-width: 470px;
-			padding-left: 40px;
+			padding-left: 20px;
 			margin-top: 70px;
 			@media only screen and (min-width : 992px) {
 				margin-top: 57px;
+				padding-left: 40px;
 			}
 		}
 		img{
@@ -277,6 +284,7 @@
 		background: #fff;
 		margin: 0 auto;
 		margin-top: 25px;
+		padding: 0 14px;
 		@media only screen and (min-width : 1248px) {
 			margin-top: 0px;
 		}
