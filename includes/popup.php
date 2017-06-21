@@ -12,7 +12,7 @@
 <div class="modal-window" id="order">
 	<span class="modal-close">Закрыть</span>
 	<!-- Здесь форма -->
-	<form action="#" method="post" class="want-form">
+	<form action="#" method="post" class="want-form2">
 			<h3 class="want-form__title">Оставьте свой номер и специалист вас проконсультирует</h3>
 			<div class="wants-first">
 				<label class="want-form__label">Имя</label><br>
