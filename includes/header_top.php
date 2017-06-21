@@ -28,7 +28,7 @@
 			<div class="col-md-6 hidden-sm hidden-xs ">
 				<div class="header-contact-box">
 					<span class="header-phone">+7 921 521-00-05</span>
-					<a href="#thanks" data-modal="modal" class="button call-back">Обратный звонок</a>
+					<a href="#order" data-modal="modal" class="button call-back">Обратный звонок</a>
 				</div>
 			</div>
 			<div class="clearfix"></div>
