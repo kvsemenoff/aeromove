@@ -177,10 +177,10 @@
 		.white{
 			color: #fff !important;
 			margin-left: 20px !important;
-			text-align: center;
+			font-size: 23px !important;
 			@media only screen and (min-width : 992px) {
 			margin-left: 20px auto !important;
-			text-align: left;
+			font-size: auto !important;
 			}
 			span{
 				color: #fff !important;
