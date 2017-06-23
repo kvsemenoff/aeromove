@@ -7,7 +7,6 @@
 	<?php require_once('includes/header.php'); ?>
 	<div class="wrapper">
 		<div class="content">
-			<?php require_once('includes/header.php'); ?>
 			<?php require_once('includes/header_top.php'); ?>
 			<?php require_once('includes/header_bottom.php'); ?>
 			<?php require_once('includes/second_menu.php'); ?>

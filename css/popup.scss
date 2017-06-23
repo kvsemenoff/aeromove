@@ -77,17 +77,26 @@
 .mobile-window{
 	z-index: 1000;
 	position: fixed;
+	overflow: auto;
 	top:0;
 	left:0px;
-	background: #fff;
+	background: #24242d;
+	color: #fff;
 	display: none;
 	width: 100%;
 	height: 100%;
-	 // -webkit-transition: height 0.5s linear;
-  //       -moz-transition: height 0.5s linear;
-  //        -ms-transition: height 0.5s linear;
-  //         -o-transition: height 0.5s linear;
-  //            transition: height 0.5s linear;
+	
+
+  	.modal-close{
+		cursor: pointer;
+		position: absolute;
+		display: block;
+		top: 40px;
+		right: 5%;
+		width: 43px;
+		height: 43px;
+		background: url(../img/cancel.png) top center;
+	}
 	
 	@media screen and (min-width: 800px) {
 		

@@ -11,20 +11,12 @@ var css_our = new Array(
 	'css/popup.css',
 	'block/inputext/style.css',
 	'block/inpiutcheckbox/style.css',
-	'block/textarea/style.css',
-	'block/call-back/style.css',
-	'block/common-title/style.css',
+	'block/textarea/style.css',	
 	'block/h1/style.css',
 	'block/button/style.css',
-	'block/card-item/style.css',
-	'block/cadr-row/style.css',
 	'block/pagintation/style.css',
 	'block/socials/style.css',
-	'block/header-top/style.css',
-	'block/header-bottom-main/style.css',
-	'block/header-botom-inner/style.css',
-	'block/common-slider/style.css',
-	'block/main-menu/style.css'
+	'block/common-slider/style.css'
 );
 
 var scss_our = new Array(
@@ -39,20 +31,12 @@ var scss_our = new Array(
 	'css/popup.scss',
 	'block/inputext/style.scss',
 	'block/inpiutcheckbox/style.scss',
-	'block/textarea/style.scss',
-	'block/call-back/style.scss',
-	'block/common-title/style.scss',
+	'block/textarea/style.scss',	
 	'block/h1/style.scss',
 	'block/button/style.scss',
-	'block/card-item/style.scss',
-	'block/cadr-row/style.scss',
 	'block/pagintation/style.scss',
 	'block/socials/style.scss',
-	'block/header-top/style.scss',
-	'block/header-bottom-main/style.scss',
-	'block/header-botom-inner/style.scss',
-	'block/common-slider/style.scss',
-	'block/main-menu/style.scss'
+	'block/common-slider/style.scss'
 );
 var css_libs = new Array(
 	'libs/bootstrap/bootstrap-grid-3.3.1.min.css',
@@ -67,10 +51,10 @@ var css_style_name = 'style.min.css';
 
 //файлы js-скриптов
 var js_our = new Array(
-	'js/rangeslider.min.js',
 	'js/fonts.js',
 	'js/popup.js',
 	'js/common.js',
+	'js/swfscript.js',
 	'block/inputext/script.js',
 	'block/inpiutcheckbox/script.js',
 	'block/textarea/script.js',
@@ -95,6 +79,7 @@ var js_libs = new Array(
 	'libs/fancybox/jquery.fancybox.pack.js',
 	'js/jquery.maskedinput.min.js',
 	'js/rangeslider.min.js'
+	
 );
 var js_all = js_libs.concat(js_our);
 

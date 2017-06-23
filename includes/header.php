@@ -1,6 +1,6 @@
 
 	<link rel="shortcut icon" href="favicon.png" />
-
+	<link rel="image_src" href="img/swf/thumbnail.jpg" />
 	<!-- styles start -->
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
 	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
@@ -22,7 +22,6 @@
 	<link rel="stylesheet" href="block/pagintation/style.css">
 	<link rel="stylesheet" href="block/socials/style.css">
 	<link rel="stylesheet" href="block/common-slider/style.css">
-	<link rel="image_src" href="img/swf/thumbnail.jpg" />
 	<!-- styles end -->
 </head>
 <body>

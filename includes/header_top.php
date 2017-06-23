@@ -3,7 +3,10 @@
 		<div class="row">
 			<div class="col-md-2 col-sm-12 col-xs-12">
 				<div class="logo-box">
-					<a href="/"><img src="img/logo.png" alt="AeroMovie" class="logo"></a>
+					<a href="/">
+						<img src="img/logo.png" alt="AeroMovie" class="logo hidden-sm hidden-xs hidden-md">
+						<img src="img/mobile_logo.png" alt="AeroMovie" class="mobile_logo hidden-lg">
+					</a>
 				</div>
 			</div>
 			<div class="col-md-4 hidden-sm hidden-xs">
@@ -33,7 +36,7 @@
 			</div>
 			<div class="clearfix"></div>
 		</div>
-		<a href="#mobile" data-modal="modal" class="burg"><i class="fa fa-bars" aria-hidden="true"></i></a>
+		<a href="#mobile" data-modal="mobile" class="burg"></a>
 	</div>
 	
 </div>

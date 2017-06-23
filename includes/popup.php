@@ -47,7 +47,11 @@
 
 
 <div class="mobile-window" id="mobile">
-	<span class="modal-close" >Закрыть</span>
+	<span class="modal-close"></span>
+	<div class="mobile-line"></div>
+	<div class="mobile-logo">
+		<a href="/"><img src="img/mobile_logo.png" alt=""></a>
+	</div>
 	<ul class="mobile-main-menu">
 		<li>
 			<a href="http://yandex.ru">Услуги</a>
